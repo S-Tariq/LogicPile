@@ -6,4 +6,4 @@
 
 ## Content
 * Data structures: 
-  * ArrayList
+ * ArrayList
