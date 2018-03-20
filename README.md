@@ -7,5 +7,7 @@
 ## Content
 * Data structures: 
   * ArrayList
+  * BinaryTree
 * Algorithms: 
   * TopWords
+  
