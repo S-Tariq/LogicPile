@@ -56,4 +56,33 @@ class Dog extends Animal{
     }
 }
 
+class Pigeon extends Animal implements CanFly{
+
+    public Pigeon(String name){
+        super(name);
+    }
+
+    @Override
+    public void eat(){
+        System.out.println(getName() + " is pecking");
+    }
+
+    @Override
+    public void speak(){
+        System.out.println(getName() + " is cooing");
+    }
+
+    @Override
+    public void fly(){
+        System.out.println(getName() + " is flying");
+    }
+
+    @Override
+    public void speed(){
+        System.out.println(getName() + " is speeding");
+    }
+}
+
+
+
 
