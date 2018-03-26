@@ -39,5 +39,21 @@ interface CanFly{
     void speed();
 }
 
+class Dog extends Animal{
+
+    public Dog(String name){
+        super(name);
+    }
+
+    @Override
+    public void eat(){
+        System.out.println(getName() + " is chewing");
+    }
+
+    @Override
+    public void speak(){
+        System.out.println(getName() + " is barking");
+    }
+}
 
 
