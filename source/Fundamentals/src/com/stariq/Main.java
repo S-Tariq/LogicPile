@@ -83,6 +83,17 @@ class Pigeon extends Animal implements CanFly{
     }
 }
 
+class Plane implements CanFly{
 
+    @Override
+    public void fly(){
+        System.out.println("Plane is flying");
+    }
+
+    @Override
+    public void speed(){
+        System.out.println("Plane is speeding");
+    }
+}
 
 
