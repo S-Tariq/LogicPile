@@ -33,3 +33,11 @@ abstract class Animal{
     abstract void speak();
 }
 
+interface CanFly{
+
+    void fly();
+    void speed();
+}
+
+
+
