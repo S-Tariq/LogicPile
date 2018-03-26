@@ -27,6 +27,23 @@ public class Main {
             animal.eat();
         }
     }
+
+    public static void flyFunctions(){
+
+        System.out.println("\n*****");
+
+        Pigeon carrier = new Pigeon("Carrier");
+        Plane plane = new Plane();
+
+        List<CanFly> canFlies = new ArrayList<CanFly>();
+        canFlies.add(carrier);
+        canFlies.add(plane);
+
+        for(CanFly canFly : canFlies){
+            canFly.fly();
+            canFly.speed();
+        }
+    }
 }
 
 abstract class Animal{
