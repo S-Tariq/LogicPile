@@ -7,6 +7,26 @@ public class Main {
     public static void main(String[] args) {
 
     }
+
+    public static void animalFunctions() {
+
+        System.out.println("\n*****");
+
+        Dog husky = new Dog("Husky");
+        Dog yorkie = new Dog("Yorkie");
+        Pigeon barb = new Pigeon("Barb");
+
+        List<Animal> animals = new ArrayList<Animal>();
+        animals.add(husky);
+        animals.add(yorkie);
+        animals.add(barb);
+
+        for (Animal animal : animals) {
+            System.out.println("Animal Id: " + animal.getId());
+            animal.speak();
+            animal.eat();
+        }
+    }
 }
 
 abstract class Animal{
