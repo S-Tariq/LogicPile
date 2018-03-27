@@ -5,10 +5,11 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-
+        animalFunctions();
+        flyFunctions();
     }
 
-    public static void animalFunctions() {
+    public static void animalFunctions(){
 
         System.out.println("\n*****");
 
@@ -21,10 +22,11 @@ public class Main {
         animals.add(yorkie);
         animals.add(barb);
 
-        for (Animal animal : animals) {
+        // Polymorphism
+        for(Animal animal : animals){
             System.out.println("Animal Id: " + animal.getId());
-            animal.speak();
             animal.eat();
+            animal.speak();
         }
     }
 
@@ -39,6 +41,7 @@ public class Main {
         canFlies.add(carrier);
         canFlies.add(plane);
 
+        // Polymorphism
         for(CanFly canFly : canFlies){
             canFly.fly();
             canFly.speed();
@@ -46,8 +49,10 @@ public class Main {
     }
 }
 
+// Abstraction
 abstract class Animal{
 
+    // Encapsulation
     private static int idCount = 1;
     private final int id;
     private final String name;
@@ -58,6 +63,7 @@ abstract class Animal{
         idCount++;
     }
 
+    // Encapsulation
     public int getId(){
         return id;
     }
@@ -66,22 +72,26 @@ abstract class Animal{
         return name;
     }
 
+    // Abstraction
     abstract void eat();
     abstract void speak();
 }
 
+// Abstraction
 interface CanFly{
 
     void fly();
     void speed();
 }
 
+// Inheritance
 class Dog extends Animal{
 
     public Dog(String name){
         super(name);
     }
 
+    // Inheritance
     @Override
     public void eat(){
         System.out.println(getName() + " is chewing");
@@ -93,6 +103,7 @@ class Dog extends Animal{
     }
 }
 
+// Inheritance, Abstraction
 class Pigeon extends Animal implements CanFly{
 
     public Pigeon(String name){
@@ -120,6 +131,7 @@ class Pigeon extends Animal implements CanFly{
     }
 }
 
+// Abstraction
 class Plane implements CanFly{
 
     @Override
@@ -132,5 +144,6 @@ class Plane implements CanFly{
         System.out.println("Plane is speeding");
     }
 }
+
 
 
