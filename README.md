@@ -10,6 +10,8 @@
   * BinaryTree
 * Algorithms: 
   * TopWords
-* Concept 
+  * EggDrop
+  * BalancedBrackets
+* Concepts: 
   * Fundamentals
   
