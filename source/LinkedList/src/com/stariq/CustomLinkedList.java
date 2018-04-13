@@ -30,6 +30,20 @@ public class CustomLinkedList {
         head = node;
     }
 
+    public void insertAt(int index, int data){
+
+        Node node = new Node();
+        node.data = data;
+        node.next = null;
+
+        Node value = head;
+        for(int i = 0; i < index; i++){
+            value = value.next;
+        }
+        node.next = value.next;
+        value.next = node;
+    }
+
     public void show(){
 
         Node node = head;
