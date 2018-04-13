@@ -13,12 +13,21 @@ public class CustomLinkedList {
         if(head == null){
             head = node;
         } else {
-            Node newData = head;
-            while(newData.next != null){
-                newData = newData.next;
+            Node value = head;
+            while(value.next != null){
+                value = value.next;
             }
-            newData.next = node;
+            value.next = node;
         }
+    }
+
+    public void insertAtStart(int data){
+
+        Node node = new Node();
+        node.data = data;
+        node.next = null;
+        node.next = head;
+        head = node;
     }
 
     public void show(){
