@@ -28,6 +28,7 @@ public class CustomLinkedList {
         node.next = null;
         node.next = head;
         head = node;
+        //System.out.println("Inserted at start: " + head.data);
     }
 
     public void insertAt(int index, int data){
@@ -36,12 +37,33 @@ public class CustomLinkedList {
         node.data = data;
         node.next = null;
 
-        Node value = head;
-        for(int i = 0; i < index; i++){
-            value = value.next;
+        if(index == 0){
+            insertAtStart(data);
+        } else {
+            Node value = head;
+            for (int i = 0; i < index - 1; i++) {
+                value = value.next;
+            }
+            node.next = value.next;
+            value.next = node;
+            //System.out.println("Inserted: " + node.data);
         }
-        node.next = value.next;
-        value.next = node;
+    }
+
+    public void deleteAt(int index){
+
+        if(index == 0){
+            head = head.next;
+        } else {
+            Node value = head;
+            Node anotherValue = null;
+            for(int i = 0; i < index - 1; i++){
+                value = value.next;
+            }
+            anotherValue = value.next;
+            value.next = anotherValue.next;
+            //System.out.println("Deleted: " + anotherValue.data);
+        }
     }
 
     public void show(){
