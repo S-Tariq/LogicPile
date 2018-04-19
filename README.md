@@ -8,7 +8,7 @@
 * Data structures: 
   * ArrayList
   * BinaryTree
-  * LinkedList
+  * LinkedList ☑
 * Algorithms: 
   * TopWords ☑
   * EggDrop ☑
