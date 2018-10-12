@@ -8,11 +8,11 @@
 * Data structures: 
   * ArrayList
   * BinaryTree
-  * LinkedList ☑
-* Algorithms: 
-  * TopWords ☑
-  * EggDrop ☑
-  * BalancedBrackets ☑
+  * LinkedList ✓
+* Exercises: 
+  * TopWords ✓
+  * EggDrop ✓
+  * BalancedBrackets ✓
 * Concepts: 
-  * Fundamentals ☑
+  * Fundamentals ✓
   
