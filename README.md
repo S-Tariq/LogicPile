@@ -9,7 +9,7 @@
   * ArrayList
   * BinaryTree
   * LinkedList ✓
-* Algorithms: 
+* Exercises: 
   * TopWords ✓
   * EggDrop ✓
   * BalancedBrackets ✓
