@@ -1,4 +1,4 @@
-package com.stariq;
+package datastructures;
 
 // Creates binary tree.
 // Adds element(s) to the binary tree.
@@ -7,7 +7,7 @@ package com.stariq;
 public class Main {
 
     public static void main(String[] args) {
-        Binary binaryTree = new Binary();
+        BinaryTree binaryTree = new BinaryTree();
         binaryTree.addElement(2);
         System.out.println("Value of an element: " + binaryTree.getRootElement());
         int[] seq = {3,4,5};
@@ -15,3 +15,5 @@ public class Main {
         System.out.println("Value of elements: " + binaryTree.getRightChild(binaryTree.getRootElement()));
     }
 }
+
+
