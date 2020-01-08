@@ -1,6 +1,6 @@
-package com.stariq;
+package codingexercises;
 
-public class Main {
+public class BalancedBracketsTest {
 
     public static void main(String[] args) {
         addBrackets();

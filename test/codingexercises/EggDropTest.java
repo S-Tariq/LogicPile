@@ -1,6 +1,6 @@
-package com.stariq;
+package codingexercises;
 
-public class Main {
+public class EggDropTest {
 
     public static void main(String[] args) {
 	    addEggs();

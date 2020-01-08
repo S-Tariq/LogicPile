@@ -1,4 +1,4 @@
-package com.stariq;
+package codingexercises;
 
 // Finding the top five words in a text file.
 // Using a map to store all the unique words as keys and their frequency as values.
@@ -6,7 +6,7 @@ package com.stariq;
 
 import java.io.*;
 
-public class Main {
+public class TopWordsTest {
 
     public static void main(String[] args) throws IOException{
         TopWords topWords = new TopWords();
