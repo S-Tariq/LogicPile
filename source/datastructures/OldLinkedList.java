@@ -1,25 +1,25 @@
 package datastructures;
 
-class LinkedNode {
+class OldLinkedNode {
 
-    LinkedNode next;
+    OldLinkedNode next;
     int data;
 }
 
-public class LinkedList {
+public class OldLinkedList {
 
-    LinkedNode head;
+    OldLinkedNode head;
 
     public void insert(int data){
 
-        LinkedNode node = new LinkedNode();
+        OldLinkedNode node = new OldLinkedNode();
         node.data = data;
         node.next = null;
 
         if(head == null){
             head = node;
         } else {
-            LinkedNode value = head;
+            OldLinkedNode value = head;
             while(value.next != null){
                 value = value.next;
             }
@@ -29,7 +29,7 @@ public class LinkedList {
 
     public void insertAtStart(int data){
 
-        LinkedNode node = new LinkedNode();
+        OldLinkedNode node = new OldLinkedNode();
         node.data = data;
         node.next = null;
         node.next = head;
@@ -39,14 +39,14 @@ public class LinkedList {
 
     public void insertAt(int index, int data){
 
-        LinkedNode node = new LinkedNode();
+        OldLinkedNode node = new OldLinkedNode();
         node.data = data;
         node.next = null;
 
         if(index == 0){
             insertAtStart(data);
         } else {
-            LinkedNode value = head;
+            OldLinkedNode value = head;
             for (int i = 0; i < index - 1; i++) {
                 value = value.next;
             }
@@ -61,8 +61,8 @@ public class LinkedList {
         if(index == 0){
             head = head.next;
         } else {
-            LinkedNode value = head;
-            LinkedNode anotherValue = null;
+            OldLinkedNode value = head;
+            OldLinkedNode anotherValue = null;
             for(int i = 0; i < index - 1; i++){
                 value = value.next;
             }
@@ -74,7 +74,7 @@ public class LinkedList {
 
     public void show(){
 
-        LinkedNode node = head;
+        OldLinkedNode node = head;
 
         while(node.next != null){
             System.out.println(node.data);

@@ -1,10 +1,10 @@
-package com.stariq;
+package datastructures;
 
-public class Main {
+public class OldLinkedListTest {
 
     public static void main(String[] args) {
 
-    CustomLinkedList list = new CustomLinkedList();
+    OldLinkedList list = new OldLinkedList();
     list.insert(2);
     list.insert(5);
     list.insert(7);

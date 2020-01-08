@@ -1,10 +1,10 @@
 package datastructures;
 
-public class ArrayList {
+public class OldArrayList {
 
     private int[] array;
 
-    public ArrayList(int...array) {
+    public OldArrayList(int...array) {
         this.array = array;
     }
 

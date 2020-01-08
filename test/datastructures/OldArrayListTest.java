@@ -1,12 +1,12 @@
-package com.stariq;
+package datastructures;
 
 import java.util.Arrays;
 
-public class Main {
+public class OldArrayListTest {
 
     public static void main(String[] args) {
 
-        CustomArrayList customArrayList = new CustomArrayList(1,2,3);
+        OldArrayList customArrayList = new OldArrayList(1,2,3);
         System.out.println(Arrays.toString(customArrayList.getArray()));
 
         customArrayList.addElements(4,5,6);

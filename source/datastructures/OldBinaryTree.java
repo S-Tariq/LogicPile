@@ -1,12 +1,12 @@
 package datastructures;
 
-class BinaryNode {
+class OldBinaryNode {
 
     private int key;
-    private BinaryNode left;
-    private BinaryNode right;
+    private OldBinaryNode left;
+    private OldBinaryNode right;
 
-    public BinaryNode(int key) {
+    public OldBinaryNode(int key) {
         this.key = key;
     }
 
@@ -18,26 +18,26 @@ class BinaryNode {
         return key;
     }
 
-    public void setLeft(BinaryNode left) {
+    public void setLeft(OldBinaryNode left) {
         this.left = left;
     }
 
-    public BinaryNode getLeft() {
+    public OldBinaryNode getLeft() {
         return left;
     }
 
-    public void setRight(BinaryNode right) {
+    public void setRight(OldBinaryNode right) {
         this.right = right;
     }
 
-    public BinaryNode getRight() {
+    public OldBinaryNode getRight() {
         return right;
     }
 }
 
-public class BinaryTree {
+public class OldBinaryTree {
 
-    private BinaryNode root;
+    private OldBinaryNode root;
     private int numberOfElements;
 
     public int getRootElement() {
@@ -50,15 +50,15 @@ public class BinaryTree {
 
     public void addElement(int element) {
         if (root == null) {
-            root = new BinaryNode(element);
+            root = new OldBinaryNode(element);
             numberOfElements++;
         } else {
-            BinaryNode focusNode = root;
+            OldBinaryNode focusNode = root;
             boolean nodeSet = false;
             while (!nodeSet) {
                 if (element < focusNode.getKey()) {
                     if (focusNode.getLeft() == null){
-                        focusNode.setLeft(new BinaryNode(element));
+                        focusNode.setLeft(new OldBinaryNode(element));
                         nodeSet = true;
                         numberOfElements++;
                     } else {
@@ -66,7 +66,7 @@ public class BinaryTree {
                     }
                 }else if (element > focusNode.getKey()) {
                     if (focusNode.getRight() == null){
-                        focusNode.setRight(new BinaryNode(element));
+                        focusNode.setRight(new OldBinaryNode(element));
                         nodeSet = true;
                         numberOfElements++;
                     } else {
@@ -83,9 +83,9 @@ public class BinaryTree {
         }
     }
 
-    private BinaryNode getNode(int element) {
+    private OldBinaryNode getNode(int element) {
 
-        BinaryNode focusNode = root;
+        OldBinaryNode focusNode = root;
         while (focusNode != null) {
             if (focusNode.getKey() == element) {
                 return focusNode;
@@ -101,7 +101,7 @@ public class BinaryTree {
     }
 
     public int getLeftChild(int element) {
-        BinaryNode node = getNode(element);
+        OldBinaryNode node = getNode(element);
         if (node != null){
             return node.getLeft().getKey();
         }
@@ -109,7 +109,7 @@ public class BinaryTree {
     }
     public int getRightChild(int element) {
 
-        BinaryNode node = getNode(element);
+        OldBinaryNode node = getNode(element);
         if (node != null){
             return node.getRight().getKey();
         }
