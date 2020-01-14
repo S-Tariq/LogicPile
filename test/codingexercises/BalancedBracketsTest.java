@@ -3,13 +3,13 @@ package codingexercises;
 public class BalancedBracketsTest {
 
     public static void main(String[] args) {
-        addBrackets();
+        addBrackets("{[]}");
+        addBrackets("{}{]");
     }
 
-    public static void addBrackets(){
+    public static void addBrackets(String s){
 
-        BalancedBrackets input = new BalancedBrackets();
-        boolean isValid = input.exec("{[]}");
+        boolean isValid = BalancedBrackets.isBalanced(s);
         if (isValid) {
             System.out.println("String is valid");
         } else {

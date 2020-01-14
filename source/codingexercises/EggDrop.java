@@ -2,11 +2,11 @@ package codingexercises;
 
 public class EggDrop {
 
-    public boolean eggCracks(int floor) {
+    public static boolean eggCracks(int floor) {
         return floor >= 49;
     }
 
-    public int findFloor(int totalFloors) {
+    public static int findFloor(int totalFloors) {
         int low = 0;
         int high = totalFloors;
         while (low < high) {
@@ -21,7 +21,7 @@ public class EggDrop {
         return low;
     }
 
-    public int maxIterations(int totalFloors){
+    public static int maxIterations(int totalFloors){
         return (int)Math.ceil(Math.log(totalFloors)/Math.log(2));
     }
 }

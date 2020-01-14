@@ -9,7 +9,6 @@ import java.io.*;
 public class TopWordsTest {
 
     public static void main(String[] args) throws IOException{
-        TopWords topWords = new TopWords();
-        topWords.findTopWords("C:\\Users\\User\\Documents\\Projects\\IntelliJ IDEA\\LogicPile\\source\\TopWords\\Words.txt");
+        TopWords.findTopWords("C:\\Users\\User\\Documents\\Projects\\IntelliJ IDEA\\LogicPile\\source\\TopWords\\Words.txt");
     }
 }

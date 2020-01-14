@@ -8,7 +8,7 @@ public class BalancedBrackets {
     private static List<Character> openB = List.of('(', '[', '{');
     private static List<Character> closedB = List.of(')', ']', '}');
 
-    public static boolean exec(String seq) {
+    public static boolean isBalanced(String seq) {
         Stack<Character> seqStack = new Stack<>();
         for (char c : seq.toCharArray()) {
             if (openB.contains(c)) {

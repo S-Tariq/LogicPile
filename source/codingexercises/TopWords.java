@@ -5,7 +5,7 @@ import java.util.*;
 
 public class TopWords {
 
-    public void findTopWords(String path) throws IOException {
+    public static void findTopWords(String path) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(path));
         HashMap<String, Integer> frequency = new HashMap<String, Integer>();
         String line = reader.readLine();
