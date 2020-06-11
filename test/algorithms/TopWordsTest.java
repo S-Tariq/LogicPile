@@ -1,4 +1,4 @@
-package codingexercises;
+package algorithms;
 
 // Finding the top five words in a text file.
 // Using a map to store all the unique words as keys and their frequency as values.

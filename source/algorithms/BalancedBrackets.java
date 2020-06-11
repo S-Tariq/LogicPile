@@ -1,4 +1,4 @@
-package codingexercises;
+package algorithms;
 
 import java.util.List;
 import java.util.Stack;

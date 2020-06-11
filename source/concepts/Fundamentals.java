@@ -1,4 +1,4 @@
-package programmingconcepts;
+package concepts;
 
 import java.util.*;
 

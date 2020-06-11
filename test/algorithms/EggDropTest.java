@@ -1,4 +1,4 @@
-package codingexercises;
+package algorithms;
 
 public class EggDropTest {
 
