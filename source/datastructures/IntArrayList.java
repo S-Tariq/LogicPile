@@ -45,6 +45,7 @@ public class IntArrayList {
         for(int i = index; i < size - 1; i++){
             array[i] = array[i+1];
         }
+        //array[size - 1] = 0;
         size--;
     }
 

@@ -13,7 +13,7 @@ public class CharArrayList {
     public void add(char element) {
         if(size == array.length) {
             char[] temp = new char[size * 2];
-            for(int i = 0; i < size; i++){
+            for(int i = 0; i < array.length; i++){
                 temp[i] = array[i];
             }
             array = temp;
