@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/datastructures/CharArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/datastructures/CharArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/datastructures/IntArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/datastructures/IntArrayList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -103,8 +101,8 @@
           <file leaf-file-name="MyArrayListTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/datastructures/MyArrayListTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+                <state relative-caret-position="429">
+                  <caret line="128" column="45" selection-start-line="128" selection-start-column="45" selection-end-line="128" selection-end-column="45" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -141,8 +139,8 @@
           <file leaf-file-name="CharArrayListTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/datastructures/CharArrayListTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="91">
-                  <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+                <state relative-caret-position="415">
+                  <caret line="91" selection-start-line="91" selection-end-line="95" selection-end-column="56" />
                 </state>
               </provider>
             </entry>
@@ -150,8 +148,8 @@
           <file leaf-file-name="IntArrayListTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/datastructures/IntArrayListTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-54">
-                  <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+                <state relative-caret-position="307">
+                  <caret line="90" selection-start-line="90" selection-end-line="94" selection-end-column="53" />
                 </state>
               </provider>
             </entry>
@@ -237,8 +235,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="247" />
-    <option name="y" value="79" />
+    <option name="x" value="1875" />
+    <option name="y" value="109" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -338,55 +336,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyArrayListTest.checkSize">
+  <component name="RunManager" selected="JUnit.MyArrayListTest.containsElement">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="MyArrayListTest.addElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LogicPile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="datastructures" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.MyArrayListTest" />
-      <option name="METHOD_NAME" value="addElements" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MyArrayListTest.addOneElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LogicPile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="datastructures" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.MyArrayListTest" />
-      <option name="METHOD_NAME" value="addOneElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="MyArrayListTest.checkSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LogicPile" />
@@ -411,7 +363,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MyArrayListTest.getInvalidIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArrayListTest.containsElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
@@ -423,7 +375,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="datastructures" />
       <option name="MAIN_CLASS_NAME" value="datastructures.MyArrayListTest" />
-      <option name="METHOD_NAME" value="getInvalidIndex" />
+      <option name="METHOD_NAME" value="containsElement" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -434,7 +386,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MyArrayListTest.getInvalidIndex2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArrayListTest.findIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
@@ -446,7 +398,53 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="datastructures" />
       <option name="MAIN_CLASS_NAME" value="datastructures.MyArrayListTest" />
-      <option name="METHOD_NAME" value="getInvalidIndex2" />
+      <option name="METHOD_NAME" value="findIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MyArrayListTest.removeOneElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LogicPile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="datastructures" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.MyArrayListTest" />
+      <option name="METHOD_NAME" value="removeOneElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MyArrayListTest.setOneElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LogicPile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="datastructures" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.MyArrayListTest" />
+      <option name="METHOD_NAME" value="setOneElement" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -496,19 +494,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyArrayListTest.addOneElement" />
-      <item itemvalue="JUnit.MyArrayListTest.addElements" />
-      <item itemvalue="JUnit.MyArrayListTest.getInvalidIndex" />
-      <item itemvalue="JUnit.MyArrayListTest.getInvalidIndex2" />
       <item itemvalue="JUnit.MyArrayListTest.checkSize" />
+      <item itemvalue="JUnit.MyArrayListTest.setOneElement" />
+      <item itemvalue="JUnit.MyArrayListTest.removeOneElement" />
+      <item itemvalue="JUnit.MyArrayListTest.findIndex" />
+      <item itemvalue="JUnit.MyArrayListTest.containsElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyArrayListTest.containsElement" />
+        <item itemvalue="JUnit.MyArrayListTest.findIndex" />
+        <item itemvalue="JUnit.MyArrayListTest.removeOneElement" />
+        <item itemvalue="JUnit.MyArrayListTest.setOneElement" />
         <item itemvalue="JUnit.MyArrayListTest.checkSize" />
-        <item itemvalue="JUnit.MyArrayListTest.getInvalidIndex2" />
-        <item itemvalue="JUnit.MyArrayListTest.getInvalidIndex" />
-        <item itemvalue="JUnit.MyArrayListTest.addElements" />
-        <item itemvalue="JUnit.MyArrayListTest.addOneElement" />
       </list>
     </recent_temporary>
   </component>
@@ -526,39 +524,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyArrayListTest_addElements - 2020.06.11 at 21h 44m 18s.xml">
-      <configuration name="MyArrayListTest.addElements" configurationId="JUnit" />
+    <history-entry file="MyArrayListTest_setOneElement - 2020.06.12 at 01h 26m 28s.xml">
+      <configuration name="MyArrayListTest.setOneElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTest_getIvalidIndex - 2020.06.11 at 21h 59m 39s.xml">
-      <configuration name="MyArrayListTest.getIvalidIndex" configurationId="JUnit" />
+    <history-entry file="MyArrayListTest_setOneElement - 2020.06.12 at 01h 27m 19s.xml">
+      <configuration name="MyArrayListTest.setOneElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTest_getInvalidIndex - 2020.06.11 at 22h 00m 23s.xml">
-      <configuration name="MyArrayListTest.getInvalidIndex" configurationId="JUnit" />
+    <history-entry file="MyArrayListTest_removeOneElement - 2020.06.12 at 01h 28m 44s.xml">
+      <configuration name="MyArrayListTest.removeOneElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTest_getInvalidIndex - 2020.06.11 at 22h 00m 37s.xml">
-      <configuration name="MyArrayListTest.getInvalidIndex" configurationId="JUnit" />
+    <history-entry file="MyArrayListTest_removeOneElement - 2020.06.12 at 01h 29m 36s.xml">
+      <configuration name="MyArrayListTest.removeOneElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTest_getInvalidIndex2 - 2020.06.11 at 22h 02m 27s.xml">
-      <configuration name="MyArrayListTest.getInvalidIndex2" configurationId="JUnit" />
+    <history-entry file="MyArrayListTest_removeOneElement - 2020.06.12 at 01h 30m 48s.xml">
+      <configuration name="MyArrayListTest.removeOneElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTest_getInvalidIndex - 2020.06.11 at 22h 02m 54s.xml">
-      <configuration name="MyArrayListTest.getInvalidIndex" configurationId="JUnit" />
+    <history-entry file="MyArrayListTest_removeOneElement - 2020.06.12 at 01h 30m 59s.xml">
+      <configuration name="MyArrayListTest.removeOneElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTest_addOneElement - 2020.06.11 at 22h 03m 39s.xml">
-      <configuration name="MyArrayListTest.addOneElement" configurationId="JUnit" />
+    <history-entry file="MyArrayListTest_removeOneElement - 2020.06.12 at 01h 31m 14s.xml">
+      <configuration name="MyArrayListTest.removeOneElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTest_addElements - 2020.06.11 at 22h 03m 41s.xml">
-      <configuration name="MyArrayListTest.addElements" configurationId="JUnit" />
+    <history-entry file="MyArrayListTest_findIndex - 2020.06.12 at 01h 31m 55s.xml">
+      <configuration name="MyArrayListTest.findIndex" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTest_getInvalidIndex - 2020.06.11 at 22h 03m 45s.xml">
-      <configuration name="MyArrayListTest.getInvalidIndex" configurationId="JUnit" />
+    <history-entry file="MyArrayListTest_findIndex - 2020.06.12 at 01h 32m 31s.xml">
+      <configuration name="MyArrayListTest.findIndex" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArrayListTest_getInvalidIndex2 - 2020.06.11 at 22h 03m 48s.xml">
-      <configuration name="MyArrayListTest.getInvalidIndex2" configurationId="JUnit" />
+    <history-entry file="MyArrayListTest_containsElement - 2020.06.12 at 01h 33m 24s.xml">
+      <configuration name="MyArrayListTest.containsElement" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-9" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -569,12 +567,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23485653" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23485653" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10208333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10208333" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1434644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -933,13 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/datastructures/CharArrayListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/algorithms/FrequencySort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1944">
@@ -960,17 +951,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/datastructures/CharArrayListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="91" selection-start-line="91" selection-end-line="95" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/datastructures/IntArrayListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="307">
+          <caret line="90" selection-start-line="90" selection-end-line="94" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/datastructures/MyArrayListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        <state relative-caret-position="429">
+          <caret line="128" column="45" selection-start-line="128" selection-start-column="45" selection-end-line="128" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
