@@ -60,26 +60,23 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyArrayListTest.containsElement">
-    <configuration default="true" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.HighestAverageTest">
+    <configuration name="HighestAverageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.HighestAverageTest" />
+      <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest.checkSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LogicPile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.datastructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stariq.datastructures" />
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.MyArrayListTest" />
-      <option name="METHOD_NAME" value="checkSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyArrayListTest.checkSize" />
       <item itemvalue="JUnit.MyArrayListTest.setOneElement" />
       <item itemvalue="JUnit.MyArrayListTest.removeOneElement" />
       <item itemvalue="JUnit.MyArrayListTest.findIndex" />
       <item itemvalue="JUnit.MyArrayListTest.containsElement" />
+      <item itemvalue="Application.HighestAverageTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HighestAverageTest" />
         <item itemvalue="JUnit.MyArrayListTest.containsElement" />
         <item itemvalue="JUnit.MyArrayListTest.findIndex" />
         <item itemvalue="JUnit.MyArrayListTest.removeOneElement" />
         <item itemvalue="JUnit.MyArrayListTest.setOneElement" />
-        <item itemvalue="JUnit.MyArrayListTest.checkSize" />
       </list>
     </recent_temporary>
   </component>
