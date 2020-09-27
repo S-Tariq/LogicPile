@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class HighestAverage {
 
-    public static void maximumAverage(String[][] scores) {
+    public static void highestAverage(String[][] scores) {
         Map<String, List<Integer>> studentRecord = new HashMap<>();
 
         for(int i = 0; i < scores.length; i++) {

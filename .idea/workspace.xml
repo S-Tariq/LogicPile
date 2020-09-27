@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/HighestAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/HighestAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/HighestAverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/stariq/algorithms/HighestAverageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -60,9 +63,23 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HighestAverageTest">
+  <component name="RunManager" selected="Application.SecondSmallestTest">
     <configuration name="HighestAverageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.HighestAverageTest" />
+      <module name="LogicPile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondSmallestTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.SecondSmallestTest" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -132,23 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest.setOneElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LogicPile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.datastructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stariq.datastructures" />
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.MyArrayListTest" />
-      <option name="METHOD_NAME" value="setOneElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -166,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyArrayListTest.setOneElement" />
+      <item itemvalue="Application.HighestAverageTest" />
+      <item itemvalue="Application.SecondSmallestTest" />
       <item itemvalue="JUnit.MyArrayListTest.removeOneElement" />
       <item itemvalue="JUnit.MyArrayListTest.findIndex" />
       <item itemvalue="JUnit.MyArrayListTest.containsElement" />
-      <item itemvalue="Application.HighestAverageTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondSmallestTest" />
         <item itemvalue="Application.HighestAverageTest" />
         <item itemvalue="JUnit.MyArrayListTest.containsElement" />
         <item itemvalue="JUnit.MyArrayListTest.findIndex" />
         <item itemvalue="JUnit.MyArrayListTest.removeOneElement" />
-        <item itemvalue="JUnit.MyArrayListTest.setOneElement" />
       </list>
     </recent_temporary>
   </component>
@@ -237,6 +237,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1598989928987" />
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom" timestamp="1601234278520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601234278520" />
+    <state width="1877" height="204" key="GridCell.Tab.0.center" timestamp="1601234278520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601234278520" />
+    <state width="1877" height="204" key="GridCell.Tab.0.left" timestamp="1601234278520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601234278520" />
+    <state width="1877" height="204" key="GridCell.Tab.0.right" timestamp="1601234278520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601234278520" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601233913394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601233913394" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1601233913394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601233913394" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1601233913394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601233913394" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1601233913394">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601233913394" />
   </component>
   <component name="masterDetails">
     <states>
