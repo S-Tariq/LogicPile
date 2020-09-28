@@ -2,7 +2,7 @@ package stariq.algorithms;
 
 public class SecondSmallest {
 
-    public static void secondSmallest(int[] arr) {
+    public static void secondSmallestInteger(int[] arr) {
         if(arr.length > 2) {
             int first = Integer.MAX_VALUE;
             int second = Integer.MAX_VALUE;
