@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/SecondSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/SecondSmallest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/SecondSmallestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/stariq/algorithms/SecondSmallestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstRepetitionTest">
+  <component name="RunManager" selected="Application.ReverseWordsTest">
     <configuration name="FirstRepetitionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.FirstRepetitionTest" />
       <module name="LogicPile" />
@@ -80,6 +78,20 @@
     </configuration>
     <configuration name="HighestAverageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.HighestAverageTest" />
+      <module name="LogicPile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseWordsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.ReverseWordsTest" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -126,23 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest.containsElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LogicPile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.datastructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stariq.datastructures" />
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.MyArrayListTest" />
-      <option name="METHOD_NAME" value="containsElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -162,17 +157,17 @@
     <list>
       <item itemvalue="Application.HighestAverageTest" />
       <item itemvalue="Application.SecondSmallestTest" />
-      <item itemvalue="JUnit.MyArrayListTest.containsElement" />
       <item itemvalue="Application.StringCompressionTest" />
       <item itemvalue="Application.FirstRepetitionTest" />
+      <item itemvalue="Application.ReverseWordsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseWordsTest" />
         <item itemvalue="Application.FirstRepetitionTest" />
         <item itemvalue="Application.StringCompressionTest" />
         <item itemvalue="Application.SecondSmallestTest" />
         <item itemvalue="Application.HighestAverageTest" />
-        <item itemvalue="JUnit.MyArrayListTest.containsElement" />
       </list>
     </recent_temporary>
   </component>
@@ -231,38 +226,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1598989928987" />
-    <state width="1877" height="97" key="GridCell.Tab.0.bottom" timestamp="1601302007770">
+    <state width="1877" height="121" key="GridCell.Tab.0.bottom" timestamp="1601305324195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="97" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601302007770" />
-    <state width="1877" height="97" key="GridCell.Tab.0.center" timestamp="1601302007770">
+    <state width="1877" height="121" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305324195" />
+    <state width="1877" height="121" key="GridCell.Tab.0.center" timestamp="1601305324195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="97" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601302007770" />
-    <state width="1877" height="97" key="GridCell.Tab.0.left" timestamp="1601302007770">
+    <state width="1877" height="121" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305324195" />
+    <state width="1877" height="121" key="GridCell.Tab.0.left" timestamp="1601305324195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="97" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601302007770" />
-    <state width="1877" height="97" key="GridCell.Tab.0.right" timestamp="1601302007770">
+    <state width="1877" height="121" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305324195" />
+    <state width="1877" height="121" key="GridCell.Tab.0.right" timestamp="1601305324195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="97" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601302007770" />
-    <state width="1877" height="128" key="GridCell.Tab.1.bottom" timestamp="1601300392118">
+    <state width="1877" height="121" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305324195" />
+    <state width="1877" height="128" key="GridCell.Tab.1.bottom" timestamp="1601305146906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="128" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601300392118" />
-    <state width="1877" height="128" key="GridCell.Tab.1.center" timestamp="1601300392118">
+    <state width="1877" height="128" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305146906" />
+    <state width="1877" height="128" key="GridCell.Tab.1.center" timestamp="1601305146906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="128" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601300392118" />
-    <state width="1877" height="128" key="GridCell.Tab.1.left" timestamp="1601300392118">
+    <state width="1877" height="128" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305146906" />
+    <state width="1877" height="128" key="GridCell.Tab.1.left" timestamp="1601305146906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="128" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601300392118" />
-    <state width="1877" height="128" key="GridCell.Tab.1.right" timestamp="1601300392118">
+    <state width="1877" height="128" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305146906" />
+    <state width="1877" height="128" key="GridCell.Tab.1.right" timestamp="1601305146906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="128" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601300392118" />
+    <state width="1877" height="128" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305146906" />
   </component>
   <component name="masterDetails">
     <states>
