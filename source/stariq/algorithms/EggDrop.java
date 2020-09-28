@@ -2,6 +2,14 @@ package stariq.algorithms;
 
 public class EggDrop {
 
+    public static void main(String[] args) {
+        int totalFloors = 100;
+        int maxFloor = EggDrop.findFloor(totalFloors);
+        System.out.println("Floor the egg breaks on: \n" + maxFloor);
+        int maxIterations = EggDrop.maxIterations(totalFloors);
+        System.out.println("Iterations required: \n" + maxIterations);
+    }
+
     public static boolean eggCracks(int floor) {
         return floor >= 49;
     }

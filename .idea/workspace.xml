@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/BalancedBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/EggDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/EggDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/FirstRepetition.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/FirstRepetition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/FrequencySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/FrequencySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/HighestAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/HighestAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/ReverseWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/SecondSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/SecondSmallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/StringCompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/TopWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/TopWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/BalancedBracketsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/stariq/algorithms/BalancedBracketsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/EggDropTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/FirstRepetitionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/HighestAverageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/ReverseWordsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/SecondSmallestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/StringCompressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/TopWordsTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +96,9 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseWordsTest">
-    <configuration name="FirstRepetitionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.FirstRepetitionTest" />
+  <component name="RunManager" selected="Application.BalancedBrackets">
+    <configuration name="BalancedBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.BalancedBrackets" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -76,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighestAverageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.HighestAverageTest" />
+    <configuration name="FirstRepetition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.FirstRepetition" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -90,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.ReverseWordsTest" />
+    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.ReverseWords" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -104,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondSmallestTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.SecondSmallestTest" />
+    <configuration name="SecondSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.SecondSmallest" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -118,8 +153,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompressionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.StringCompressionTest" />
+    <configuration name="TopWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.TopWords" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -155,19 +190,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HighestAverageTest" />
-      <item itemvalue="Application.SecondSmallestTest" />
-      <item itemvalue="Application.StringCompressionTest" />
-      <item itemvalue="Application.FirstRepetitionTest" />
-      <item itemvalue="Application.ReverseWordsTest" />
+      <item itemvalue="Application.FirstRepetition" />
+      <item itemvalue="Application.SecondSmallest" />
+      <item itemvalue="Application.ReverseWords" />
+      <item itemvalue="Application.TopWords" />
+      <item itemvalue="Application.BalancedBrackets" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseWordsTest" />
-        <item itemvalue="Application.FirstRepetitionTest" />
-        <item itemvalue="Application.StringCompressionTest" />
-        <item itemvalue="Application.SecondSmallestTest" />
-        <item itemvalue="Application.HighestAverageTest" />
+        <item itemvalue="Application.BalancedBrackets" />
+        <item itemvalue="Application.TopWords" />
+        <item itemvalue="Application.ReverseWords" />
+        <item itemvalue="Application.SecondSmallest" />
+        <item itemvalue="Application.FirstRepetition" />
       </list>
     </recent_temporary>
   </component>
@@ -217,31 +252,46 @@
       <configuration name="MyArrayListTest.containsElement" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="323" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598989925957">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="323" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1598989925957" />
+    <state x="743" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601305832005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305832005" />
     <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1598989928987">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1598989928987" />
-    <state width="1877" height="121" key="GridCell.Tab.0.bottom" timestamp="1601305324195">
+    <state width="1877" height="178" key="GridCell.Tab.0.bottom" timestamp="1601308621013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="121" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305324195" />
-    <state width="1877" height="121" key="GridCell.Tab.0.center" timestamp="1601305324195">
+    <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601308621013" />
+    <state width="1877" height="178" key="GridCell.Tab.0.center" timestamp="1601308621013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="121" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305324195" />
-    <state width="1877" height="121" key="GridCell.Tab.0.left" timestamp="1601305324195">
+    <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601308621013" />
+    <state width="1877" height="178" key="GridCell.Tab.0.left" timestamp="1601308621013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="121" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305324195" />
-    <state width="1877" height="121" key="GridCell.Tab.0.right" timestamp="1601305324195">
+    <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601308621013" />
+    <state width="1877" height="178" key="GridCell.Tab.0.right" timestamp="1601308621013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="121" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305324195" />
+    <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601308621013" />
     <state width="1877" height="128" key="GridCell.Tab.1.bottom" timestamp="1601305146906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

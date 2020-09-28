@@ -5,6 +5,21 @@ import java.util.Stack;
 
 public class BalancedBrackets {
 
+    public static void main(String[] args) {
+        addBrackets("{[]}");
+        addBrackets("{}{]");
+    }
+
+    // To check validity
+    public static void addBrackets(String s){
+        boolean isValid = BalancedBrackets.isBalanced(s);
+        if (isValid) {
+            System.out.println("String is valid");
+        } else {
+            System.out.println("String is invalid");
+        }
+    }
+
     private static List<Character> openB = List.of('(', '[', '{');
     private static List<Character> closedB = List.of(')', ']', '}');
 

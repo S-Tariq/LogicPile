@@ -1,6 +1,4 @@
 package stariq.algorithms;
-
-
 import java.util.*;
 
 public class FrequencySort {

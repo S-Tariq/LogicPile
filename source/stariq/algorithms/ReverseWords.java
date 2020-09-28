@@ -2,6 +2,11 @@ package stariq.algorithms;
 
 public class ReverseWords {
 
+    public static void main(String[] args) {
+        ReverseWords.reverseWordsUsingLoop("you cant see me");
+        ReverseWords.reverseWordsUsingLoop("how are you");
+    }
+
     public static void reverseWordsUsingLoop(String str) {
         String[] words = str.split(" ");
         String reversed = "";
