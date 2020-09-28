@@ -21,23 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/BalancedBrackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/EggDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/EggDrop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/FirstRepetition.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/FirstRepetition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/FrequencySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/FrequencySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/HighestAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/HighestAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/ReverseWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/SecondSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/SecondSmallest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/StringCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/TopWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/TopWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/BalancedBracketsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/stariq/algorithms/BalancedBracketsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/EggDropTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/FirstRepetitionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/HighestAverageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/ReverseWordsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/SecondSmallestTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/StringCompressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/TopWordsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/SumPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/SumPairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +81,7 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BalancedBrackets">
+  <component name="RunManager" selected="Application.SumPairs">
     <configuration name="BalancedBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.BalancedBrackets" />
       <module name="LogicPile" />
@@ -139,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.SecondSmallest" />
+    <configuration name="SumPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.SumPairs" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -190,19 +175,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FirstRepetition" />
-      <item itemvalue="Application.SecondSmallest" />
       <item itemvalue="Application.ReverseWords" />
       <item itemvalue="Application.TopWords" />
       <item itemvalue="Application.BalancedBrackets" />
+      <item itemvalue="Application.SumPairs" />
+      <item itemvalue="Application.FirstRepetition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumPairs" />
+        <item itemvalue="Application.FirstRepetition" />
         <item itemvalue="Application.BalancedBrackets" />
         <item itemvalue="Application.TopWords" />
         <item itemvalue="Application.ReverseWords" />
-        <item itemvalue="Application.SecondSmallest" />
-        <item itemvalue="Application.FirstRepetition" />
       </list>
     </recent_temporary>
   </component>
@@ -276,22 +261,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1598989928987" />
-    <state width="1877" height="178" key="GridCell.Tab.0.bottom" timestamp="1601308621013">
+    <state width="1877" height="90" key="GridCell.Tab.0.bottom" timestamp="1601336762592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601308621013" />
-    <state width="1877" height="178" key="GridCell.Tab.0.center" timestamp="1601308621013">
+    <state width="1877" height="90" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601336762592" />
+    <state width="1877" height="90" key="GridCell.Tab.0.center" timestamp="1601336762592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601308621013" />
-    <state width="1877" height="178" key="GridCell.Tab.0.left" timestamp="1601308621013">
+    <state width="1877" height="90" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601336762592" />
+    <state width="1877" height="90" key="GridCell.Tab.0.left" timestamp="1601336762592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601308621013" />
-    <state width="1877" height="178" key="GridCell.Tab.0.right" timestamp="1601308621013">
+    <state width="1877" height="90" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601336762592" />
+    <state width="1877" height="90" key="GridCell.Tab.0.right" timestamp="1601336762592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601308621013" />
+    <state width="1877" height="90" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601336762592" />
     <state width="1877" height="128" key="GridCell.Tab.1.bottom" timestamp="1601305146906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -308,6 +293,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="128" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601305146906" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/stariq/algorithms/FirstRepetition.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
