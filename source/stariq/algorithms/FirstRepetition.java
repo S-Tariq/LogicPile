@@ -53,6 +53,5 @@ public class FirstRepetition {
             c = str.charAt(i);
         }
         return c;
-
     }
 }
