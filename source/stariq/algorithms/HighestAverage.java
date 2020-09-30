@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+// Find the highest average of a student in a 2D array.
+// Requires grouping the students based on their name, then calculating the average.
 public class HighestAverage {
 
     public static void main(String[] args) {

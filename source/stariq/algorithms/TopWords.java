@@ -3,9 +3,9 @@ package stariq.algorithms;
 import java.io.*;
 import java.util.*;
 
-// Finding the top five words in a text file.
-// Using a map to store all the unique words as keys and their frequency as values.
-// Looping through the lines of text to find the top five values and their corresponding keys.
+// Finds the top five words in a text file.
+// Uses a map to store all the unique words as keys and their frequency as values.
+// Loops through the lines of text to find the top five keys and their corresponding values.
 
 public class TopWords {
 

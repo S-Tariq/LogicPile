@@ -3,6 +3,7 @@ package stariq.algorithms;
 import java.util.List;
 import java.util.Stack;
 
+// Checks to see if a string has balanced brackets.
 public class BalancedBrackets {
 
     public static void main(String[] args) {

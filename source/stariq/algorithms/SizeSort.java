@@ -1,5 +1,6 @@
 package stariq.algorithms;
 
+// Sort array based on the size of the strings.
 public class SizeSort {
 
     public static void main(String[] args) {

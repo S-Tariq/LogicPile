@@ -1,5 +1,6 @@
 package stariq.algorithms;
 
+// Reverse words in a string.
 public class ReverseWords {
 
     public static void main(String[] args) {

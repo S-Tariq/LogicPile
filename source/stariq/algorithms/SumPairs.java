@@ -3,6 +3,7 @@ package stariq.algorithms;
 import java.util.ArrayList;
 import java.util.List;
 
+// Find pairs in an array which sum to a given number.
 public class SumPairs {
 
     public static void main(String[] args) {

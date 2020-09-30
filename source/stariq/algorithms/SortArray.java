@@ -1,5 +1,6 @@
 package stariq.algorithms;
 
+// Different ways of sorting an array.
 public class SortArray {
 
     // Print array elements

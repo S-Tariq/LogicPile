@@ -3,6 +3,7 @@ package stariq.algorithms;
 import java.util.ArrayList;
 import java.util.List;
 
+// Find the first repeated character in a string.
 public class FirstRepetition {
 
     public static void main(String[] args) {

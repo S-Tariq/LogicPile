@@ -2,6 +2,7 @@ package stariq.algorithms;
 
 import stariq.datastructures.SinglyLinkedList;
 
+// Merge two sorted linkedlists into one sorted linkedlist
 public class MergeSortedLinkedLists {
 
     public static void main(String[] args) {

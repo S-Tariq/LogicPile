@@ -1,5 +1,6 @@
 package stariq.algorithms;
 
+// Merge two sorted arrays into one sorted array.
 public class MergeSortedArrays {
 
     public static void main(String[] args) {

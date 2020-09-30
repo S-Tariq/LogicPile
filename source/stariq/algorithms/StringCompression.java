@@ -1,5 +1,7 @@
 package stariq.algorithms;
 
+// Compress string to count the occurrence of each character.
+// aaabbbbcc -> a3b4c2
 public class StringCompression {
 
     public static void main(String[] args) {
