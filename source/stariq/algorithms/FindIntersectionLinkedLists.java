@@ -2,6 +2,7 @@ package stariq.algorithms;
 
 import stariq.datastructures.SinglyLinkedList;
 
+// Find intersection of two linkedlists.
 public class FindIntersectionLinkedLists {
 
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Find the first repeated character in a string.
-public class FirstRepetition {
+public class FirstRepeatedCharacter {
 
     public static void main(String[] args) {
         char result = firstRepeatedUsingList("albksdfkarlb");
@@ -47,6 +47,7 @@ public class FirstRepetition {
         int[] array = new int[26];
         char c = str.charAt(0);
         for(int i = 1; i < str.length(); i++) {
+            // Can use 'a' instead of 97
             array[c - 97] += 1;
             if(array[c - 97] > 1) {
                 break;
@@ -55,4 +56,5 @@ public class FirstRepetition {
         }
         return c;
     }
+
 }

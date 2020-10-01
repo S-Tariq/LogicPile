@@ -2,6 +2,7 @@ package stariq.algorithms;
 
 import stariq.datastructures.SinglyLinkedList;
 
+// Find cycle in a linkedlist.
 public class FindCycleLinkedList {
 
     public static void main(String[] args) {
