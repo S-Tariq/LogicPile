@@ -21,20 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/BalancedBrackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/FirstRepetition.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/FirstRepetition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/HighestAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/HighestAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/MergeSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/MergeSortedLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/MergeSortedLinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/ReverseWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/SecondSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/SecondSmallest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/SizeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/SizeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/FrequencySort.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/SortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/StringCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/StringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/StringPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/SumPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/SumPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/TopWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/TopWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stariq/algorithms/FrequencySortTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,9 +82,9 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FrequencySortUsingCustomClass">
-    <configuration name="FrequencySortUsingCustomClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.FrequencySortUsingCustomClass" />
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.BubbleSort" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -108,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequencySortUsingMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.FrequencySortUsingMap" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.InsertionSort" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -122,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.MergeSortedArrays" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.MergeSort" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -136,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.MergeSortedLinkedLists" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.QuickSort" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -150,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.ReverseLinkedList" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.SelectionSort" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -187,19 +176,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseLinkedList" />
-      <item itemvalue="Application.MergeSortedLinkedLists" />
-      <item itemvalue="Application.MergeSortedArrays" />
-      <item itemvalue="Application.FrequencySortUsingMap" />
-      <item itemvalue="Application.FrequencySortUsingCustomClass" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FrequencySortUsingCustomClass" />
-        <item itemvalue="Application.FrequencySortUsingMap" />
-        <item itemvalue="Application.MergeSortedArrays" />
-        <item itemvalue="Application.MergeSortedLinkedLists" />
-        <item itemvalue="Application.ReverseLinkedList" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -278,46 +267,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601413893002" />
-    <state width="1877" height="209" key="GridCell.Tab.0.bottom" timestamp="1601496753626">
+    <state width="1877" height="155" key="GridCell.Tab.0.bottom" timestamp="1601510532150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601496753626" />
-    <state width="1877" height="209" key="GridCell.Tab.0.center" timestamp="1601496753625">
+    <state width="1877" height="155" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601510532150" />
+    <state width="1877" height="155" key="GridCell.Tab.0.center" timestamp="1601510532150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601496753625" />
-    <state width="1877" height="209" key="GridCell.Tab.0.left" timestamp="1601496753625">
+    <state width="1877" height="155" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601510532150" />
+    <state width="1877" height="155" key="GridCell.Tab.0.left" timestamp="1601510532149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601496753625" />
-    <state width="1877" height="209" key="GridCell.Tab.0.right" timestamp="1601496753626">
+    <state width="1877" height="155" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601510532149" />
+    <state width="1877" height="155" key="GridCell.Tab.0.right" timestamp="1601510532150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="209" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601496753626" />
-    <state width="1877" height="213" key="GridCell.Tab.1.bottom" timestamp="1601495499654">
+    <state width="1877" height="155" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601510532150" />
+    <state width="1877" height="210" key="GridCell.Tab.1.bottom" timestamp="1601508009167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601495499654" />
-    <state width="1877" height="213" key="GridCell.Tab.1.center" timestamp="1601495499654">
+    <state width="1877" height="210" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601508009167" />
+    <state width="1877" height="210" key="GridCell.Tab.1.center" timestamp="1601508009167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601495499654" />
-    <state width="1877" height="213" key="GridCell.Tab.1.left" timestamp="1601495499654">
+    <state width="1877" height="210" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601508009167" />
+    <state width="1877" height="210" key="GridCell.Tab.1.left" timestamp="1601508009167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601495499654" />
-    <state width="1877" height="213" key="GridCell.Tab.1.right" timestamp="1601495499654">
+    <state width="1877" height="210" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601508009167" />
+    <state width="1877" height="210" key="GridCell.Tab.1.right" timestamp="1601508009167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601495499654" />
+    <state width="1877" height="210" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601508009167" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/source/stariq/algorithms/FrequencySortUsingCustomClass.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/source/stariq/algorithms/SelectionSort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
