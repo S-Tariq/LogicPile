@@ -2,7 +2,7 @@ package stariq.algorithms;
 
 import stariq.datastructures.SinglyLinkedList;
 
-// Merge two sorted linkedlists into one sorted linkedlist
+// Merge two sorted linkedlists into one sorted linkedlist.
 public class MergeSortedLinkedLists {
 
     public static void main(String[] args) {
@@ -29,9 +29,9 @@ public class MergeSortedLinkedLists {
         second = second.next;
         second.next = new SinglyLinkedList(10);
 
-        printList(head1);
-        printList(head2);
-        printList(merge(head1,head2));
+        SinglyLinkedList.printList(head1);
+        SinglyLinkedList.printList(head2);
+        SinglyLinkedList.printList(merge(head1,head2));
 
     }
 
@@ -75,14 +75,5 @@ public class MergeSortedLinkedLists {
         return head;
     }
 
-    public static void printList(SinglyLinkedList list) {
-        StringBuilder elements = new StringBuilder();
-        while(list != null) {
-            elements.append(list.data);
-            elements.append(" ");
-            list = list.next;
-        }
-        System.out.println(elements.toString());
-    }
 }
 

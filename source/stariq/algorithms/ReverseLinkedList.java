@@ -18,10 +18,10 @@ public class ReverseLinkedList {
         node.next = new SinglyLinkedList(3);
         node = node.next;
         node.next = new SinglyLinkedList(4);
-        printList(head);
-
-        printList(reverse(head));
-        printList(reverse2(head));
+        SinglyLinkedList.printList(head);
+        reverse(head);
+        SinglyLinkedList.printList(reverse(head));
+        SinglyLinkedList.printList(reverse2(head));
 
     }
 
@@ -47,16 +47,6 @@ public class ReverseLinkedList {
             current = current.next;
         }
         return reverse;
-    }
-
-    public static void printList(SinglyLinkedList list) {
-        StringBuilder elements = new StringBuilder();
-        while(list != null) {
-            elements.append(list.data);
-            elements.append(" ");
-            list = list.next;
-        }
-        System.out.println(elements.toString());
     }
 
 }
