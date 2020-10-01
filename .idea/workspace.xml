@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/FindCycleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/FindCycleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/FindIntersectionLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/FindIntersectionLinkedLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstUniqueCharacter">
+  <component name="RunManager" selected="Application.InorderTraversalBinaryTree">
     <configuration name="FindCycleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.FindCycleLinkedList" />
       <module name="LogicPile" />
@@ -124,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertNodeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.InsertNodeLinkedList" />
+    <configuration name="InorderTraversalBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.InorderTraversalBinaryTree" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -175,19 +173,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InsertNodeLinkedList" />
       <item itemvalue="Application.SpecificLastNodeLinkedList" />
       <item itemvalue="Application.FindCycleLinkedList" />
       <item itemvalue="Application.FindIntersectionLinkedLists" />
       <item itemvalue="Application.FirstUniqueCharacter" />
+      <item itemvalue="Application.InorderTraversalBinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InorderTraversalBinaryTree" />
         <item itemvalue="Application.FirstUniqueCharacter" />
         <item itemvalue="Application.FindIntersectionLinkedLists" />
         <item itemvalue="Application.FindCycleLinkedList" />
         <item itemvalue="Application.SpecificLastNodeLinkedList" />
-        <item itemvalue="Application.InsertNodeLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -266,22 +264,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601413893002" />
-    <state width="1877" height="155" key="GridCell.Tab.0.bottom" timestamp="1601587952352">
+    <state width="1877" height="155" key="GridCell.Tab.0.bottom" timestamp="1601590710337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="155" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601587952352" />
-    <state width="1877" height="155" key="GridCell.Tab.0.center" timestamp="1601587952352">
+    <state width="1877" height="155" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601590710337" />
+    <state width="1877" height="155" key="GridCell.Tab.0.center" timestamp="1601590710337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="155" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601587952352" />
-    <state width="1877" height="155" key="GridCell.Tab.0.left" timestamp="1601587952352">
+    <state width="1877" height="155" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601590710337" />
+    <state width="1877" height="155" key="GridCell.Tab.0.left" timestamp="1601590710337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="155" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601587952352" />
-    <state width="1877" height="155" key="GridCell.Tab.0.right" timestamp="1601587952352">
+    <state width="1877" height="155" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601590710337" />
+    <state width="1877" height="155" key="GridCell.Tab.0.right" timestamp="1601590710337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="155" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601587952352" />
+    <state width="1877" height="155" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601590710337" />
     <state width="1877" height="231" key="GridCell.Tab.1.bottom" timestamp="1601573339068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
