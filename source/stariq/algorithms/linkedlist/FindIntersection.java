@@ -1,9 +1,9 @@
-package stariq.algorithms;
+package stariq.algorithms.linkedlist;
 
 import stariq.datastructures.SinglyLinkedList;
 
 // Find intersection of two linkedlists.
-public class FindIntersectionLinkedLists {
+public class FindIntersection {
 
     public static void main(String[] args) {
         SinglyLinkedList list1 = new SinglyLinkedList(1);

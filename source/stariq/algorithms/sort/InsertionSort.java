@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.sort;
 
 // Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.
 // You pick an unsorted element and insert it into sorted sequence before that element's position.

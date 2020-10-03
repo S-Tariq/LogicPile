@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.puzzle;
 
 public class EggDrop {
 

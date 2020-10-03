@@ -1,10 +1,10 @@
-package stariq.algorithms;
+package stariq.algorithms.sort;
 
 import java.util.*;
 
 // Sorts an array or a string based on the frequency of the elements.
 // If some elements have same frequency, then it is sorted in lexicographical order.
-public class FrequencySortUsingMap {
+public class FrequencySortMap {
 
     public static void main(String[] args) {
         int[] intArr = new int[]{3,3,2,1,1,0,0,0,0};

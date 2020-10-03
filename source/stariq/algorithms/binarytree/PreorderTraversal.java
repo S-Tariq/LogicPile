@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.binarytree;
 
 import stariq.datastructures.BinarySearchTree;
 
@@ -8,7 +8,7 @@ import java.util.List;
 // root -> left -> right
 // Preorder traversal of binary tree
 // Goes to root node, then goes to left node, then goes to right node.
-public class PreorderTraversalBinaryTree {
+public class PreorderTraversal {
 
     public static void main(String[] args) {
         BinarySearchTree bst = new BinarySearchTree(5);

@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.sort;
 
 // Different ways of sorting an array: Bubble, Insertion, Selection, Quick & Merge.
 public class SortArray {

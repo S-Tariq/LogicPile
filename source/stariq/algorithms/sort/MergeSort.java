@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.sort;
 
 // Merge sort is a divide and conquer algorithm.
 // It divides the array in two halves, calls itself for the two halves

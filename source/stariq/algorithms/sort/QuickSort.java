@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.sort;
 
 // Quick sort is a divide and conquer algorithm.
 // It picks an element as a pivot and partitions the given array around the pivot.

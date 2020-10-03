@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.sort;
 
 // Bubble sort is the simplest sorting algorithm that works by repeatedly
 // swapping the adjacent elements if they are in the wrong order.

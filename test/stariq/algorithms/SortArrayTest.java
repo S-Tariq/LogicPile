@@ -2,6 +2,7 @@ package stariq.algorithms;
 
 import org.junit.Assert;
 import org.junit.Test;
+import stariq.algorithms.sort.SortArray;
 
 public class SortArrayTest {
 

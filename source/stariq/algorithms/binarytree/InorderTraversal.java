@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.binarytree;
 
 import stariq.datastructures.BinarySearchTree;
 
@@ -11,7 +11,7 @@ import java.util.Stack;
 // Goes to left node, then goes root node, then goes to right node.
 // Everything on the left of the parent is less than parent value.
 // Everything on the right of the parent is greater than parent value.
-public class InorderTraversalBinaryTree {
+public class InorderTraversal {
 
     public static void main(String[] args) {
         BinarySearchTree bst = new BinarySearchTree(5);

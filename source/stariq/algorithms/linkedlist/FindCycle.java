@@ -1,9 +1,9 @@
-package stariq.algorithms;
+package stariq.algorithms.linkedlist;
 
 import stariq.datastructures.SinglyLinkedList;
 
 // Find cycle in a linkedlist.
-public class FindCycleLinkedList {
+public class FindCycle {
 
     public static void main(String[] args) {
         SinglyLinkedList list = new SinglyLinkedList(1);

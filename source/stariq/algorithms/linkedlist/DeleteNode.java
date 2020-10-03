@@ -1,9 +1,9 @@
-package stariq.algorithms;
+package stariq.algorithms.linkedlist;
 
 import stariq.datastructures.SinglyLinkedList;
 
 // Delete node at a specific position from linkedlist.
-public class DeleteNodeLinkedList {
+public class DeleteNode {
 
     public static void main(String[] args) {
 

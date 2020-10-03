@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.sort;
 
 // Selection sort algorithm sorts an array by repeatedly finding the
 // minimum element from unsorted part and putting it at the beginning.
