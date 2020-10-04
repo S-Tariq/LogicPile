@@ -80,28 +80,14 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MedianOfSortedArrays">
-    <configuration name="FirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.FirstUniqueCharacter" />
+  <component name="RunManager" selected="Application.TopFiveAverage">
+    <configuration name="CommonCharInStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.CommonCharInStrings" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.binarytree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.binarytree.InorderTraversal" />
-      <module name="LogicPile" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.algorithms.binarytree.*" />
+          <option name="PATTERN" value="stariq.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,6 +137,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopFiveAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.TopFiveAverage" />
+      <module name="LogicPile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -174,19 +174,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FirstUniqueCharacter" />
-      <item itemvalue="Application.InorderTraversalBinaryTree" />
       <item itemvalue="Application.SizeSort" />
       <item itemvalue="Application.InsertInSortedArray" />
       <item itemvalue="Application.MedianOfSortedArrays" />
+      <item itemvalue="Application.CommonCharInStrings" />
+      <item itemvalue="Application.TopFiveAverage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopFiveAverage" />
+        <item itemvalue="Application.CommonCharInStrings" />
         <item itemvalue="Application.MedianOfSortedArrays" />
         <item itemvalue="Application.InsertInSortedArray" />
         <item itemvalue="Application.SizeSort" />
-        <item itemvalue="Application.InorderTraversalBinaryTree" />
-        <item itemvalue="Application.FirstUniqueCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -265,38 +265,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601413893002" />
-    <state width="1877" height="108" key="GridCell.Tab.0.bottom" timestamp="1601749059217">
+    <state width="1877" height="157" key="GridCell.Tab.0.bottom" timestamp="1601813555307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="108" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601749059217" />
-    <state width="1877" height="108" key="GridCell.Tab.0.center" timestamp="1601749059217">
+    <state width="1877" height="157" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601813555307" />
+    <state width="1877" height="157" key="GridCell.Tab.0.center" timestamp="1601813555307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="108" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601749059217" />
-    <state width="1877" height="108" key="GridCell.Tab.0.left" timestamp="1601749059217">
+    <state width="1877" height="157" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601813555307" />
+    <state width="1877" height="157" key="GridCell.Tab.0.left" timestamp="1601813555307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="108" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601749059217" />
-    <state width="1877" height="108" key="GridCell.Tab.0.right" timestamp="1601749059217">
+    <state width="1877" height="157" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601813555307" />
+    <state width="1877" height="157" key="GridCell.Tab.0.right" timestamp="1601813555307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="108" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601749059217" />
-    <state width="1877" height="231" key="GridCell.Tab.1.bottom" timestamp="1601744308763">
+    <state width="1877" height="157" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601813555307" />
+    <state width="1877" height="231" key="GridCell.Tab.1.bottom" timestamp="1601813415994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601744308763" />
-    <state width="1877" height="231" key="GridCell.Tab.1.center" timestamp="1601744308763">
+    <state width="1877" height="231" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601813415994" />
+    <state width="1877" height="231" key="GridCell.Tab.1.center" timestamp="1601813415994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601744308763" />
-    <state width="1877" height="231" key="GridCell.Tab.1.left" timestamp="1601744308763">
+    <state width="1877" height="231" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601813415994" />
+    <state width="1877" height="231" key="GridCell.Tab.1.left" timestamp="1601813415994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601744308763" />
-    <state width="1877" height="231" key="GridCell.Tab.1.right" timestamp="1601744308763">
+    <state width="1877" height="231" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601813415994" />
+    <state width="1877" height="231" key="GridCell.Tab.1.right" timestamp="1601813415994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601744308763" />
+    <state width="1877" height="231" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601813415994" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601571898713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
