@@ -1,7 +1,7 @@
 package stariq.algorithms.puzzle;
 
 // Find the floor the egg breaks on and the maximum number of trials required.
-public class EggDrop {
+public class TwoEggs100Floors {
 
     public static void main(String[] args) {
         int totalFloors = 100;
