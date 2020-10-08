@@ -1,4 +1,4 @@
-package stariq.datastructures;
+package stariq.datastructures.binarytree;
 
 public class BinarySearchTree {
 

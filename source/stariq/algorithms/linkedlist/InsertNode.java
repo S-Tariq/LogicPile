@@ -1,6 +1,6 @@
 package stariq.algorithms.linkedlist;
 
-import stariq.datastructures.SinglyLinkedList;
+import stariq.datastructures.linkedlist.SinglyLinkedList;
 
 // Insert node at a specific position to linkedlist.
 public class InsertNode {

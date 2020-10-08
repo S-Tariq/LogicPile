@@ -1,6 +1,6 @@
 package stariq.algorithms.linkedlist;
 
-import stariq.datastructures.SinglyLinkedList;
+import stariq.datastructures.linkedlist.SinglyLinkedList;
 
 // Find intersection of two linkedlists.
 public class FindIntersection {

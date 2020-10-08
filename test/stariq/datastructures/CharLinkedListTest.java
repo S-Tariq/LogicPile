@@ -2,6 +2,7 @@ package stariq.datastructures;
 
 import org.junit.Assert;
 import org.junit.Test;
+import stariq.datastructures.linkedlist.CharLinkedList;
 
 public class CharLinkedListTest {
 

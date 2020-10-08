@@ -1,6 +1,6 @@
 package stariq.algorithms.binarytree;
 
-import stariq.datastructures.BinarySearchTree;
+import stariq.datastructures.binarytree.BinarySearchTree;
 
 import java.util.ArrayList;
 import java.util.List;

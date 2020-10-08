@@ -1,4 +1,4 @@
-package stariq.datastructures;
+package stariq.datastructures.linkedlist;
 
 class OldLinkedNode {
 

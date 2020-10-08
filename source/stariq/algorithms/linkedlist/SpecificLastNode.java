@@ -1,6 +1,6 @@
 package stariq.algorithms.linkedlist;
 
-import stariq.datastructures.SinglyLinkedList;
+import stariq.datastructures.linkedlist.SinglyLinkedList;
 
 // Find the specific node from the end of linkedlist.
 public class SpecificLastNode {

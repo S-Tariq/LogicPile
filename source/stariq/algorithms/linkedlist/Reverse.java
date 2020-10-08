@@ -1,6 +1,6 @@
 package stariq.algorithms.linkedlist;
 
-import stariq.datastructures.SinglyLinkedList;
+import stariq.datastructures.linkedlist.SinglyLinkedList;
 
 // Reverse the elements of a linkedlist.
 public class Reverse {

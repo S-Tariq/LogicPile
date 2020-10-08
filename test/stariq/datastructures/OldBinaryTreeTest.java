@@ -4,6 +4,8 @@ package stariq.datastructures;
 // Adds element(s) to the binary tree.
 // Searches for element(s) in the binary tree.
 
+import stariq.datastructures.binarytree.OldBinaryTree;
+
 public class OldBinaryTreeTest {
 
     public static void main(String[] args) {

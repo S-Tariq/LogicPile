@@ -1,5 +1,7 @@
 package stariq.datastructures;
 
+import stariq.datastructures.arraylist.OldArrayList;
+
 import java.util.Arrays;
 
 public class OldArrayListTest {

@@ -1,5 +1,7 @@
 package stariq.datastructures;
 
+import stariq.datastructures.linkedlist.OldLinkedList;
+
 public class OldLinkedListTest {
 
     public static void main(String[] args) {
