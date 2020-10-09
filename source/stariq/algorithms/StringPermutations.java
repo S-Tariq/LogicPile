@@ -14,6 +14,10 @@ public class StringPermutations {
         for(String s : permutation2("ABC", 0, 3)) {
             System.out.print(s + " ");
         }
+
+        System.out.println();
+
+        permutationIteratively("ABC");
     }
 
     // Simpler method. The end parameter can be removed as it does not change.
@@ -46,7 +50,30 @@ public class StringPermutations {
         return permutations2;
     }
 
-    // Swap method used in both implementations of permutations.
+    // Prints permutation iteratively
+    public static void permutationIteratively(String str) {
+        // Stores all partial permutations - initialise with first character.
+        List<String> partial = new ArrayList<>();
+        partial.add(String.valueOf(str.charAt(0)));
+
+        // Loop for every character in string.
+        for(int i = 1; i < str.length(); i++) {
+            // Loop backwards through the partial permutation.
+           for(int j = partial.size() - 1; j >= 0; j--) {
+               String rem = partial.remove(j);
+               // Loop to insert character in all possible positions of current partial permutation. 
+               for(int k = 0; k <= rem.length(); k++) {
+                   String initial = rem.substring(0,k);
+                   char current = str.charAt(i);
+                   String last = rem.substring(k);
+                   partial.add(initial + current + last);
+               }
+           }
+        }
+        System.out.println(partial);
+    }
+
+    // Swap method used in all implementations of permutations.
     private static String swap(String str, int i, int j) {
         char[] chars = str.toCharArray();
         char c = chars[i];
