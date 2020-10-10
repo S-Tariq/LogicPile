@@ -1,15 +1,15 @@
-package stariq.algorithms;
+package stariq.algorithms.array;
 
 // Find the second smallest element in an array.
 public class SecondSmallest {
 
     public static void main(String[] args) {
         int[] array = {2,5,1,6,9,0,-1,-3,-8,-10,-10};
-        SecondSmallest.secondSmallestInteger(array);
-        SecondSmallest.secondSmallestInteger(new int[] {1,6,3,9,-9,2,0});
-        SecondSmallest.secondSmallestInteger(new int[] {1});
-        SecondSmallest.secondSmallestInteger(new int[] {1,-1});
-        SecondSmallest.secondSmallestInteger(new int[] {3,-5,-9});
+        secondSmallestInteger(array);
+        secondSmallestInteger(new int[] {1,6,3,9,-9,2,0});
+        secondSmallestInteger(new int[] {1});
+        secondSmallestInteger(new int[] {1,-1});
+        secondSmallestInteger(new int[] {3,-5,-9});
     }
 
     public static void secondSmallestInteger(int[] arr) {

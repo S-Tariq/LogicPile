@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.array;
 
 // Merge two sorted arrays into one sorted array.
 public class MergeSortedArrays {

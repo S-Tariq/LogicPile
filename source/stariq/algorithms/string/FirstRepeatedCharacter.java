@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.string;
 
 import java.util.ArrayList;
 import java.util.List;

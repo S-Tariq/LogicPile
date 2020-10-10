@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.array;
 
 // Insert element into a sorted array.
 public class InsertInSortedArray {

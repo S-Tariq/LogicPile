@@ -1,37 +1,37 @@
 package stariq.algorithms.linkedlist;
 
-import stariq.datastructures.linkedlist.SinglyLinkedList;
+import stariq.datastructures.linkedlist.ListNode;
 
 // Find intersection of two linkedlists.
 public class FindIntersection {
 
     public static void main(String[] args) {
-        SinglyLinkedList list1 = new SinglyLinkedList(1);
-        SinglyLinkedList head1 = list1;
-        list1.next = new SinglyLinkedList(3);
+        ListNode list1 = new ListNode(1);
+        ListNode head1 = list1;
+        list1.next = new ListNode(3);
         list1 = list1.next;
-        list1.next = new SinglyLinkedList(6);
+        list1.next = new ListNode(6);
         list1 = list1.next;
 
-        SinglyLinkedList list2 = new SinglyLinkedList(8);
-        SinglyLinkedList head2 = list2;
-        list2.next = new SinglyLinkedList(5);
+        ListNode list2 = new ListNode(8);
+        ListNode head2 = list2;
+        list2.next = new ListNode(5);
         list2 = list2.next;
 
-        list1.next = new SinglyLinkedList(7);
+        list1.next = new ListNode(7);
         list2.next = list1.next; // list2 intersects list1
         list1 = list1.next;
-        list1.next = new SinglyLinkedList(9);
+        list1.next = new ListNode(9);
 
-        SinglyLinkedList.printList(head1);
-        SinglyLinkedList.printList(head2);
+        ListNode.printList(head1);
+        ListNode.printList(head2);
 
-        SinglyLinkedList.printList(intersectionNode(head1, head2));
+        ListNode.printList(intersectionNode(head1, head2));
     }
 
-    public static SinglyLinkedList intersectionNode(SinglyLinkedList head1, SinglyLinkedList head2) {
-        SinglyLinkedList point1 = head1;
-        SinglyLinkedList point2 = head2;
+    public static ListNode intersectionNode(ListNode head1, ListNode head2) {
+        ListNode point1 = head1;
+        ListNode point2 = head2;
 
         while(point1 != point2) {
             if(point1 == null) {

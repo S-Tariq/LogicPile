@@ -1,5 +1,6 @@
-package stariq.algorithms;
+package stariq.algorithms.array;
 
+// Find the longest subarray whose sum is equal to / greater than or equal to target sum.
 public class LongestSubarrayBySum {
 
     public static void main(String[] args) {

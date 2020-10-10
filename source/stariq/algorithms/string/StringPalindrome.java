@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.string;
 
 // Check if a string is a palindrome (a word that reads the same backwards).
 public class StringPalindrome {

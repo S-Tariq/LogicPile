@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.string;
 
 // Reverse words in a string.
 public class ReverseWords {

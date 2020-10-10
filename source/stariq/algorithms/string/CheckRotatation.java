@@ -1,8 +1,8 @@
-package stariq.algorithms;
+package stariq.algorithms.string;
 
 // Check if the second string is the rotated string of the first string.
 // Rotates the string
-public class RotateString {
+public class CheckRotatation {
     public static void main(String[] args) {
         System.out.println(rotateString("abcde", "cdeab"));
         System.out.println(rotateString2("abcde", "cdeab"));

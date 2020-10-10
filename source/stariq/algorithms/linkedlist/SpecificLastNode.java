@@ -1,27 +1,27 @@
 package stariq.algorithms.linkedlist;
 
-import stariq.datastructures.linkedlist.SinglyLinkedList;
+import stariq.datastructures.linkedlist.ListNode;
 
 // Find the specific node from the end of linkedlist.
 public class SpecificLastNode {
 
     public static void main(String[] args) {
-        SinglyLinkedList list = new SinglyLinkedList(1);
-        SinglyLinkedList head = list;
-        list.next = new SinglyLinkedList(3);
+        ListNode list = new ListNode(1);
+        ListNode head = list;
+        list.next = new ListNode(3);
         list = list.next;
-        list.next = new SinglyLinkedList(6);
+        list.next = new ListNode(6);
         list = list.next;
-        list.next = new SinglyLinkedList(7);
+        list.next = new ListNode(7);
         list = list.next;
-        list.next = new SinglyLinkedList(9);
-        SinglyLinkedList.printList(head);
-        SinglyLinkedList.printList(specificLastNode(head, 4));
+        list.next = new ListNode(9);
+        ListNode.printList(head);
+        ListNode.printList(specificLastNode(head, 4));
     }
 
-    public static SinglyLinkedList specificLastNode(SinglyLinkedList head, int lastPosition) {
-        SinglyLinkedList fast = head;
-        SinglyLinkedList slow = head;
+    public static ListNode specificLastNode(ListNode head, int lastPosition) {
+        ListNode fast = head;
+        ListNode slow = head;
 
         for(int i = 0; i < lastPosition; i++) {
             fast = fast.next;
@@ -32,7 +32,7 @@ public class SpecificLastNode {
             slow = slow.next;
         }
 
-        return new SinglyLinkedList(slow.data);
+        return new ListNode(slow.val);
     }
 
 }

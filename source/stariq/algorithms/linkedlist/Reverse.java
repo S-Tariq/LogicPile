@@ -1,6 +1,6 @@
 package stariq.algorithms.linkedlist;
 
-import stariq.datastructures.linkedlist.SinglyLinkedList;
+import stariq.datastructures.linkedlist.ListNode;
 
 // Reverse the elements of a linkedlist.
 public class Reverse {
@@ -11,25 +11,28 @@ public class Reverse {
         // Output: 4,3,2,1
         // If input size 1 or less, return original list.
 
-        SinglyLinkedList node = new SinglyLinkedList(1);
-        SinglyLinkedList head = node;
-        node.next = new SinglyLinkedList(2);
+        ListNode node = new ListNode(1);
+        ListNode head = node;
+        node.next = new ListNode(2);
         node = node.next;
-        node.next = new SinglyLinkedList(3);
+        node.next = new ListNode(3);
         node = node.next;
-        node.next = new SinglyLinkedList(4);
-        SinglyLinkedList.printList(head);
+        node.next = new ListNode(4);
+        ListNode.printList(head);
         reverse(head);
-        SinglyLinkedList.printList(reverse(head));
-        SinglyLinkedList.printList(reverse2(head));
+        ListNode.printList(reverse(head));
+        ListNode.printList(reverse2(head));
 
     }
 
-    public static SinglyLinkedList reverse(SinglyLinkedList head) {
-        SinglyLinkedList reverse = new SinglyLinkedList(head.data);
-        SinglyLinkedList current = head.next;
+    public static ListNode reverse(ListNode head) {
+        if(head == null) {
+            return null;
+        }
+        ListNode reverse = new ListNode(head.val);
+        ListNode current = head.next;
         while(current != null) {
-            SinglyLinkedList prepend = new SinglyLinkedList(current.data);
+            ListNode prepend = new ListNode(current.val);
             prepend.next = reverse;
             reverse = prepend;
             current = current.next;
@@ -37,11 +40,11 @@ public class Reverse {
         return reverse;
     }
 
-    public static SinglyLinkedList reverse2(SinglyLinkedList head) {
-        SinglyLinkedList reverse = null;
-        SinglyLinkedList current = head;
+    public static ListNode reverse2(ListNode head) {
+        ListNode reverse = null;
+        ListNode current = head;
         while(current != null) {
-            SinglyLinkedList prepend = new SinglyLinkedList(current.data);
+            ListNode prepend = new ListNode(current.val);
             prepend.next = reverse;
             reverse = prepend;
             current = current.next;

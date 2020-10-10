@@ -1,6 +1,6 @@
-package stariq.algorithms;
+package stariq.algorithms.string;
 
-public class CommonCharInStrings {
+public class CommonCharacters {
 
     public static void main(String[] args) {
         String str1 = "abfhsdsgg";

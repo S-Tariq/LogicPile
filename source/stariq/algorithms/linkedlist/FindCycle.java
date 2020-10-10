@@ -1,18 +1,18 @@
 package stariq.algorithms.linkedlist;
 
-import stariq.datastructures.linkedlist.SinglyLinkedList;
+import stariq.datastructures.linkedlist.ListNode;
 
 // Find cycle in a linkedlist.
 public class FindCycle {
 
     public static void main(String[] args) {
-        SinglyLinkedList list = new SinglyLinkedList(1);
-        SinglyLinkedList head = list;
-        list.next = new SinglyLinkedList(3);
+        ListNode list = new ListNode(1);
+        ListNode head = list;
+        list.next = new ListNode(3);
         list = list.next;
-        list.next = new SinglyLinkedList(6);
+        list.next = new ListNode(6);
         list = list.next;
-        list.next = new SinglyLinkedList(7);
+        list.next = new ListNode(7);
         System.out.println(foundCycle(head));
         list = list.next;
         list.next = head.next;
@@ -22,14 +22,14 @@ public class FindCycle {
         // Do not print the list as there is a loop which runs out java memory.
     }
 
-    public static boolean foundCycle(SinglyLinkedList head) {
+    public static boolean foundCycle(ListNode head) {
 
         if(head == null) {
             return false;
         }
 
-        SinglyLinkedList slow = head;
-        SinglyLinkedList fast = head.next;
+        ListNode slow = head;
+        ListNode fast = head.next;
 
         while(slow != fast) {
             if(fast == null || fast.next == null) {

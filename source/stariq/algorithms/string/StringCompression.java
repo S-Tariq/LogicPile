@@ -1,9 +1,4 @@
-package stariq.algorithms;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+package stariq.algorithms.string;
 
 // Compress to count the occurrence of each character.
 // First method compresses string. Appends string to show character with frequency.

@@ -1,4 +1,4 @@
-package stariq.algorithms;
+package stariq.algorithms.array;
 
 import java.util.ArrayList;
 import java.util.HashMap;

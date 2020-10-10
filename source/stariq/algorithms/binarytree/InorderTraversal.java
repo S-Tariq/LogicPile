@@ -1,6 +1,6 @@
 package stariq.algorithms.binarytree;
 
-import stariq.datastructures.binarytree.BinarySearchTree;
+import stariq.datastructures.binarytree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,36 +14,36 @@ import java.util.Stack;
 public class InorderTraversal {
 
     public static void main(String[] args) {
-        BinarySearchTree bst = new BinarySearchTree(5);
-        BinarySearchTree root = bst;
-        bst.left = new BinarySearchTree(3);
-        bst.left.left = new BinarySearchTree(1);
-        bst.left.right = new BinarySearchTree(4);
-        bst.right = new BinarySearchTree(8);
-        bst.right.left = new BinarySearchTree(7);
-        bst.right.right = new BinarySearchTree(9);
+        TreeNode bst = new TreeNode(5);
+        TreeNode root = bst;
+        bst.left = new TreeNode(3);
+        bst.left.left = new TreeNode(1);
+        bst.left.right = new TreeNode(4);
+        bst.right = new TreeNode(8);
+        bst.right.left = new TreeNode(7);
+        bst.right.right = new TreeNode(9);
 
         for(int i : inorderTraversal(root)) {
             System.out.print(i + " ");
         }
     }
 
-    public static List<Integer> inorderTraversal(BinarySearchTree root) {
-        Stack<BinarySearchTree> bstStack = new Stack<>();
+    public static List<Integer> inorderTraversal(TreeNode root) {
+        Stack<TreeNode> bstStack = new Stack<>();
         List<Integer> bstList = new ArrayList<>();
 
         if(root == null) {
             return bstList;
         }
 
-        BinarySearchTree current = root;
+        TreeNode current = root;
         while(current != null || !bstStack.empty()) {
             while(current != null) {
                 bstStack.push(current);
                 current = current.left;
             }
             current = bstStack.pop();
-            bstList.add(current.data);
+            bstList.add(current.val);
             current = current.right;
         }
         return bstList;

@@ -1,6 +1,7 @@
-package stariq.algorithms;
+package stariq.algorithms.string;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
 // Find the first unique character in a string.
