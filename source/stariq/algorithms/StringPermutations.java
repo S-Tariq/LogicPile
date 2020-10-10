@@ -4,20 +4,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Find all the permutations of a given string (all unique arrangements of characters in a string).
+// Check if the second string contains permutation of the first string.
 public class StringPermutations {
 
     public static void main(String[] args) {
-        permutation("ABC", 0, 2);
+//        permutation("ABC", 0, 2);
+//
+//        System.out.println();
+//
+//        for(String s : permutation2("ABC", 0, 3)) {
+//            System.out.print(s + " ");
+//        }
+//
+//        System.out.println();
+//
+//        permutationIteratively("ABC");
 
-        System.out.println();
-
-        for(String s : permutation2("ABC", 0, 3)) {
-            System.out.print(s + " ");
-        }
-
-        System.out.println();
-
-        permutationIteratively("ABC");
+        System.out.println(checkPermutation("abd", "eidebaoo"));
     }
 
     // Simpler method. The end parameter can be removed as it does not change.
@@ -61,7 +64,7 @@ public class StringPermutations {
             // Loop backwards through the partial permutation.
            for(int j = partial.size() - 1; j >= 0; j--) {
                String rem = partial.remove(j);
-               // Loop to insert character in all possible positions of current partial permutation. 
+               // Loop to insert character in all possible positions of current partial permutation.
                for(int k = 0; k <= rem.length(); k++) {
                    String initial = rem.substring(0,k);
                    char current = str.charAt(i);
@@ -82,5 +85,36 @@ public class StringPermutations {
         return String.valueOf(chars);
     }
 
-
+    public static boolean checkPermutation(String s1, String s2) {
+        if(s1.length() > s2.length()) {
+            return false;
+        }
+        int[] count = new int[26];
+        for(char c : s1.toCharArray()) {
+            count[c - 'a']++;
+        }
+        int counter = s1.length();
+        int j = 0;
+        while(j < s1.length()) {
+            char c = s2.charAt(j);
+            if(count[c - 'a']-- > 0) {
+                counter--;
+            }
+            j++;
+        }
+        int i = 0;
+        while(j < s2.length() && counter != 0) {
+            char start = s2.charAt(i);
+            char end = s2.charAt(j);
+            if(count[start - 'a']++ >= 0) {
+                counter++;
+            }
+            if(count[end - 'a']-- > 0) {
+                counter--;
+            }
+            i++;
+            j++;
+        }
+        return counter == 0;
+    }
 }
