@@ -25,9 +25,9 @@ public class Reverse {
 
     }
 
-    public static SinglyLinkedList reverse(SinglyLinkedList list) {
-        SinglyLinkedList reverse = new SinglyLinkedList(list.data);
-        SinglyLinkedList current = list.next;
+    public static SinglyLinkedList reverse(SinglyLinkedList head) {
+        SinglyLinkedList reverse = new SinglyLinkedList(head.data);
+        SinglyLinkedList current = head.next;
         while(current != null) {
             SinglyLinkedList prepend = new SinglyLinkedList(current.data);
             prepend.next = reverse;
@@ -37,9 +37,9 @@ public class Reverse {
         return reverse;
     }
 
-    public static SinglyLinkedList reverse2(SinglyLinkedList list) {
+    public static SinglyLinkedList reverse2(SinglyLinkedList head) {
         SinglyLinkedList reverse = null;
-        SinglyLinkedList current = list;
+        SinglyLinkedList current = head;
         while(current != null) {
             SinglyLinkedList prepend = new SinglyLinkedList(current.data);
             prepend.next = reverse;
