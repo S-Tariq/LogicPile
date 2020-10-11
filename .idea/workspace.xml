@@ -21,35 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/BalancedBrackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/CommonCharInStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/CommonCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/FirstRepeatedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/FirstRepeatedCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/FirstUniqueCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/FirstUniqueCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/HighestAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/HighestAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/InsertInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/InsertInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/LongestSubarrayBySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/LongestSubarrayBySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/MaxSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/MaxSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/MedianOfSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/MedianOfSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/MergeSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/ReverseWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/RotateString.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/CheckRotatation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/SecondSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/SecondSmallest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/StringCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/StringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/StringPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/StringPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/StringPermutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/SumPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/SumPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/TopFiveAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/TopFiveAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PreorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/DeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/DeleteNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/FindCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/FindCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/FindIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/FindIntersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/InsertNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/InsertNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/LongestSubarrayBySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/LargestSubarrayBySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/MergeSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/MergeSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/SpecificLastNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/SpecificLastNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,9 +82,9 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SecondLargest">
-    <configuration name="LongestSubarrayBySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.LongestSubarrayBySum" />
+  <component name="RunManager" selected="Application.LargestSubarrayBySum">
+    <configuration name="LargestSubarrayBySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.LargestSubarrayBySum" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -152,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.StringCompression" />
+    <configuration name="ShortestSubarrayBySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.ShortestSubarrayBySum" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -166,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.StringPermutations" />
+    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.StringCompression" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -203,19 +176,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringPermutations" />
-      <item itemvalue="Application.LongestSubarrayBySum" />
       <item itemvalue="Application.StringCompression" />
       <item itemvalue="Application.RemoveDuplicatesInSortedArray" />
       <item itemvalue="Application.SecondLargest" />
+      <item itemvalue="Application.ShortestSubarrayBySum" />
+      <item itemvalue="Application.LargestSubarrayBySum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestSubarrayBySum" />
+        <item itemvalue="Application.ShortestSubarrayBySum" />
         <item itemvalue="Application.SecondLargest" />
         <item itemvalue="Application.RemoveDuplicatesInSortedArray" />
         <item itemvalue="Application.StringCompression" />
-        <item itemvalue="Application.LongestSubarrayBySum" />
-        <item itemvalue="Application.StringPermutations" />
       </list>
     </recent_temporary>
   </component>
@@ -298,42 +271,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601413893002" />
-    <state width="1877" height="108" key="GridCell.Tab.0.bottom" timestamp="1602363635826">
+    <state width="1877" height="406" key="GridCell.Tab.0.bottom" timestamp="1602374878076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="108" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602363635826" />
-    <state width="1877" height="108" key="GridCell.Tab.0.center" timestamp="1602363635826">
+    <state width="1877" height="406" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602374878076" />
+    <state width="1877" height="406" key="GridCell.Tab.0.center" timestamp="1602374878076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="108" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602363635826" />
-    <state width="1877" height="108" key="GridCell.Tab.0.left" timestamp="1602363635826">
+    <state width="1877" height="406" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602374878076" />
+    <state width="1877" height="406" key="GridCell.Tab.0.left" timestamp="1602374878075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="108" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602363635826" />
-    <state width="1877" height="108" key="GridCell.Tab.0.right" timestamp="1602363635826">
+    <state width="1877" height="406" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602374878075" />
+    <state width="1877" height="406" key="GridCell.Tab.0.right" timestamp="1602374878076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="108" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602363635826" />
-    <state width="1877" height="106" key="GridCell.Tab.1.bottom" timestamp="1602363471090">
+    <state width="1877" height="406" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602374878076" />
+    <state width="1877" height="406" key="GridCell.Tab.1.bottom" timestamp="1602374878076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="106" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602363471090" />
-    <state width="1877" height="106" key="GridCell.Tab.1.center" timestamp="1602363471090">
+    <state width="1877" height="406" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602374878076" />
+    <state width="1877" height="406" key="GridCell.Tab.1.center" timestamp="1602374878076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="106" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602363471090" />
-    <state width="1877" height="106" key="GridCell.Tab.1.left" timestamp="1602363471090">
+    <state width="1877" height="406" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602374878076" />
+    <state width="1877" height="406" key="GridCell.Tab.1.left" timestamp="1602374878076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="106" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602363471090" />
-    <state width="1877" height="106" key="GridCell.Tab.1.right" timestamp="1602363471090">
+    <state width="1877" height="406" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602374878076" />
+    <state width="1877" height="406" key="GridCell.Tab.1.right" timestamp="1602374878076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="106" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602363471090" />
+    <state width="1877" height="406" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602374878076" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1602352099710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -342,5 +315,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601571898713" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/stariq/algorithms/array/LargestSubarrayBySum.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
