@@ -23,14 +23,16 @@ public class InorderTraversal {
         bst.right.left = new TreeNode(7);
         bst.right.right = new TreeNode(9);
 
-        for(int i : inorderTraversal(root)) {
+        for(int i : inorderIterative(root)) {
             System.out.print(i + " ");
         }
+        System.out.println();
+        inorderRecursive(root);
     }
 
-    public static List<Integer> inorderTraversal(TreeNode root) {
-        Stack<TreeNode> bstStack = new Stack<>();
+    public static List<Integer> inorderIterative(TreeNode root) {
         List<Integer> bstList = new ArrayList<>();
+        Stack<TreeNode> bstStack = new Stack<>();
 
         if(root == null) {
             return bstList;
@@ -47,5 +49,15 @@ public class InorderTraversal {
             current = current.right;
         }
         return bstList;
+    }
+
+    // Cannot use list unless made static as recursion will keep recreating the same list.
+    public static void inorderRecursive(TreeNode root) {
+        if(root == null) {
+            return;
+        }
+        inorderRecursive(root.left);
+        System.out.print(root.val + " ");
+        inorderRecursive(root.right);
     }
 }
