@@ -8,17 +8,17 @@ import java.util.List;
 public class StringPermutations {
 
     public static void main(String[] args) {
-//        permutation("ABC", 0, 2);
-//
-//        System.out.println();
-//
-//        for(String s : permutation2("ABC", 0, 3)) {
-//            System.out.print(s + " ");
-//        }
-//
-//        System.out.println();
-//
-//        permutationIteratively("ABC");
+        permutation("ABC", 0, 2);
+
+        System.out.println();
+
+        for(String s : permutation2("ABC", 0, 3)) {
+            System.out.print(s + " ");
+        }
+
+        System.out.println();
+
+        permutationIteratively("ABC");
 
         System.out.println(checkPermutation("abd", "eidebaoo"));
     }
