@@ -20,24 +20,24 @@ public class InsertNode {
         TreeNode.print(insertNodeRecursive(root, 6));
     }
 
-    public static TreeNode insertNodeIterative(TreeNode root, int val) {
+    public static TreeNode insertNodeIterative(TreeNode root, int element) {
         if(root == null) {
-            return new TreeNode(val);
+            return new TreeNode(element);
         }
         TreeNode current = root;
         while(true) {
-            if(current.val <= val) {
+            if(current.val <= element) {
                 if(current.right != null) {
                     current = current.right;
                 } else {
-                    current.right = new TreeNode(val);
+                    current.right = new TreeNode(element);
                     break;
                 }
             } else {
                 if(current.left != null) {
                     current = current.left;
                 } else {
-                    current.left = new TreeNode(val);
+                    current.left = new TreeNode(element);
                     break;
                 }
             }
