@@ -12,7 +12,7 @@ public class HighestAverage {
     public static void main(String[] args) {
         String[][] studentScores = {{"John", "85"}, {"Charlie", "60"}, {"Bob", "70"}, {"John", "97"}, {"Bob", "100"},
                 {"Charlie", "50"}, {"Charlie", "100"}, {"Bob", "40"}};
-        HighestAverage.highestAverage(studentScores);
+        highestAverage(studentScores);
     }
 
     public static void highestAverage(String[][] scores) {
@@ -32,7 +32,6 @@ public class HighestAverage {
             }
         }
 
-        //Map<String, Integer> studentAverage = new HashMap<>();
         int maxAverage = 0;
         String student = "";
         for(Map.Entry<String, List<Integer>> e : studentRecord.entrySet()) {
@@ -41,7 +40,6 @@ public class HighestAverage {
                 sum += i;
             }
 
-            //studentAverage.put(e.getKey(), sum/studentRecord.get(e.getKey()).size());
             if(sum/studentRecord.get(e.getKey()).size() > maxAverage) {
                 maxAverage = sum/studentRecord.get(e.getKey()).size();
                 student = e.getKey();
@@ -49,9 +47,6 @@ public class HighestAverage {
         }
 
         System.out.println(student + " : " + maxAverage);
-        //for(Map.Entry<String, Integer> e : studentAverage.entrySet()) {
-        //System.out.println(e.getKey() + " " + e.getValue());
-        //}
     }
 
 }

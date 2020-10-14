@@ -72,7 +72,7 @@ public class LargestSubarrayBySum {
             }
             right++;
         }
-        if(result[0] == -1) {
+        if(result[1] == -1) {
             System.out.println("Target sum not found.");
         } else {
             System.out.println("Length: " + (result[1] - result[0] + 1));

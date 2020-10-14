@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InsertNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InsertNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/HighestAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/HighestAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/LargestSubarrayBySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/LargestSubarrayBySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/LongestIncreasingSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/LongestIncreasingSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +83,14 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteNode (1)">
-    <configuration name="BinaryInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.sort.BinaryInsertionSort" />
+  <component name="RunManager" selected="Application.MaxSubarray">
+    <configuration name="BuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.BuySellStock" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.sort.*" />
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,20 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.linkedlist.DeleteNode" />
-      <module name="LogicPile" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.algorithms.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FindNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.binarytree.FindNode" />
       <module name="LogicPile" />
@@ -138,13 +126,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.binarytree.InsertNode" />
+    <configuration name="LongestIncreasingSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.LongestIncreasingSequence" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.binarytree.*" />
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.MaxSubarray" />
+      <module name="LogicPile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,19 +177,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryInsertionSort" />
-      <item itemvalue="Application.DeleteNode" />
-      <item itemvalue="Application.InsertNode" />
       <item itemvalue="Application.FindNode" />
       <item itemvalue="Application.DeleteNode (1)" />
+      <item itemvalue="Application.BuySellStock" />
+      <item itemvalue="Application.LongestIncreasingSequence" />
+      <item itemvalue="Application.MaxSubarray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubarray" />
+        <item itemvalue="Application.LongestIncreasingSequence" />
+        <item itemvalue="Application.BuySellStock" />
         <item itemvalue="Application.DeleteNode (1)" />
         <item itemvalue="Application.FindNode" />
-        <item itemvalue="Application.InsertNode" />
-        <item itemvalue="Application.DeleteNode" />
-        <item itemvalue="Application.BinaryInsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -270,42 +272,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1601413893002" />
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom" timestamp="1602555198965">
+    <state width="1877" height="134" key="GridCell.Tab.0.bottom" timestamp="1602673332146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602555198965" />
-    <state width="1877" height="208" key="GridCell.Tab.0.center" timestamp="1602555198965">
+    <state width="1877" height="134" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602673332146" />
+    <state width="1877" height="134" key="GridCell.Tab.0.center" timestamp="1602673332146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="208" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602555198965" />
-    <state width="1877" height="208" key="GridCell.Tab.0.left" timestamp="1602555198965">
+    <state width="1877" height="134" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602673332146" />
+    <state width="1877" height="134" key="GridCell.Tab.0.left" timestamp="1602673332146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="208" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602555198965" />
-    <state width="1877" height="208" key="GridCell.Tab.0.right" timestamp="1602555198965">
+    <state width="1877" height="134" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602673332146" />
+    <state width="1877" height="134" key="GridCell.Tab.0.right" timestamp="1602673332146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="208" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602555198965" />
-    <state width="1877" height="175" key="GridCell.Tab.1.bottom" timestamp="1602550422362">
+    <state width="1877" height="134" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602673332146" />
+    <state width="1877" height="175" key="GridCell.Tab.1.bottom" timestamp="1602627373813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602550422362" />
-    <state width="1877" height="175" key="GridCell.Tab.1.center" timestamp="1602550422362">
+    <state width="1877" height="175" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602627373813" />
+    <state width="1877" height="175" key="GridCell.Tab.1.center" timestamp="1602627373813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602550422362" />
-    <state width="1877" height="175" key="GridCell.Tab.1.left" timestamp="1602550422362">
+    <state width="1877" height="175" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602627373813" />
+    <state width="1877" height="175" key="GridCell.Tab.1.left" timestamp="1602627373813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602550422362" />
-    <state width="1877" height="175" key="GridCell.Tab.1.right" timestamp="1602550422362">
+    <state width="1877" height="175" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602627373813" />
+    <state width="1877" height="175" key="GridCell.Tab.1.right" timestamp="1602627373813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602550422362" />
+    <state width="1877" height="175" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602627373813" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1602352099710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

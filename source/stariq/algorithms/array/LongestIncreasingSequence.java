@@ -40,9 +40,6 @@ public class LongestIncreasingSequence {
         int len = 0;
         for(int x : arr) {
             int i = binarySearch(temp, 0, len - 1, x);
-            if(i < 0) {
-                i = - (i + 1);
-            }
             temp[i] = x;
             if(i == len) {
                 len++;
@@ -65,6 +62,6 @@ public class LongestIncreasingSequence {
                 return mid;
         }
         // Target not found.
-        return -(low + 1);
+        return low;
     }
 }
