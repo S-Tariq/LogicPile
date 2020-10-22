@@ -1,5 +1,6 @@
 package stariq.algorithms.array;
 
+// Buy at a lower price and sell at a higher price - find the maximum profit.
 public class BuySellStock {
 
     public static void main(String[] args) {

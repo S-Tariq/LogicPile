@@ -2,7 +2,7 @@ package stariq.algorithms.linkedlist;
 
 import stariq.datastructures.linkedlist.ListNode;
 
-// Insert node at a specific position to linkedlist.
+// Insert node at a specific position in linkedlist.
 public class InsertNode {
 
     public static void main(String[] args) {
@@ -32,9 +32,14 @@ public class InsertNode {
             current = current.next;
             count++;
         }
-        ListNode temp = current.next;
+
+//        ListNode temp = current.next;
+//        current.next = node;
+//        node.next = temp;
+
+        node.next = current.next;
         current.next = node;
-        node.next = temp;
+
         return head;
     }
 }

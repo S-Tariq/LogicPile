@@ -2,6 +2,9 @@ package stariq.algorithms.string;
 
 import java.util.*;
 
+// Find groups of anagrams given string array.
+// Input: eat, tea, tan, ate, nat, bat
+// Output: (eat,tea,ate), (tan,nat), (bat)
 public class GroupAnagrams {
 
     public static void main(String[] args) {

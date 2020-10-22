@@ -2,6 +2,7 @@ package stariq.algorithms.linkedlist;
 
 import stariq.datastructures.linkedlist.ListNode;
 
+// Find the node where intersection begins of two linkedlists.
 // Find intersection of two linkedlists.
 public class FindIntersection {
 
@@ -27,25 +28,43 @@ public class FindIntersection {
         ListNode.printList(head2);
 
         ListNode.printList(intersectionNode(head1, head2));
+        System.out.println(foundIntersection(head1, head2));
     }
 
     public static ListNode intersectionNode(ListNode head1, ListNode head2) {
-        ListNode point1 = head1;
-        ListNode point2 = head2;
+        ListNode current1 = head1;
+        ListNode current2 = head2;
 
-        while(point1 != point2) {
-            if(point1 == null) {
-                point1 = head2;
+        while(current1 != current2) {
+            if(current1 == null) {
+                current1 = head2;
             } else {
-                point1 = point1.next;
+                current1 = current1.next;
             }
 
-            if(point2 == null) {
-                point2 = head1;
+            if(current2 == null) {
+                current2 = head1;
             } else {
-                point2 = point2.next;
+                current2 = current2.next;
             }
         }
-        return point1;
+        return current1;
+    }
+
+    public static boolean foundIntersection(ListNode head1, ListNode head2) {
+        ListNode current1 = head1;
+        ListNode current2 = head2;
+
+        while(current1.next != null) {
+            current1 = current1.next;
+        }
+
+        while(current2 != null) {
+            if(current1 == current2) {
+                return true;
+            }
+            current2 = current2.next;
+        }
+        return false;
     }
 }

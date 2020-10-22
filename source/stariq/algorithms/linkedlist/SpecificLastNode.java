@@ -20,6 +20,10 @@ public class SpecificLastNode {
     }
 
     public static ListNode specificLastNode(ListNode head, int lastPosition) {
+        if(head == null) {
+            return null;
+        }
+
         ListNode fast = head;
         ListNode slow = head;
 

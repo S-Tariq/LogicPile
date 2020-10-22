@@ -44,39 +44,48 @@ public class MergeSortedLists {
             return list1;
         }
 
-        ListNode current = new ListNode();
+        ListNode merged = new ListNode();
 
         if(list1.val < list2.val) {
-            current.val = list1.val;
+            merged.val = list1.val;
             list1 = list1.next;
         } else {
-            current.val = list2.val;
+            merged.val = list2.val;
             list2 = list2.next;
         }
 
-        ListNode head = current;
+        ListNode head = merged;
 
         while(list1 != null && list2 != null) {
             if(list1.val < list2.val) {
-                current.next = list1;
+                merged.next = list1;
                 list1 = list1.next;
             } else {
-                current.next = list2;
+                merged.next = list2;
                 list2 = list2.next;
             }
-            current = current.next;
+            merged = merged.next;
         }
 
-        while(list1 != null) {
-            current.next = list1;
-            list1 = list1.next;
-            current = current.next;
-        }
+        // Run while loops until both lists are pointing to null
+//        while(list1 != null) {
+//            merged.next = list1;
+//            list1 = list1.next;
+//            merged = merged.next;
+//        }
+//
+//        while(list2 != null) {
+//            merged.next = list2;
+//            list2 = list2.next;
+//            merged = merged.next;
+//        }
 
-        while(list2 != null) {
-            current.next = list2;
-            list2 = list2.next;
-            current = current.next;
+        // Assign remaining list values to merged - Better way than running unnecessary loops.
+        if(list1 != null) {
+            merged.next = list1;
+        }
+        if(list2 != null) {
+            merged.next = list2;
         }
 
         return head;
