@@ -13,24 +13,26 @@ public class DeleteNode {
         bst.right = new TreeNode(8);
         bst.right.left = new TreeNode(7);
         bst.right.right = new TreeNode(9);
+        bst.right.right.right = new TreeNode(10);
 
         TreeNode.print(root);
         System.out.println();
-        TreeNode.print(deleteNode(root, 3));
+    //    TreeNode.print(deleteNode(root, 3));
+        System.out.println();
+        TreeNode.print(deleteNode(root, 9));
     }
 
-    public static TreeNode deleteNode(TreeNode root, int element) {
+    public static TreeNode deleteNode(TreeNode root, int val) {
         if(root == null) {
             return null;
         }
-        if(element < root.val) {
-            root.left = deleteNode(root.left, element);
-        } else if (element > root.val) {
-            root.right = deleteNode(root.right, element);
+        if(root.val > val) {
+            root.left = deleteNode(root.left, val);
+        } else if (root.val < val) {
+            root.right = deleteNode(root.right, val);
         } else {
             if(root.left != null && root.right != null) {
-                TreeNode temp = root;
-                TreeNode minRight = minimumElement(temp.right);
+                TreeNode minRight = minimumElement(root.right);
                 root.val = minRight.val;
                 root.right = deleteNode(root.right, minRight.val);
             } else if (root.left != null) {

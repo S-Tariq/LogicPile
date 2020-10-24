@@ -2,6 +2,7 @@ package stariq.algorithms.binarytree;
 
 import stariq.datastructures.binarytree.TreeNode;
 
+// Insert node in binary tree.
 public class InsertNode {
 
     public static void main(String[] args) {
@@ -20,24 +21,24 @@ public class InsertNode {
         TreeNode.print(insertNodeRecursive(root, 6));
     }
 
-    public static TreeNode insertNodeIterative(TreeNode root, int element) {
+    public static TreeNode insertNodeIterative(TreeNode root, int val) {
         if(root == null) {
-            return new TreeNode(element);
+            return new TreeNode(val);
         }
         TreeNode current = root;
         while(true) {
-            if(current.val <= element) {
+            if(current.val <= val) {
                 if(current.right != null) {
                     current = current.right;
                 } else {
-                    current.right = new TreeNode(element);
+                    current.right = new TreeNode(val);
                     break;
                 }
             } else {
                 if(current.left != null) {
                     current = current.left;
                 } else {
-                    current.left = new TreeNode(element);
+                    current.left = new TreeNode(val);
                     break;
                 }
             }

@@ -19,33 +19,33 @@ public class FindNode {
         TreeNode.print(findNodeRecursive(root, 4));
     }
 
-    public static TreeNode findNodeIterative(TreeNode root, int element) {
+    public static TreeNode findNodeIterative(TreeNode root, int val) {
         if(root == null) {
             return null;
         }
         TreeNode current = root;
         while(current != null) {
-            if(element == current.val) {
+            if(current.val == val) {
                 return current;
-            } else if (element < current.val) {
+            } else if (current.val > val) {
                 current = current.left;
-            } else if (element > current.val) {
+            } else if (current.val < val) {
                 current = current.right;
             }
         }
         return null;
     }
 
-    public static TreeNode findNodeRecursive(TreeNode root, int element) {
+    public static TreeNode findNodeRecursive(TreeNode root, int val) {
         if(root == null) {
             return null;
         }
-        if(element == root.val) {
+        if(root.val == val) {
             return root;
-        } else if (element < root.val) {
-            return findNodeRecursive(root.left, element);
+        } else if (root.val > val) {
+            return findNodeRecursive(root.left, val);
         } else {
-            return findNodeRecursive(root.right, element);
+            return findNodeRecursive(root.right, val);
         }
     }
 }

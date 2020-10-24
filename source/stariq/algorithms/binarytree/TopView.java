@@ -23,8 +23,9 @@ public class TopView {
     }
 
     public static void topView(TreeNode root) {
-        Queue<QueueNode> queue = new LinkedList<>();
         TreeMap<Integer, Integer> treeMap = new TreeMap<>();
+        Queue<QueueNode> queue = new LinkedList<>();
+
         queue.add(new QueueNode(root, 0));
 
         while(!queue.isEmpty()) {

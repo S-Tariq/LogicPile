@@ -3,6 +3,7 @@ package stariq.algorithms.binarytree;
 import stariq.datastructures.binarytree.TreeNode;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
@@ -21,15 +22,38 @@ public class PostorderTraversal {
         bst.right.left = new TreeNode(7);
         bst.right.right = new TreeNode(9);
 
-        for(int i : postorderOneStack(root)) {
+        for(int i : postorderIterative(root)) {
             System.out.print(i + " ");
         }
-        System.out.println();
-        for(int i : postorderTwoStacks(root)) {
-            System.out.print(i + " ");
-        }
+//        System.out.println();
+//        for(int i : postorderTwoStacks(root)) {
+//            System.out.print(i + " ");
+//        }
         System.out.println();
         postorderRecursive(root);
+    }
+
+    public static List<Integer> postorderIterative(TreeNode root) {
+        LinkedList<Integer> bstList = new LinkedList<>();
+        Stack<TreeNode> bstStack = new Stack<>();
+
+        if (root == null) {
+            return bstList;
+        }
+
+        bstStack.push(root);
+
+        while (!bstStack.isEmpty()) {
+            TreeNode current = bstStack.pop();
+            bstList.addFirst(current.val);
+            if (current.left != null) {
+                bstStack.push(current.left);
+            }
+            if (current.right != null) {
+                bstStack.push(current.right);
+            }
+        }
+        return bstList;
     }
 
     public static List<Integer> postorderOneStack(TreeNode root) {
@@ -74,6 +98,7 @@ public class PostorderTraversal {
         return bstList;
     }
 
+    // Does not run on leetcode for some reason - gives null pointer exception - look into this!
     public static List<Integer> postorderTwoStacks(TreeNode root) {
         List<Integer> bstList = new ArrayList<>();
         Stack<TreeNode> bstStack1 = new Stack<>();

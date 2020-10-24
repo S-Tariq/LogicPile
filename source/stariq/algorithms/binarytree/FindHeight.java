@@ -2,7 +2,7 @@ package stariq.algorithms.binarytree;
 
 import stariq.datastructures.binarytree.TreeNode;
 
-public class FindDepth {
+public class FindHeight {
 
     public static void main(String[] args) {
         TreeNode bst = new TreeNode(5);
@@ -13,6 +13,7 @@ public class FindDepth {
         bst.right = new TreeNode(8);
         bst.right.left = new TreeNode(7);
         bst.right.right = new TreeNode(9);
+        bst.right.right.right = new TreeNode(10);
 
         System.out.println(findDepth(root));
     }
