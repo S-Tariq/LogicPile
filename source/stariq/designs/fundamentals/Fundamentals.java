@@ -1,4 +1,4 @@
-package stariq.concepts;
+package stariq.designs.fundamentals;
 
 import java.util.*;
 
