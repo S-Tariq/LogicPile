@@ -28,9 +28,9 @@ public class ClimbingStaircase {
         climbWays[0] = 1;
         for(int i = 1; i <= n; i++) {
             int sum = 0;
-            for(int in : steps) {
-                if(i - in >= 0) {
-                    sum += climbWays[i - in];
+            for(int s : steps) {
+                if(i - s >= 0) {
+                    sum += climbWays[i - s];
                 }
             }
             climbWays[i] = sum;

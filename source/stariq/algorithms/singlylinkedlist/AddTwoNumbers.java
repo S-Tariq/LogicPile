@@ -1,6 +1,6 @@
-package stariq.algorithms.linkedlist;
+package stariq.algorithms.singlylinkedlist;
 
-import stariq.datastructures.linkedlist.ListNode;
+import stariq.datastructures.nodes.ListNode;
 
 // Add two numbers from two linkedlist and return the sum as a linkedlist.
 // The elements are stored in reverse order (if it isnt then it needs to be reversed).

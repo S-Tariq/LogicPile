@@ -20,7 +20,6 @@ public class MergeSort {
         if(length < 2) {
             return;
         }
-
         int mid = length/2;
         int[] left = new int[mid];
         int[] right = new int[length - mid];

@@ -1,6 +1,6 @@
-package stariq.algorithms.linkedlist;
+package stariq.algorithms.singlylinkedlist;
 
-import stariq.datastructures.linkedlist.ListNode;
+import stariq.datastructures.nodes.ListNode;
  // Remove specific elements from the linkedlist.
 public class RemoveElements {
 

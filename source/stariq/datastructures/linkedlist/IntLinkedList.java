@@ -1,10 +1,10 @@
 package stariq.datastructures.linkedlist;
 
-class Node {
+class IntNode {
     private int value;
-    private Node next;
+    private IntNode next;
 
-    public Node(int value) {
+    public IntNode(int value) {
         this.value = value;
     }
 
@@ -16,31 +16,31 @@ class Node {
         this.value = value;
     }
 
-    public Node getNext() {
+    public IntNode getNext() {
         return this.next;
     }
 
-    public void setNext(Node next) {
+    public void setNext(IntNode next) {
         this.next = next;
     }
 }
 
 public class IntLinkedList {
-    private Node root;
+    private IntNode root;
     private int size = 0;
 
     public void add(int value) {
         size++;
         if(root == null) {
-            root = new Node(value);
+            root = new IntNode(value);
             return;
         }
-        Node current = root;
+        IntNode current = root;
         while(current.getNext() != null) {
             current = current.getNext();
         }
-        Node node = new Node(value);
-        current.setNext(node);
+        IntNode intNode = new IntNode(value);
+        current.setNext(intNode);
     }
 
     public void add(int... values) {
@@ -51,7 +51,7 @@ public class IntLinkedList {
 
     public int get(int index) {
         int i = 0;
-        Node current = root;
+        IntNode current = root;
         while(current.getNext() != null && i < index) {
             current = current.getNext();
             i++;
@@ -65,7 +65,7 @@ public class IntLinkedList {
 
     public void set(int index, int value) {
         int i = 0;
-        Node current = root;
+        IntNode current = root;
         while(current.getNext() != null && i < index) {
             current = current.getNext();
             i++;
@@ -79,7 +79,7 @@ public class IntLinkedList {
         if(index < 0 || index >= size) {
             throw new IndexOutOfBoundsException();
         }
-        Node current = root;
+        IntNode current = root;
         int i = 0;
         while(i < index - 1) {
             current = current.getNext();
@@ -110,7 +110,7 @@ public class IntLinkedList {
 
     public int indexOf(int value) {
         int count = 0;
-        Node current = root;
+        IntNode current = root;
         while(current.getNext() != null){
             if(current.getValue() == value) {
                 return count;
@@ -122,7 +122,7 @@ public class IntLinkedList {
     }
 
     public boolean contains(int value) {
-        Node current = root;
+        IntNode current = root;
         boolean result = false;
         while(current.getNext() != null) {
             if(current.getValue() == value) {
@@ -133,8 +133,6 @@ public class IntLinkedList {
         }
         return result;
     }
-
-
     public int size() {
         return this.size;
     }

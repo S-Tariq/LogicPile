@@ -21,7 +21,30 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/concepts/Fundamentals.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/designs/fundamentals/Fundamentals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/CoinChangeAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/CoinChangeAmount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/DeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/DeleteNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/FindHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/FindHeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/FindNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/FindNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InsertNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InsertNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PostorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/TopView.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/TopView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/DeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/DeleteNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/FindCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/FindCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/FindIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/FindIntersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/InsertNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/InsertNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/MergeSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/MergeSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/RemoveElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/RemoveElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/SpecificLastNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/SpecificLastNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/puzzle/ClimbingStaircase.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/puzzle/ClimbingStaircase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/nodes/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/IntLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/IntLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/nodes/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/MyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +79,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Media\Projects\GitHub\LogicPile\source\stariq\designs\hotelmanagement" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="stariq.algorithms" />
       <recent name="stariq.datastructures" />
@@ -72,14 +98,14 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PositionalElements">
-    <configuration name="FindHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.binarytree.FindHeight" />
+  <component name="RunManager" selected="Application.CoinChangeAmount">
+    <configuration name="CoinChangeAmount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.CoinChangeAmount" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.binarytree.*" />
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,27 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.hashmap.MyHashMap" />
+    <configuration name="DeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.singlylinkedlist.DeleteNode" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.datastructures.hashmap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyHashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.hashmap.MyHashTable" />
-      <module name="LogicPile" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.datastructures.hashmap.*" />
+          <option name="PATTERN" value="stariq.algorithms.singlylinkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,6 +155,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpecificLastNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.singlylinkedlist.SpecificLastNode" />
+      <module name="LogicPile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.singlylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -166,19 +192,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PostorderTraversal" />
-      <item itemvalue="Application.FindHeight" />
-      <item itemvalue="Application.MyHashTable" />
-      <item itemvalue="Application.MyHashMap" />
+      <item itemvalue="Application.CoinChangeAmount" />
+      <item itemvalue="Application.DeleteNode" />
       <item itemvalue="Application.PositionalElements" />
+      <item itemvalue="Application.PostorderTraversal" />
+      <item itemvalue="Application.SpecificLastNode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PositionalElements" />
-        <item itemvalue="Application.MyHashMap" />
-        <item itemvalue="Application.MyHashTable" />
+        <item itemvalue="Application.CoinChangeAmount" />
         <item itemvalue="Application.PostorderTraversal" />
-        <item itemvalue="Application.FindHeight" />
+        <item itemvalue="Application.DeleteNode" />
+        <item itemvalue="Application.SpecificLastNode" />
+        <item itemvalue="Application.PositionalElements" />
       </list>
     </recent_temporary>
   </component>
@@ -254,9 +280,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1598989928987" />
-    <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603595383673">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1411" y="-1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604178001871">
+      <screen x="-1920" y="-1" width="1920" height="1040" />
     </state>
+    <state x="-1411" y="-1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1604178001871" />
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603595383673" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601413893002">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -266,50 +293,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="868" y="273" key="#xdebugger.XInspectDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603560330482" />
-    <state width="1877" height="74" key="GridCell.Tab.0.bottom" timestamp="1603595317168">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="111" key="GridCell.Tab.0.bottom" timestamp="1603722893527">
+      <screen x="-1920" y="-1" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603542942596" />
-    <state width="1877" height="74" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603595317168" />
-    <state width="1877" height="74" key="GridCell.Tab.0.center" timestamp="1603595317168">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="111" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603722893527" />
+    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603713371788" />
+    <state width="1877" height="111" key="GridCell.Tab.0.center" timestamp="1603722893527">
+      <screen x="-1920" y="-1" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="226" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603542942595" />
-    <state width="1877" height="74" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603595317168" />
-    <state width="1877" height="74" key="GridCell.Tab.0.left" timestamp="1603595317168">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="111" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603722893527" />
+    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603713371788" />
+    <state width="1877" height="111" key="GridCell.Tab.0.left" timestamp="1603722893527">
+      <screen x="-1920" y="-1" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="226" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603542942595" />
-    <state width="1877" height="74" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603595317168" />
-    <state width="1877" height="74" key="GridCell.Tab.0.right" timestamp="1603595317168">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="111" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603722893527" />
+    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603713371788" />
+    <state width="1877" height="111" key="GridCell.Tab.0.right" timestamp="1603722893527">
+      <screen x="-1920" y="-1" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="226" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603542942595" />
-    <state width="1877" height="74" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603595317168" />
-    <state width="1877" height="443" key="GridCell.Tab.1.bottom" timestamp="1603589890773">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="111" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603722893527" />
+    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603713371788" />
+    <state width="1877" height="80" key="GridCell.Tab.1.bottom" timestamp="1603664118720">
+      <screen x="-1920" y="-1" width="1920" height="1040" />
     </state>
-    <state width="1877" height="214" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603538221694" />
-    <state width="1877" height="443" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603589890773" />
-    <state width="1877" height="443" key="GridCell.Tab.1.center" timestamp="1603589890773">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="80" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603664118720" />
+    <state width="1877" height="111" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603654192706" />
+    <state width="1877" height="80" key="GridCell.Tab.1.center" timestamp="1603664118720">
+      <screen x="-1920" y="-1" width="1920" height="1040" />
     </state>
-    <state width="1877" height="214" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603538221694" />
-    <state width="1877" height="443" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603589890773" />
-    <state width="1877" height="443" key="GridCell.Tab.1.left" timestamp="1603589890773">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="80" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603664118720" />
+    <state width="1877" height="111" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603654192705" />
+    <state width="1877" height="80" key="GridCell.Tab.1.left" timestamp="1603664118720">
+      <screen x="-1920" y="-1" width="1920" height="1040" />
     </state>
-    <state width="1877" height="214" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603538221694" />
-    <state width="1877" height="443" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603589890773" />
-    <state width="1877" height="443" key="GridCell.Tab.1.right" timestamp="1603589890773">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="80" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603664118720" />
+    <state width="1877" height="111" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603654192705" />
+    <state width="1877" height="80" key="GridCell.Tab.1.right" timestamp="1603664118720">
+      <screen x="-1920" y="-1" width="1920" height="1040" />
     </state>
-    <state width="1877" height="214" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603538221694" />
-    <state width="1877" height="443" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603589890773" />
+    <state width="1877" height="80" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603664118720" />
+    <state width="1877" height="111" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603654192706" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1602352099710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -323,9 +350,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/source/stariq/algorithms/array/LargestSubarrayBySum.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/SpecificLastNode.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/stariq/algorithms/sort/InsertionSort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

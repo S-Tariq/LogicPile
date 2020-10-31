@@ -1,6 +1,6 @@
-package stariq.algorithms.linkedlist;
+package stariq.algorithms.singlylinkedlist;
 
-import stariq.datastructures.linkedlist.ListNode;
+import stariq.datastructures.nodes.ListNode;
 
 // Find the specific node from the end of linkedlist.
 public class SpecificLastNode {
@@ -16,7 +16,7 @@ public class SpecificLastNode {
         list = list.next;
         list.next = new ListNode(9);
         ListNode.printList(head);
-        ListNode.printList(specificLastNode(head, 4));
+        ListNode.printList(specificLastNode(head, 2));
     }
 
     public static ListNode specificLastNode(ListNode head, int lastPosition) {

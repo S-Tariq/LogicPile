@@ -1,6 +1,6 @@
-package stariq.algorithms.linkedlist;
+package stariq.algorithms.singlylinkedlist;
 
-import stariq.datastructures.linkedlist.ListNode;
+import stariq.datastructures.nodes.ListNode;
 
 // Insert node at a specific position in linkedlist.
 public class InsertNode {
@@ -19,23 +19,18 @@ public class InsertNode {
         ListNode.printList(insertNode(head, 2, 4));
     }
 
-    public static ListNode insertNode(ListNode head, int position, int data) {
-        ListNode node = new ListNode(data);
+    public static ListNode insertNode(ListNode head, int position, int value) {
+        ListNode node = new ListNode(value);
         if(position == 0) {
             node.next = head;
             head = node;
             return head;
         }
-        ListNode current = head;
-        int count = 0;
-        while(count < position - 1) {
-            current = current.next;
-            count++;
-        }
 
-//        ListNode temp = current.next;
-//        current.next = node;
-//        node.next = temp;
+        ListNode current = head;
+        for(int i = 0; i < position - 1; i++) {
+            current = current.next;
+        }
 
         node.next = current.next;
         current.next = node;

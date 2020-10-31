@@ -1,6 +1,6 @@
-package stariq.algorithms.linkedlist;
+package stariq.algorithms.singlylinkedlist;
 
-import stariq.datastructures.linkedlist.ListNode;
+import stariq.datastructures.nodes.ListNode;
 
 // Find the node where intersection begins of two linkedlists.
 // Find intersection of two linkedlists.

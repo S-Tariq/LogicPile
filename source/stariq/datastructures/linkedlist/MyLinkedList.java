@@ -1,5 +1,7 @@
 package stariq.datastructures.linkedlist;
 
+import stariq.datastructures.nodes.ListNode;
+
 public class MyLinkedList {
 
     public static void main(String[] args) {

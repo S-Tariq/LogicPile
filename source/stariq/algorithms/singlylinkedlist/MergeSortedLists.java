@@ -1,6 +1,6 @@
-package stariq.algorithms.linkedlist;
+package stariq.algorithms.singlylinkedlist;
 
-import stariq.datastructures.linkedlist.ListNode;
+import stariq.datastructures.nodes.ListNode;
 
 // Merge two sorted linkedlists into one sorted linkedlist.
 public class MergeSortedLists {
@@ -31,11 +31,11 @@ public class MergeSortedLists {
 
         ListNode.printList(head1);
         ListNode.printList(head2);
-        ListNode.printList(merge(head1,head2));
+        ListNode.printList(mergeSorted(head1,head2));
 
     }
 
-    public static ListNode merge(ListNode list1, ListNode list2) {
+    public static ListNode mergeSorted(ListNode list1, ListNode list2) {
 
         if(list1 == null) {
             return list2;

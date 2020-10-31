@@ -1,4 +1,4 @@
-package stariq.datastructures.linkedlist;
+package stariq.datastructures.nodes;
 
 public class ListNode {
 

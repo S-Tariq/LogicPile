@@ -1,9 +1,8 @@
 package stariq.algorithms.binarytree;
 
-import stariq.datastructures.binarytree.TreeNode;
+import stariq.datastructures.nodes.TreeNode;
 
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 import java.util.TreeMap;
 

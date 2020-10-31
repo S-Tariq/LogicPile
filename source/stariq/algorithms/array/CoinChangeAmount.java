@@ -15,9 +15,9 @@ public class CoinChangeAmount {
         Arrays.fill(temp, amount + 1);
         temp[0] = 0;
         for(int i = 1; i <= amount; i++) {
-            for(int j = 0; j < coins.length; j++) {
-                if(coins[j] <= i) {
-                    temp[i] = Math.min(temp[i], 1 + temp[i - coins[j]]);
+            for(int c : coins) {
+                if(i - c >= 0) {
+                    temp[i] = Math.min(temp[i], 1 + temp[i - c]);
                 }
             }
         }

@@ -1,4 +1,4 @@
-package stariq.datastructures.binarytree;
+package stariq.datastructures.nodes;
 
 public class TreeNode {
 

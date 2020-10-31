@@ -1,6 +1,6 @@
-package stariq.algorithms.linkedlist;
+package stariq.algorithms.singlylinkedlist;
 
-import stariq.datastructures.linkedlist.ListNode;
+import stariq.datastructures.nodes.ListNode;
 
 // Delete node at a specific position in linkedlist.
 public class DeleteNode {
@@ -21,10 +21,10 @@ public class DeleteNode {
 
         ListNode.printList(deleteNode(head, 1));
 
-        ListNode.printList(deleteNode(head, 0));
+        ListNode.printList(deleteNode(head, 3));
 
-        deleteNode(del);
-        ListNode.printList(head);
+      //  deleteNode(del);
+     //   ListNode.printList(head);
 
 
     }
@@ -36,12 +36,12 @@ public class DeleteNode {
             return head.next;
         }
         ListNode current = head;
-        int count = 0;
-        while(count < position - 1) {
+        for(int i = 0; i < position - 1; i++) {
             current = current.next;
-            count++;
         }
+
         current.next = current.next.next;
+
         return head;
     }
 
