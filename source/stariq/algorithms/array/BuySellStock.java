@@ -1,5 +1,6 @@
 package stariq.algorithms.array;
 
+// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 // Buy at a lower price and sell at a higher price - find the maximum profit.
 public class BuySellStock {
 

@@ -21,30 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/CoinChangeAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/CoinChangeAmount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/DeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/DeleteNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/FindHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/FindHeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/FindNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/FindNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InsertNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InsertNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PostorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PreorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/TopView.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/TopView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/DeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/DeleteNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/FindCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/FindCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/FindIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/FindIntersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/InsertNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/InsertNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/MergeSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/MergeSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/RemoveElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/RemoveElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/linkedlist/SpecificLastNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/singlylinkedlist/SpecificLastNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/puzzle/ClimbingStaircase.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/puzzle/ClimbingStaircase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/nodes/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/IntLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/IntLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/nodes/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/MyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +74,7 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CoinChangeAmount">
+  <component name="RunManager" selected="Application.MergeIntervals">
     <configuration name="CoinChangeAmount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.CoinChangeAmount" />
       <module name="LogicPile" />
@@ -127,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositionalElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.PositionalElements" />
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.MergeIntervals" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -194,17 +170,17 @@
     <list>
       <item itemvalue="Application.CoinChangeAmount" />
       <item itemvalue="Application.DeleteNode" />
-      <item itemvalue="Application.PositionalElements" />
       <item itemvalue="Application.PostorderTraversal" />
       <item itemvalue="Application.SpecificLastNode" />
+      <item itemvalue="Application.MergeIntervals" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.CoinChangeAmount" />
         <item itemvalue="Application.PostorderTraversal" />
         <item itemvalue="Application.DeleteNode" />
         <item itemvalue="Application.SpecificLastNode" />
-        <item itemvalue="Application.PositionalElements" />
       </list>
     </recent_temporary>
   </component>

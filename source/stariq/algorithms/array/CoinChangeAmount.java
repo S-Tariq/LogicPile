@@ -2,6 +2,8 @@ package stariq.algorithms.array;
 
 import java.util.Arrays;
 
+// https://leetcode.com/problems/coin-change/
+// Find the fewest number of coins needed to make up a certain amount.
 public class CoinChangeAmount {
 
     public static void main(String[] args) {

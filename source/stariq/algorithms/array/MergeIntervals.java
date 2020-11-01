@@ -2,6 +2,8 @@ package stariq.algorithms.array;
 
 import java.util.*;
 
+// https://leetcode.com/problems/merge-intervals/
+// Merge intervals from a 2d array if they overlap.
 public class MergeIntervals {
 
     public static void main(String[] args) {

@@ -2,6 +2,7 @@ package stariq.algorithms.array;
 
 import java.util.*;
 
+// https://leetcode.com/problems/high-five/
 // Find the average score of each student's top five scores in the order of their student id.
 public class TopFiveAverage {
 
