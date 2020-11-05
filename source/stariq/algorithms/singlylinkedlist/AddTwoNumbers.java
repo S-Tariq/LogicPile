@@ -2,8 +2,9 @@ package stariq.algorithms.singlylinkedlist;
 
 import stariq.datastructures.nodes.ListNode;
 
+// https://leetcode.com/problems/add-two-numbers/
 // Add two numbers from two linkedlist and return the sum as a linkedlist.
-// The elements are stored in reverse order (if it isnt then it needs to be reversed).
+// The elements are stored in reverse order (if it isn't then it needs to be reversed).
 // Each node contains a single digit.
 // L1 = 2, 4, 3
 // L2 = 5, 6, 4
@@ -23,7 +24,24 @@ public class AddTwoNumbers {
         ListNode.printList(addNumbers(list1,list2));
     }
 
-    public static ListNode addNumbers(ListNode head1, ListNode head2) {
+    public static ListNode addNumbers(ListNode list1, ListNode list2) {
+        ListNode result = new ListNode(0);
+        ListNode head = result;
+        int carry = 0;
+        while(list1 != null || list2 != null || carry > 0) {
+            int sum = (list1 != null ? list1.val : 0) + (list2 != null ? list2.val : 0) + carry;
+            result.next = new ListNode(sum % 10);
+            carry = sum / 10;
+
+            list1 = list1 != null ? list1.next : list1;
+            list2 = list2 != null ? list2.next : list2;
+            result = result.next;
+        }
+        return head.next;
+    }
+
+    // Lengthy way - ignore
+    public static ListNode addNumbers2(ListNode head1, ListNode head2) {
         ListNode current1 = head1;
         ListNode current2 = head2;
         ListNode result = new ListNode(-1);
