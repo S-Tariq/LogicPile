@@ -1,4 +1,4 @@
-package stariq.algorithms.puzzle;
+package stariq.algorithms.array;
 
 // Number of unique ways to climb stairs given the number of steps that can be taken.
 public class ClimbingStaircase {

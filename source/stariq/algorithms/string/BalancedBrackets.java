@@ -3,28 +3,18 @@ package stariq.algorithms.string;
 import java.util.List;
 import java.util.Stack;
 
+// https://leetcode.com/problems/valid-parentheses/
 // Checks to see if a string has balanced brackets.
 public class BalancedBrackets {
 
     public static void main(String[] args) {
-        addBrackets("{[]}");
-        addBrackets("{}{]");
+        System.out.println(isBalanced("{[]}"));
+        System.out.println(isBalanced("{}{]"));
     }
-
-    // To check validity
-    public static void addBrackets(String s){
-        boolean isValid = BalancedBrackets.isBalanced(s);
-        if (isValid) {
-            System.out.println("String is valid");
-        } else {
-            System.out.println("String is invalid");
-        }
-    }
-
-    private static List<Character> openB = List.of('(', '[', '{');
-    private static List<Character> closedB = List.of(')', ']', '}');
 
     public static boolean isBalanced(String seq) {
+        List<Character> openB = List.of('(', '[', '{');
+        List<Character> closedB = List.of(')', ']', '}');
         Stack<Character> seqStack = new Stack<>();
         for (char c : seq.toCharArray()) {
             if (openB.contains(c)) {

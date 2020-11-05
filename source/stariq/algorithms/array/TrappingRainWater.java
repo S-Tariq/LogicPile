@@ -1,4 +1,4 @@
-package stariq.algorithms.puzzle;
+package stariq.algorithms.array;
 
 public class TrappingRainWater {
 

@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/puzzle/ClimbingStaircase.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/ClimbingStaircase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/puzzle/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/TrappingRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/puzzle/TwoEggs100Floors.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/TwoEggs100Floors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/BalancedBrackets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +59,6 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Media\Projects\GitHub\LogicPile\source\stariq\designs\hotelmanagement" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="stariq.algorithms" />
       <recent name="stariq.datastructures" />
@@ -65,23 +66,26 @@
       <recent name="algorithms" />
       <recent name="sortingalgorithms" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stariq.algorithms.linkedlist" />
       <recent name="algorithms" />
       <recent name="datastructures" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Media\Projects\GitHub\LogicPile\source\datastructures" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Media\Projects\GitHub\LogicPile\source\stariq\designs\hotelmanagement" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeIntervals">
-    <configuration name="CoinChangeAmount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.CoinChangeAmount" />
+  <component name="RunManager" selected="Application.RemoveUnbalancedBrackets">
+    <configuration name="BalancedBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.BalancedBrackets" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="PATTERN" value="stariq.algorithms.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,13 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.singlylinkedlist.DeleteNode" />
+    <configuration name="CoinChangeAmount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.CoinChangeAmount" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.singlylinkedlist.*" />
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,13 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecificLastNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.singlylinkedlist.SpecificLastNode" />
+    <configuration name="RemoveUnbalancedBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.RemoveUnbalancedBrackets" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.singlylinkedlist.*" />
+          <option name="PATTERN" value="stariq.algorithms.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,18 +173,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CoinChangeAmount" />
-      <item itemvalue="Application.DeleteNode" />
       <item itemvalue="Application.PostorderTraversal" />
-      <item itemvalue="Application.SpecificLastNode" />
       <item itemvalue="Application.MergeIntervals" />
+      <item itemvalue="Application.BalancedBrackets" />
+      <item itemvalue="Application.RemoveUnbalancedBrackets" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveUnbalancedBrackets" />
+        <item itemvalue="Application.BalancedBrackets" />
         <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.CoinChangeAmount" />
         <item itemvalue="Application.PostorderTraversal" />
-        <item itemvalue="Application.DeleteNode" />
-        <item itemvalue="Application.SpecificLastNode" />
       </list>
     </recent_temporary>
   </component>
@@ -247,11 +251,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="323" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1598989925957" />
-    <state x="-1177" y="388" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603467872957">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state x="743" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604599406738">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1177" y="388" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603467872957" />
-    <state x="743" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602553444044" />
+    <state x="743" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604599406738" />
     <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1598989928987">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -269,30 +273,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="868" y="273" key="#xdebugger.XInspectDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603560330482" />
-    <state width="1877" height="111" key="GridCell.Tab.0.bottom" timestamp="1603722893527">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="59" key="GridCell.Tab.0.bottom" timestamp="1604355532144">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="111" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603722893527" />
-    <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603713371788" />
-    <state width="1877" height="111" key="GridCell.Tab.0.center" timestamp="1603722893527">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="59" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604355532144" />
+    <state width="1877" height="59" key="GridCell.Tab.0.center" timestamp="1604355532144">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="111" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603722893527" />
-    <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603713371788" />
-    <state width="1877" height="111" key="GridCell.Tab.0.left" timestamp="1603722893527">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="59" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604355532144" />
+    <state width="1877" height="59" key="GridCell.Tab.0.left" timestamp="1604355532144">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="111" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603722893527" />
-    <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603713371788" />
-    <state width="1877" height="111" key="GridCell.Tab.0.right" timestamp="1603722893527">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="59" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604355532144" />
+    <state width="1877" height="59" key="GridCell.Tab.0.right" timestamp="1604355532144">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="111" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603722893527" />
-    <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603713371788" />
+    <state width="1877" height="59" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604355532144" />
     <state width="1877" height="80" key="GridCell.Tab.1.bottom" timestamp="1603664118720">
       <screen x="-1920" y="-1" width="1920" height="1040" />
     </state>
