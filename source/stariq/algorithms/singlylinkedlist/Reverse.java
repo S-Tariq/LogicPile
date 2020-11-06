@@ -11,13 +11,13 @@ public class Reverse {
         // Output: 4,3,2,1
         // If input size 1 or less, return original list.
 
-        ListNode node = new ListNode(1);
-        ListNode head = node;
-        node.next = new ListNode(2);
-        node = node.next;
-        node.next = new ListNode(3);
-        node = node.next;
-        node.next = new ListNode(4);
+        ListNode listNode = new ListNode(1);
+        ListNode head = listNode;
+        listNode.next = new ListNode(2);
+        listNode = listNode.next;
+        listNode.next = new ListNode(3);
+        listNode = listNode.next;
+        listNode.next = new ListNode(4);
         ListNode.printList(head);
         reverse(head);
         ListNode.printList(reverse(head));

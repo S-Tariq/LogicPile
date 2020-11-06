@@ -38,9 +38,9 @@ public class MyLinkedList {
     }
 
     public void addAtHead(int val) {
-        ListNode node = new ListNode(val);
-        node.next = head;
-        head = node;
+        ListNode listNode = new ListNode(val);
+        listNode.next = head;
+        head = listNode;
         size++;
     }
 
@@ -64,9 +64,9 @@ public class MyLinkedList {
         for(int i = 0; i < index - 1; i++) {
             current = current.next;
         }
-        ListNode node = new ListNode(val);
-        node.next = current.next;
-        current.next = node;
+        ListNode listNode = new ListNode(val);
+        listNode.next = current.next;
+        current.next = listNode;
         size++;
     }
 

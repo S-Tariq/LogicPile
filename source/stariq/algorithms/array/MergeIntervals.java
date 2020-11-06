@@ -26,7 +26,7 @@ public class MergeIntervals {
 
     public static int[][] mergeWithStack(int[][] intervals) {
         if(intervals.length == 0) {
-            return new int[0][0]; // Might error
+            return new int[0][0];
         }
 
         Arrays.sort(intervals, new Comparator<int[]>() {
@@ -61,7 +61,7 @@ public class MergeIntervals {
 
     public static int[][] mergeWithDeque(int[][] intervals) {
         if(intervals.length == 0) {
-            return new int[0][0]; // Might error
+            return new int[0][0];
         }
 
         Arrays.sort(intervals, new Comparator<int[]>() {
