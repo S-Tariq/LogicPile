@@ -7,27 +7,19 @@ import java.util.HashSet;
 
 public class DFS {
 
-    HashMap<Integer, GraphNode> nodeLookup = new HashMap<>();
-
-    public GraphNode getNode(int val) {
-        return nodeLookup.get(val);
-    }
-
-    public boolean hasPath(int source, int destination) {
-        GraphNode s = getNode(source);
-        GraphNode d = getNode(destination);
+    public boolean hasPath(GraphNode source, GraphNode destination) {
         HashSet<GraphNode> visited = new HashSet<>();
-        return hasPath(s, d, visited);
+        return hasPath(source, destination, visited);
     }
 
     public boolean hasPath(GraphNode source, GraphNode destination, HashSet<GraphNode> visited) {
+        if(source == destination) {
+            return true;
+        }
         if(visited.contains(source)) {
             return false;
         }
         visited.add(source);
-        if(source == destination) {
-            return true;
-        }
         for(GraphNode child : source.adjacent) {
             if(hasPath(child, destination, visited)) {
                 return true;
