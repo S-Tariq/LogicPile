@@ -24,6 +24,7 @@ public class AddTwoNumbers {
         ListNode.printList(addNumbers(list1,list2));
     }
 
+    // Simplified way
     public static ListNode addNumbers(ListNode list1, ListNode list2) {
         ListNode result = new ListNode(0);
         ListNode head = result;
