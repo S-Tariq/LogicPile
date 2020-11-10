@@ -27,6 +27,33 @@ public class LevelOrderTraversal {
         }
     }
 
+    public static List<List<Integer>> levelOrder2d(TreeNode root) {
+        List<List<Integer>> twoDList = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+
+        if(root == null) {
+            return twoDList;
+        }
+
+        queue.add(root);
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            List<Integer> list = new ArrayList<>();
+            for(int i = 0; i < size; i++) {
+                TreeNode current = queue.poll();
+                list.add(current.val);
+                if(current.left != null) {
+                    queue.add(current.left);
+                }
+                if(current.right != null) {
+                    queue.add(current.right);
+                }
+            }
+            twoDList.add(list);
+        }
+        return twoDList;
+    }
+
     public static List<Integer> levelOrder(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
@@ -47,32 +74,5 @@ public class LevelOrderTraversal {
             }
         }
         return list;
-    }
-
-    public static List<List<Integer>> levelOrder2d(TreeNode root) {
-        List<List<Integer>> twoDList = new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
-
-        if(root == null) {
-            return twoDList;
-        }
-
-        queue.add(root);
-        while(!queue.isEmpty()) {
-            int count = queue.size();
-            List<Integer> list = new ArrayList<>();
-            for(int i = 0; i < count; i++) {
-                TreeNode current = queue.poll();
-                list.add(current.val);
-                if(current.left != null) {
-                    queue.add(current.left);
-                }
-                if(current.right != null) {
-                    queue.add(current.right);
-                }
-            }
-            twoDList.add(list);
-        }
-        return twoDList;
     }
 }

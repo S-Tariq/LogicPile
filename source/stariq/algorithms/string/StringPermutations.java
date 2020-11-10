@@ -37,6 +37,14 @@ public class StringPermutations {
         }
     }
 
+    private static String swap(String str, int i, int j) {
+        char[] chars = str.toCharArray();
+        char c = chars[i];
+        chars[i] = chars[j];
+        chars[j] = c;
+        return String.valueOf(chars);
+    }
+
     // Return type is a list - adds them to a static list.
     // The list cannot be local as recursion will keep resetting it to null.
     static List<String> permutations2 = new ArrayList<>();
@@ -74,15 +82,6 @@ public class StringPermutations {
            }
         }
         System.out.println(partial);
-    }
-
-    // Swap method used in all implementations of permutations.
-    private static String swap(String str, int i, int j) {
-        char[] chars = str.toCharArray();
-        char c = chars[i];
-        chars[i] = chars[j];
-        chars[j] = c;
-        return String.valueOf(chars);
     }
 
     public static boolean checkPermutation(String s1, String s2) {

@@ -3,7 +3,7 @@ package stariq.algorithms.singlylinkedlist;
 import stariq.datastructures.nodes.ListNode;
 
 // Reverse the elements of a linkedlist.
-public class Reverse {
+public class ReverseList {
 
     public static void main(String[] args) {
 
