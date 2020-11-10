@@ -34,95 +34,95 @@ public class PostorderTraversal {
     }
 
     public static List<Integer> postorderIterative(TreeNode root) {
-        LinkedList<Integer> bstList = new LinkedList<>();
-        Stack<TreeNode> bstStack = new Stack<>();
+        LinkedList<Integer> list = new LinkedList<>();
+        Stack<TreeNode> stack = new Stack<>();
 
         if (root == null) {
-            return bstList;
+            return list;
         }
 
-        bstStack.push(root);
+        stack.push(root);
 
-        while (!bstStack.isEmpty()) {
-            TreeNode current = bstStack.pop();
-            bstList.addFirst(current.val);
+        while (!stack.isEmpty()) {
+            TreeNode current = stack.pop();
+            list.addFirst(current.val);
             if (current.left != null) {
-                bstStack.push(current.left);
+                stack.push(current.left);
             }
             if (current.right != null) {
-                bstStack.push(current.right);
+                stack.push(current.right);
             }
         }
-        return bstList;
+        return list;
     }
 
     public static List<Integer> postorderOneStack(TreeNode root) {
-        List<Integer> bstList = new ArrayList<>();
-        Stack<TreeNode> bstStack = new Stack<>();
+        List<Integer> list = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
 
         if(root == null) {
-            return bstList;
+            return list;
         }
 
-        bstStack.push(root);
+        stack.push(root);
 
         TreeNode previous = null;
-        while(!bstStack.isEmpty()) {
-            TreeNode current = bstStack.peek();
+        while(!stack.isEmpty()) {
+            TreeNode current = stack.peek();
 
             // Goes down tree.
             if(previous == null || previous.left == current || previous.right == current) {
                 if(current.left != null) {
-                    bstStack.push(current.left);
+                    stack.push(current.left);
                 } else if (current.right != null) {
-                    bstStack.push(current.right);
+                    stack.push(current.right);
                 } else {
-                    bstStack.pop();
-                    bstList.add(current.val);
+                    stack.pop();
+                    list.add(current.val);
                 }
 
                 // Goes up tree.
             } else if (current.left == previous) {
                 if(current.right != null) {
-                    bstStack.push(current.right);
+                    stack.push(current.right);
                 } else {
-                    bstStack.pop();
-                    bstList.add(current.val);
+                    stack.pop();
+                    list.add(current.val);
                 }
             } else if (current.right == previous) {
-                bstStack.pop();
-                bstList.add(current.val);
+                stack.pop();
+                list.add(current.val);
             }
             previous = current;
         }
-        return bstList;
+        return list;
     }
 
     // Does not run on leetcode for some reason - gives null pointer exception - look into this!
     public static List<Integer> postorderTwoStacks(TreeNode root) {
-        List<Integer> bstList = new ArrayList<>();
-        Stack<TreeNode> bstStack1 = new Stack<>();
-        bstStack1.push(root);
-        Stack<TreeNode> bstStack2 = new Stack<>();
+        List<Integer> list = new ArrayList<>();
+        Stack<TreeNode> stack1 = new Stack<>();
+        stack1.push(root);
+        Stack<TreeNode> stack2 = new Stack<>();
 
-        while(!bstStack1.isEmpty()) {
-            TreeNode current = bstStack1.pop();
-            bstStack2.push(current);
+        while(!stack1.isEmpty()) {
+            TreeNode current = stack1.pop();
+            stack2.push(current);
 
             if(current.left != null) {
-                bstStack1.push(current.left);
+                stack1.push(current.left);
             }
             if(current.right != null) {
-                bstStack1.push(current.right);
+                stack1.push(current.right);
             }
         }
 
-        while(!bstStack2.isEmpty()) {
-            TreeNode temp = bstStack2.pop();
-            bstList.add(temp.val);
+        while(!stack2.isEmpty()) {
+            TreeNode temp = stack2.pop();
+            list.add(temp.val);
         }
 
-        return bstList;
+        return list;
     }
 
     public static void postorderRecursive(TreeNode root) {

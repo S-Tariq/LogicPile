@@ -29,26 +29,26 @@ public class PreorderTraversal {
     }
 
     public static List<Integer> preorderIterative(TreeNode root) {
-        List<Integer> bstList = new ArrayList<>();
-        Stack<TreeNode> bstStack = new Stack<>();
+        List<Integer> list = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
 
         if(root == null) {
-            return bstList;
+            return list;
         }
 
-        bstStack.push(root);
+        stack.push(root);
 
-        while(!bstStack.isEmpty()) {
-            TreeNode current = bstStack.pop();
-            bstList.add(current.val);
+        while(!stack.isEmpty()) {
+            TreeNode current = stack.pop();
+            list.add(current.val);
             if(current.right != null) {
-                bstStack.push(current.right);
+                stack.push(current.right);
             }
             if(current.left != null) {
-                bstStack.push(current.left);
+                stack.push(current.left);
             }
         }
-        return bstList;
+        return list;
     }
 
     // Cannot use list unless made static as recursion will keep recreating the same list.

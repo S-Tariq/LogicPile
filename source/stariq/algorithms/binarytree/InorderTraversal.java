@@ -31,24 +31,24 @@ public class InorderTraversal {
     }
 
     public static List<Integer> inorderIterative(TreeNode root) {
-        List<Integer> bstList = new ArrayList<>();
-        Stack<TreeNode> bstStack = new Stack<>();
+        List<Integer> list = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
 
         if(root == null) {
-            return bstList;
+            return list;
         }
 
         TreeNode current = root;
-        while(current != null || !bstStack.empty()) {
+        while(current != null || !stack.empty()) {
             while(current != null) {
-                bstStack.push(current);
+                stack.push(current);
                 current = current.left;
             }
-            current = bstStack.pop();
-            bstList.add(current.val);
+            current = stack.pop();
+            list.add(current.val);
             current = current.right;
         }
-        return bstList;
+        return list;
     }
 
     // Cannot use list unless made static as recursion will keep recreating the same list.

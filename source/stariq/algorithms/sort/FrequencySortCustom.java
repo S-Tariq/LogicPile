@@ -7,7 +7,7 @@ import java.util.List;
 
 // Sorts an array or a string based on the frequency of the elements.
 // If some elements have same frequency, then it is sorted in lexicographical order.
-public class FrequencySortCustomClass {
+public class FrequencySortCustom {
 
     public static void main(String[] args) {
 
