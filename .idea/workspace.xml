@@ -21,15 +21,19 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/InorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PostorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/binarytree/PreorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/FrequencySortCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/FrequencySortCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/StringPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/StringPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/arraylist/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/arraylist/GenericsArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/stack/MinStackUsingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/stack/MinStackUsingNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/stack/MinStackUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/stack/MinStackUsingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stariq/datastructures/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/stariq/datastructures/GenericsArrayListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,7 +60,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -78,14 +82,14 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\stariq\designs\hotelmanagement" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidateBST">
-    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.binarytree.LevelOrderTraversal" />
+  <component name="RunManager" selected="Application.WordBreak">
+    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.SquareRoot" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.binarytree.*" />
+          <option name="PATTERN" value="stariq.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,27 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoCityScheduling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.TwoCityScheduling" />
+    <configuration name="StringPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.StringPermutations" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.TwoSum" />
-      <module name="LogicPile" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="PATTERN" value="stariq.algorithms.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,6 +118,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stariq.algorithms.binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.WordBreak" />
+      <module name="LogicPile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,19 +176,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TwoSum" />
-      <item itemvalue="Application.TwoCityScheduling" />
-      <item itemvalue="Application.LevelOrderTraversal" />
       <item itemvalue="Application.ZigzagLevelOrderTraversal" />
       <item itemvalue="Application.ValidateBST" />
+      <item itemvalue="Application.SquareRoot" />
+      <item itemvalue="Application.StringPermutations" />
+      <item itemvalue="Application.WordBreak" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordBreak" />
+        <item itemvalue="Application.StringPermutations" />
+        <item itemvalue="Application.SquareRoot" />
         <item itemvalue="Application.ValidateBST" />
         <item itemvalue="Application.ZigzagLevelOrderTraversal" />
-        <item itemvalue="Application.LevelOrderTraversal" />
-        <item itemvalue="Application.TwoCityScheduling" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -201,38 +205,6 @@
       <updated>1539366276029</updated>
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="MyArrayListTest_setOneElement - 2020.06.12 at 01h 26m 28s.xml">
-      <configuration name="MyArrayListTest.setOneElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyArrayListTest_setOneElement - 2020.06.12 at 01h 27m 19s.xml">
-      <configuration name="MyArrayListTest.setOneElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyArrayListTest_removeOneElement - 2020.06.12 at 01h 28m 44s.xml">
-      <configuration name="MyArrayListTest.removeOneElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyArrayListTest_removeOneElement - 2020.06.12 at 01h 29m 36s.xml">
-      <configuration name="MyArrayListTest.removeOneElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyArrayListTest_removeOneElement - 2020.06.12 at 01h 30m 48s.xml">
-      <configuration name="MyArrayListTest.removeOneElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyArrayListTest_removeOneElement - 2020.06.12 at 01h 30m 59s.xml">
-      <configuration name="MyArrayListTest.removeOneElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyArrayListTest_removeOneElement - 2020.06.12 at 01h 31m 14s.xml">
-      <configuration name="MyArrayListTest.removeOneElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyArrayListTest_findIndex - 2020.06.12 at 01h 31m 55s.xml">
-      <configuration name="MyArrayListTest.findIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyArrayListTest_findIndex - 2020.06.12 at 01h 32m 31s.xml">
-      <configuration name="MyArrayListTest.findIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyArrayListTest_containsElement - 2020.06.12 at 01h 33m 24s.xml">
-      <configuration name="MyArrayListTest.containsElement" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -261,11 +233,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1598989928987" />
-    <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604695403075">
+    <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605039461606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1411" y="-1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1604178001871" />
-    <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604695403075" />
+    <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605039461606" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601413893002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -274,54 +246,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="868" y="273" key="#xdebugger.XInspectDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603560330482" />
-    <state width="1877" height="211" key="GridCell.Tab.0.bottom" timestamp="1604967889797">
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom" timestamp="1605046715949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="111" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603722893527" />
-    <state width="1877" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604967889797" />
-    <state width="1877" height="211" key="GridCell.Tab.0.center" timestamp="1604967889797">
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605046715949" />
+    <state width="1877" height="138" key="GridCell.Tab.0.center" timestamp="1605046715949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="111" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603722893527" />
-    <state width="1877" height="211" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604967889797" />
-    <state width="1877" height="211" key="GridCell.Tab.0.left" timestamp="1604967889797">
+    <state width="1877" height="138" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605046715949" />
+    <state width="1877" height="138" key="GridCell.Tab.0.left" timestamp="1605046715949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="111" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603722893527" />
-    <state width="1877" height="211" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604967889797" />
-    <state width="1877" height="211" key="GridCell.Tab.0.right" timestamp="1604967889797">
+    <state width="1877" height="138" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605046715949" />
+    <state width="1877" height="138" key="GridCell.Tab.0.right" timestamp="1605046715949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="111" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603722893527" />
-    <state width="1877" height="211" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604967889797" />
-    <state width="1877" height="211" key="GridCell.Tab.1.bottom" timestamp="1604967889798">
+    <state width="1877" height="138" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605046715949" />
+    <state width="1877" height="191" key="GridCell.Tab.1.bottom" timestamp="1605042986405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="80" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603664118720" />
-    <state width="1877" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604967889798" />
-    <state width="1877" height="211" key="GridCell.Tab.1.center" timestamp="1604967889798">
+    <state width="1877" height="191" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605042986405" />
+    <state width="1877" height="191" key="GridCell.Tab.1.center" timestamp="1605042986404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="80" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603664118720" />
-    <state width="1877" height="211" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604967889798" />
-    <state width="1877" height="211" key="GridCell.Tab.1.left" timestamp="1604967889798">
+    <state width="1877" height="191" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605042986404" />
+    <state width="1877" height="191" key="GridCell.Tab.1.left" timestamp="1605042986404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="80" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603664118720" />
-    <state width="1877" height="211" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604967889798" />
-    <state width="1877" height="211" key="GridCell.Tab.1.right" timestamp="1604967889798">
+    <state width="1877" height="191" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605042986404" />
+    <state width="1877" height="191" key="GridCell.Tab.1.right" timestamp="1605042986404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="80" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1603664118720" />
-    <state width="1877" height="211" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1604967889798" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1602352099710">
+    <state width="1877" height="191" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605042986404" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1605045908111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1602352099710" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605045908111" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602553569817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

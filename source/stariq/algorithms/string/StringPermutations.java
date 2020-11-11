@@ -18,6 +18,12 @@ public class StringPermutations {
 
         System.out.println();
 
+        for(String s : permutationList("ABC")) {
+            System.out.print(s + " ");
+        }
+
+        System.out.println();
+
         permutationIteratively("ABC");
 
         System.out.println(checkPermutation("abd", "eidebaoo"));
@@ -37,6 +43,25 @@ public class StringPermutations {
         }
     }
 
+    public static List<String> permutationList(String str) {
+        int start = 0;
+        int end = str.length() - 1;
+        List<String> list = new ArrayList<>();
+        permutation(str, start, end, list);
+        return list;
+    }
+
+    public static void permutation(String str, int start, int end, List<String> list) {
+        if(start == end) {
+            list.add(str);
+        } else {
+            for(int i = start; i <= end; i++) {
+                String swapped = swap(str, start, i);
+                permutation(swapped, start + 1, end);
+            }
+        }
+    }
+
     private static String swap(String str, int i, int j) {
         char[] chars = str.toCharArray();
         char c = chars[i];
@@ -44,6 +69,8 @@ public class StringPermutations {
         chars[j] = c;
         return String.valueOf(chars);
     }
+
+    // Ignore everything after this point.
 
     // Return type is a list - adds them to a static list.
     // The list cannot be local as recursion will keep resetting it to null.

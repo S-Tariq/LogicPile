@@ -2,12 +2,12 @@ package stariq.datastructures;
 
 import org.junit.Assert;
 import org.junit.Test;
-import stariq.datastructures.arraylist.MyArrayList;
+import stariq.datastructures.arraylist.GenericsArrayList;
 
-public class MyArrayListTest {
+public class GenericsArrayListTest {
 
-    MyArrayList<Character> charList = new MyArrayList<>();
-    MyArrayList<Integer> intList = new MyArrayList<>();
+    GenericsArrayList<Character> charList = new GenericsArrayList<>();
+    GenericsArrayList<Integer> intList = new GenericsArrayList<>();
 
     @Test
     public void addOneElement() {

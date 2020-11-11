@@ -1,16 +1,16 @@
 package stariq.datastructures.arraylist;
 
-public class MyArrayList<E> {
+public class GenericsArrayList<E> {
 
     private Object[] array;
     private int size;
 
-    public MyArrayList() {
+    public GenericsArrayList() {
         array = new Object[1];
         size = 0;
     }
 
-    public MyArrayList(int size) {
+    public GenericsArrayList(int size) {
         array = new Object[size];
         this.size = size;
     }
