@@ -30,7 +30,9 @@ public class AddTwoNumbers {
         ListNode head = result;
         int carry = 0;
         while(list1 != null || list2 != null || carry > 0) {
-            int sum = (list1 != null ? list1.val : 0) + (list2 != null ? list2.val : 0) + carry;
+            int list1Val = list1 != null ? list1.val : 0;
+            int list2Val = list2 != null ? list2.val : 0;
+            int sum = list1Val + list2Val + carry;
             result.next = new ListNode(sum % 10);
             carry = sum / 10;
 

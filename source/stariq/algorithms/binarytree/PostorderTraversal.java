@@ -56,6 +56,7 @@ public class PostorderTraversal {
         return list;
     }
 
+    // Works but very long
     public static List<Integer> postorderOneStack(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();

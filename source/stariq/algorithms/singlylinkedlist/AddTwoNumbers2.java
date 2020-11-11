@@ -2,7 +2,6 @@ package stariq.algorithms.singlylinkedlist;
 
 import stariq.datastructures.nodes.ListNode;
 
-import java.util.List;
 import java.util.Stack;
 
 // https://leetcode.com/problems/add-two-numbers-ii/
@@ -43,12 +42,12 @@ public class AddTwoNumbers2 {
         ListNode result = null;
         int carry = 0;
         while(!stack1.isEmpty() || !stack2.isEmpty() || carry > 0) {
-            int sum = (!stack1.isEmpty() ? stack1.pop() : 0) + (!stack2.isEmpty() ? stack2.pop() : 0) + carry;
-
+            int stack1Val = !stack1.isEmpty() ? stack1.pop() : 0;
+            int stack2Val = !stack2.isEmpty() ? stack2.pop() : 0;
+            int sum = stack1Val + stack2Val + carry;
             ListNode prepend = new ListNode(sum % 10);
             prepend.next = result;
             result = prepend;
-
             carry = sum / 10;
         }
         return result;
@@ -74,7 +73,9 @@ public class AddTwoNumbers2 {
         ListNode reverseHead = reverseResult;
         int carry = 0;
         while(reverse1 != null || reverse2 != null || carry > 0) {
-            int sum = (reverse1 != null ? reverse1.val : 0) + (reverse2 != null ? reverse2.val : 0) + carry;
+            int reverse1Val = reverse1 != null ? reverse1.val : 0;
+            int reverse2Val = reverse2 != null ? reverse2.val : 0;
+            int sum = reverse1Val + reverse2Val + carry;
             reverseResult.next = new ListNode(sum % 10);
             carry = sum / 10;
 

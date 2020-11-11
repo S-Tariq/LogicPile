@@ -1,12 +1,9 @@
 package stariq.datastructures.hashmap;
 
-import java.lang.reflect.Array;
-import java.util.HashMap;
-
-public class MyHashMap<K,V> {
+public class GenericsHashMap<K,V> {
 
     public static void main(String[] args) {
-        MyHashMap<String, Integer> map = new MyHashMap<>();
+        GenericsHashMap<String, Integer> map = new GenericsHashMap<>();
         map.put("Bob", 1);
         map.put("Bob", 2);
         map.put("John", 1);
@@ -43,7 +40,7 @@ public class MyHashMap<K,V> {
     double loadFactor = 0.75;
 
     @SuppressWarnings({"unchecked"})
-    MyHashMap() {
+    GenericsHashMap() {
         buckets = (Node<K,V>[]) new Node[3];
     }
 
