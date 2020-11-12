@@ -1,5 +1,7 @@
 package stariq.algorithms.array;
 
+// https://leetcode.com/problems/median-of-two-sorted-arrays/
+// Return type is double in the problem - just cast the median calculation to double.
 public class MedianOfSortedArrays {
 
     public static void main(String[] args) {

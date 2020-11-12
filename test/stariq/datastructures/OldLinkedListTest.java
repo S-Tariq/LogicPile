@@ -1,12 +1,12 @@
 package stariq.datastructures;
 
-import stariq.datastructures.linkedlist.OldLinkedList;
+import stariq.older.LinkedList;
 
 public class OldLinkedListTest {
 
     public static void main(String[] args) {
 
-    OldLinkedList list = new OldLinkedList();
+    LinkedList list = new LinkedList();
     list.insert(2);
     list.insert(5);
     list.insert(7);

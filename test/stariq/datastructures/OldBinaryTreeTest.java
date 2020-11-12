@@ -4,12 +4,12 @@ package stariq.datastructures;
 // Adds element(s) to the binary tree.
 // Searches for element(s) in the binary tree.
 
-import stariq.datastructures.binarytree.OldBinaryTree;
+import stariq.older.BinaryTree;
 
 public class OldBinaryTreeTest {
 
     public static void main(String[] args) {
-        OldBinaryTree binaryTree = new OldBinaryTree();
+        BinaryTree binaryTree = new BinaryTree();
         binaryTree.addElement(2);
         System.out.println("Value of an element: " + binaryTree.getRootElement());
         int[] seq = {3,4,5};
