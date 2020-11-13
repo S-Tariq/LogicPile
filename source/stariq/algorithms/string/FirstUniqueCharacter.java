@@ -1,10 +1,10 @@
 package stariq.algorithms.string;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
-// Find the first unique character in a string.
+// https://leetcode.com/problems/first-unique-character-in-a-string/
+// Find the first unique character in a string. Return character or index.
 public class FirstUniqueCharacter {
 
     public static void main(String[] args) {
@@ -17,6 +17,9 @@ public class FirstUniqueCharacter {
         System.out.println(uniqueCharacterUsingArray(str));
         str = "aaabbbcadfcwafdq";
         System.out.println(uniqueCharacterUsingArray(str));
+
+        str = "leetcode";
+        System.out.println(uniqueCharacterIndex(str));
     }
 
     public static char uniqueCharacterUsingMap(String str) {
@@ -54,6 +57,34 @@ public class FirstUniqueCharacter {
             }
         }
         return unique;
+    }
+
+    public static int uniqueCharacterIndex(String str) {
+        Map<Character, Integer> map = new HashMap<>(40);
+        for(char c : str.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+        for(int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if(map.get(c) == 1) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public static int uniqueCharacterIndex2(String str) {
+        char[] array = new char[26];
+        for(char c : str.toCharArray()) {
+            array[c - 'a']++;
+        }
+        for(int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if(array[c - 'a'] == 1) {
+                return i;
+            }
+        }
+        return -1;
     }
 
 }
