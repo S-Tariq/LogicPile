@@ -2,7 +2,7 @@ package stariq.algorithms.string;
 
 // https://leetcode.com/problems/valid-palindrome/
 // Check if a string is a palindrome (a word that reads the same backwards).
-public class StringPalindrome {
+public class ValidPalindrome {
 
     public static void main(String[] args) {
 //        System.out.println(isPalindromeSimple("Anna"));
