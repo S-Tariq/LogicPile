@@ -4,7 +4,7 @@ import java.util.*;
 
 // https://leetcode.com/problems/high-five/
 // Find the average score of each student's top five scores in the order of their student id.
-public class TopFiveAverage {
+public class HighFiveAverage {
 
     public static void main(String[] args) {
         int[][] arr = new int[][] {{1,91}, {1,92}, {2,93}, {2,97}, {1,60}, {2,77},

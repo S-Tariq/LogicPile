@@ -1,6 +1,7 @@
 package stariq.older;
 
 import java.util.*;
+import java.util.ArrayList;
 
 public class Fundamentals {
 
@@ -50,7 +51,7 @@ public class Fundamentals {
 }
 
 // Abstraction
-abstract class Animal{
+abstract class Animal {
 
     // Encapsulation
     private static int idCount = 1;
@@ -78,14 +79,14 @@ abstract class Animal{
 }
 
 // Abstraction
-interface CanFly{
+interface CanFly {
 
     void fly();
     void speed();
 }
 
 // Inheritance
-class Dog extends Animal{
+class Dog extends Animal {
 
     public Dog(String name){
         super(name);
@@ -104,7 +105,7 @@ class Dog extends Animal{
 }
 
 // Inheritance, Abstraction
-class Pigeon extends Animal implements CanFly{
+class Pigeon extends Animal implements CanFly {
 
     public Pigeon(String name){
         super(name);
@@ -132,7 +133,7 @@ class Pigeon extends Animal implements CanFly{
 }
 
 // Abstraction
-class Plane implements CanFly{
+class Plane implements CanFly {
 
     @Override
     public void fly(){
