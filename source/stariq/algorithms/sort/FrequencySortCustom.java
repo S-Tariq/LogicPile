@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+// https://leetcode.com/problems/sort-characters-by-frequency/
 // Sorts an array or a string based on the frequency of the elements.
 // If some elements have same frequency, then it is sorted in lexicographical order.
 public class FrequencySortCustom {
@@ -18,6 +19,33 @@ public class FrequencySortCustom {
     }
 
     public static String frequencySort(String str) {
+
+        class CharFrequency {
+            private char character;
+            private int frequency;
+
+            CharFrequency(char character, int frequency) {
+                this.character = character;
+                this.frequency = frequency;
+            }
+
+            public char getCharacter() {
+                return this.character;
+            }
+
+            public int getFrequency() {
+                return this.frequency;
+            }
+
+            public void incrementFrequency() {
+                this.frequency++;
+            }
+        }
+
+        if(str.length() == 0){
+            return str;
+        }
+
         List<CharFrequency> charList = new ArrayList<>();
         charList.add(new CharFrequency(str.charAt(0), 0));
         for(char c : str.toCharArray()) {
@@ -54,29 +82,6 @@ public class FrequencySortCustom {
                 sb.append(cf.getCharacter());
             }
         }
-
         return sb.toString();
-    }
-}
-
-class CharFrequency {
-    private char character;
-    private int frequency;
-
-    CharFrequency(char character, int frequency) {
-        this.character = character;
-        this.frequency = frequency;
-    }
-
-    public char getCharacter() {
-        return this.character;
-    }
-
-    public int getFrequency() {
-        return this.frequency;
-    }
-
-    public void incrementFrequency() {
-        this.frequency++;
     }
 }

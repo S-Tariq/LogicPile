@@ -21,9 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/StringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/ValidPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/StringPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/AllPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/RemoveDuplicatesInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/RemoveDuplicatesInSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/FrequencySortCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/FrequencySortCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/FrequencySortMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/FrequencySortMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +82,14 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\stariq\designs\hotelmanagement" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidAnagram">
-    <configuration name="FirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.FirstUniqueCharacter" />
+  <component name="RunManager" selected="Application.TopKFrequentElements">
+    <configuration name="AllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.graph.AllPaths" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.string.*" />
+          <option name="PATTERN" value="stariq.datastructures.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,22 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.IsomorphicStrings" />
-      <module name="LogicPile" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.algorithms.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MeetingRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.MeetingRooms" />
+    <configuration name="FindMinInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.FindMinInRotatedSortedArray" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -125,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeetingRooms2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.MeetingRooms2" />
+    <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.SearchInRotatedSortedArray" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -139,13 +125,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.ValidAnagram" />
+    <configuration name="TopKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.TopKFrequentElements" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.string.*" />
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZeroesAtEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.ZeroesAtEnd" />
+      <module name="LogicPile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,19 +176,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MeetingRooms" />
-      <item itemvalue="Application.MeetingRooms2" />
-      <item itemvalue="Application.IsomorphicStrings" />
-      <item itemvalue="Application.FirstUniqueCharacter" />
-      <item itemvalue="Application.ValidAnagram" />
+      <item itemvalue="Application.AllPaths" />
+      <item itemvalue="Application.ZeroesAtEnd" />
+      <item itemvalue="Application.FindMinInRotatedSortedArray" />
+      <item itemvalue="Application.SearchInRotatedSortedArray" />
+      <item itemvalue="Application.TopKFrequentElements" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.FirstUniqueCharacter" />
-        <item itemvalue="Application.IsomorphicStrings" />
-        <item itemvalue="Application.MeetingRooms2" />
-        <item itemvalue="Application.MeetingRooms" />
+        <item itemvalue="Application.TopKFrequentElements" />
+        <item itemvalue="Application.SearchInRotatedSortedArray" />
+        <item itemvalue="Application.FindMinInRotatedSortedArray" />
+        <item itemvalue="Application.ZeroesAtEnd" />
+        <item itemvalue="Application.AllPaths" />
       </list>
     </recent_temporary>
   </component>
@@ -251,50 +251,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="868" y="273" key="#xdebugger.XInspectDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603560330482" />
-    <state width="1877" height="112" key="GridCell.Tab.0.bottom" timestamp="1605377213805">
+    <state width="1877" height="109" key="GridCell.Tab.0.bottom" timestamp="1605399866370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="110" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861792" />
-    <state width="1877" height="112" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605377213805" />
-    <state width="1877" height="112" key="GridCell.Tab.0.center" timestamp="1605377213804">
+    <state width="1877" height="109" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605399866370" />
+    <state width="1877" height="109" key="GridCell.Tab.0.center" timestamp="1605399866369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="110" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861791" />
-    <state width="1877" height="112" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605377213804" />
-    <state width="1877" height="112" key="GridCell.Tab.0.left" timestamp="1605377213804">
+    <state width="1877" height="109" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605399866369" />
+    <state width="1877" height="109" key="GridCell.Tab.0.left" timestamp="1605399866369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="110" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861791" />
-    <state width="1877" height="112" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605377213804" />
-    <state width="1877" height="112" key="GridCell.Tab.0.right" timestamp="1605377213805">
+    <state width="1877" height="109" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605399866369" />
+    <state width="1877" height="109" key="GridCell.Tab.0.right" timestamp="1605399866370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="110" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861792" />
-    <state width="1877" height="112" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605377213805" />
-    <state width="1877" height="245" key="GridCell.Tab.1.bottom" timestamp="1605317681947">
+    <state width="1877" height="109" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605399866370" />
+    <state width="1877" height="109" key="GridCell.Tab.1.bottom" timestamp="1605399866370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="110" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861792" />
-    <state width="1877" height="245" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605317681947" />
-    <state width="1877" height="245" key="GridCell.Tab.1.center" timestamp="1605317681947">
+    <state width="1877" height="109" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605399866370" />
+    <state width="1877" height="109" key="GridCell.Tab.1.center" timestamp="1605399866370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="110" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861792" />
-    <state width="1877" height="245" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605317681947" />
-    <state width="1877" height="245" key="GridCell.Tab.1.left" timestamp="1605317681947">
+    <state width="1877" height="109" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605399866370" />
+    <state width="1877" height="109" key="GridCell.Tab.1.left" timestamp="1605399866370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="110" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861792" />
-    <state width="1877" height="245" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605317681947" />
-    <state width="1877" height="245" key="GridCell.Tab.1.right" timestamp="1605317681947">
+    <state width="1877" height="109" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605399866370" />
+    <state width="1877" height="109" key="GridCell.Tab.1.right" timestamp="1605399866370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="110" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861792" />
-    <state width="1877" height="245" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605317681947" />
+    <state width="1877" height="109" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605399866370" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1605045908111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -322,11 +322,23 @@
           <line>22</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/stariq/algorithms/array/ZeroesAtEnd.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/stariq/algorithms/array/SearchInRotatedSortedArray.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((stariq.datastructures.hashmap.MyHashMap.Node[])((MyHashMap)this).buckets)[2]" language="JAVA" custom="stariq.datastructures.hashmap.MyHashMap,stariq.datastructures.hashmap.MyHashMap.Node[]" />
+        <watch expression="i" />
+        <watch expression="result.get(0)" />
       </configuration>
     </watches-manager>
   </component>
