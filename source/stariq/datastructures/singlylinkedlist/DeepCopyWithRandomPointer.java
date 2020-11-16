@@ -6,6 +6,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 // https://leetcode.com/problems/copy-list-with-random-pointer/
+// Shallow copy = reference
+// Deep copy = data without reference
 public class DeepCopyWithRandomPointer {
 
     public RandNode copyRandomList(RandNode head) {

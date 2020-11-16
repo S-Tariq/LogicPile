@@ -12,6 +12,7 @@ public class BinarySearchInSortedArray {
         int low = 0;
         int high = nums.length - 1;
         while(low <= high) {
+            // To prevent integer overflow -> int mid = low + (high-low)/2;
             int mid = (low + high)/2;
             if(target > nums[mid]) {
                 low = mid + 1;

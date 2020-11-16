@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/BinarySearchInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/BinarySearchInSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/SecondLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/SecondLargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/SecondSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/SecondSmallestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/DeepCopyWithRandomPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/DeepCopyWithRandomPointer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,14 +83,14 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\stariq\designs\hotelmanagement" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TopKFrequentElements">
-    <configuration name="AllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.graph.AllPaths" />
+  <component name="RunManager" selected="Application.KthLargestInBST">
+    <configuration name="FlattenTreeToLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.binarytree.FlattenTreeToLinkedList" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.datastructures.graph.*" />
+          <option name="PATTERN" value="stariq.datastructures.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,13 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.FindMinInRotatedSortedArray" />
+    <configuration name="KthLargestInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.binarytree.KthLargestInBST" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="PATTERN" value="stariq.datastructures.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,13 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.SearchInRotatedSortedArray" />
+    <configuration name="KthSmallestInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.binarytree.KthSmallestInBST" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="PATTERN" value="stariq.datastructures.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,13 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.TopKFrequentElements" />
+    <configuration name="RandomizedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.custom.RandomizedSet" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="PATTERN" value="stariq.datastructures.custom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroesAtEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.ZeroesAtEnd" />
+    <configuration name="ValidateSymmetry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.binarytree.ValidateSymmetry" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="PATTERN" value="stariq.datastructures.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,19 +177,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AllPaths" />
-      <item itemvalue="Application.ZeroesAtEnd" />
-      <item itemvalue="Application.FindMinInRotatedSortedArray" />
-      <item itemvalue="Application.SearchInRotatedSortedArray" />
-      <item itemvalue="Application.TopKFrequentElements" />
+      <item itemvalue="Application.RandomizedSet" />
+      <item itemvalue="Application.ValidateSymmetry" />
+      <item itemvalue="Application.FlattenTreeToLinkedList" />
+      <item itemvalue="Application.KthSmallestInBST" />
+      <item itemvalue="Application.KthLargestInBST" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TopKFrequentElements" />
-        <item itemvalue="Application.SearchInRotatedSortedArray" />
-        <item itemvalue="Application.FindMinInRotatedSortedArray" />
-        <item itemvalue="Application.ZeroesAtEnd" />
-        <item itemvalue="Application.AllPaths" />
+        <item itemvalue="Application.KthLargestInBST" />
+        <item itemvalue="Application.KthSmallestInBST" />
+        <item itemvalue="Application.FlattenTreeToLinkedList" />
+        <item itemvalue="Application.ValidateSymmetry" />
+        <item itemvalue="Application.RandomizedSet" />
       </list>
     </recent_temporary>
   </component>
@@ -248,50 +252,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="868" y="273" key="#xdebugger.XInspectDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603560330482" />
-    <state width="1877" height="109" key="GridCell.Tab.0.bottom" timestamp="1605401091502">
+    <state width="1877" height="176" key="GridCell.Tab.0.bottom" timestamp="1605541234861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="110" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861792" />
-    <state width="1877" height="109" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605401091502" />
-    <state width="1877" height="109" key="GridCell.Tab.0.center" timestamp="1605401091502">
+    <state width="1877" height="176" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605541234861" />
+    <state width="1877" height="176" key="GridCell.Tab.0.center" timestamp="1605541234861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="110" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861791" />
-    <state width="1877" height="109" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605401091502" />
-    <state width="1877" height="109" key="GridCell.Tab.0.left" timestamp="1605401091502">
+    <state width="1877" height="176" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605541234861" />
+    <state width="1877" height="176" key="GridCell.Tab.0.left" timestamp="1605541234861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="110" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861791" />
-    <state width="1877" height="109" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605401091502" />
-    <state width="1877" height="109" key="GridCell.Tab.0.right" timestamp="1605401091502">
+    <state width="1877" height="176" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605541234861" />
+    <state width="1877" height="176" key="GridCell.Tab.0.right" timestamp="1605541234861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="110" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861792" />
-    <state width="1877" height="109" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605401091502" />
-    <state width="1877" height="109" key="GridCell.Tab.1.bottom" timestamp="1605401091502">
+    <state width="1877" height="176" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605541234861" />
+    <state width="1877" height="311" key="GridCell.Tab.1.bottom" timestamp="1605541031559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="110" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861792" />
-    <state width="1877" height="109" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605401091502" />
-    <state width="1877" height="109" key="GridCell.Tab.1.center" timestamp="1605401091502">
+    <state width="1877" height="311" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605541031559" />
+    <state width="1877" height="311" key="GridCell.Tab.1.center" timestamp="1605541031559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="110" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861792" />
-    <state width="1877" height="109" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605401091502" />
-    <state width="1877" height="109" key="GridCell.Tab.1.left" timestamp="1605401091502">
+    <state width="1877" height="311" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605541031559" />
+    <state width="1877" height="311" key="GridCell.Tab.1.left" timestamp="1605541031559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="110" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861792" />
-    <state width="1877" height="109" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605401091502" />
-    <state width="1877" height="109" key="GridCell.Tab.1.right" timestamp="1605401091502">
+    <state width="1877" height="311" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605541031559" />
+    <state width="1877" height="311" key="GridCell.Tab.1.right" timestamp="1605541031559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="110" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1605226861792" />
-    <state width="1877" height="109" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605401091502" />
+    <state width="1877" height="311" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1605541031559" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1605045908111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -328,6 +332,16 @@
           <url>file://$PROJECT_DIR$/source/stariq/algorithms/array/SearchInRotatedSortedArray.java</url>
           <line>11</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/stariq/datastructures/binarytree/ValidateSymmetry.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/stariq/datastructures/binarytree/SecondSmallestInBST.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

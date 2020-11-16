@@ -1,7 +1,7 @@
 package stariq.algorithms.array;
 
 // Find the second smallest element in an array.
-public class SecondSmallest {
+public class SecondSmallestElement {
 
     public static void main(String[] args) {
         int[] array = {2,5,1,6,9,0,-1,-3,-8,-10,-10};

@@ -1,6 +1,6 @@
 package stariq.algorithms.array;
 
-public class SecondLargest {
+public class SecondLargestElement {
 
     public static void main(String[] args) {
         int[] array = {2,5,1,6,9,0,-1,-3,-8,-10,10};
