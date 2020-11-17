@@ -8,25 +8,64 @@ public class SumPairs {
 
     public static void main(String[] args) {
         int[] array = new int[]{2,4,3,7,2,1,4,5};
-        findPairsUsingLoops(array,8);
-        findPairsUsingLoops(array,4);
-        findPairsUsingLoops(array,28);
-        System.out.println("-------------");
-        findPairsUsingList(array,8);
-        findPairsUsingList(array,4);
-        findPairsUsingList(array,28);
+//        findPairsUsingLoops(array,8);
+//        findPairsUsingLoops(array,4);
+//        findPairsUsingLoops(array,28);
+//        System.out.println("-------------");
+//        findPairsUsingList(array,8);
+//        findPairsUsingList(array,4);
+//        findPairsUsingList(array,28);
+
+        for(List<Integer> i : findPairs2(array, 8)) {
+            System.out.print(i + " ");
+        }
+    }
+
+    public static List<List<Integer>> findPairs(int[] arr, int sum) {
+        List<List<Integer>> result = new ArrayList<>();
+        for(int i = 0; i < arr.length; i++) {
+            for(int j = i + 1; j < arr.length; j++) {
+                if(arr[i] + arr[j] == sum) {
+                    List<Integer> list = new ArrayList<>();
+                    list.add(arr[i]);
+                    list.add(arr[j]);
+                    result.add(list);
+                }
+            }
+        }
+        return result;
+    }
+
+    public static List<List<Integer>> findPairs2(int[] arr, int sum) {
+        List<List<Integer>> result = new ArrayList<>();
+        List<Integer> elements = new ArrayList<>();
+        for(int i = 0; i < arr.length; i++) {
+            if(elements.contains(sum - arr[i])) {
+                List<Integer> list = new ArrayList<>();
+                list.add(arr[i]);
+                list.add(sum - arr[i]);
+                result.add(list);
+            } else {
+                elements.add(arr[i]);
+            }
+        }
+        return result;
     }
 
     // Using loops
     public static void findPairsUsingLoops(int[] arr, int sum) {
         int count = 0;
-        String pairs = "";
+        StringBuilder pairs = new StringBuilder();
         for(int i = 0; i < arr.length; i++) {
             for(int j = i + 1; j < arr.length; j++) {
                 if(arr[i] + arr[j] == sum) {
                     count++;
-                    pairs += "[" + arr[i] + "," + arr[j] + "] ";
-                    //System.out.println(arr[i] + " + "  + arr[j] + " = " + sum);
+                    pairs.append("[");
+                    pairs.append(arr[i]);
+                    pairs.append(",");
+                    pairs.append(arr[j]);
+                    pairs.append("] ");
+                    // pairs += "[" + arr[i] + "," + (sum-arr[i]) + "] ";
                 }
             }
         }
