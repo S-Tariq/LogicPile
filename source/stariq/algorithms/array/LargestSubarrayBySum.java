@@ -1,6 +1,6 @@
 package stariq.algorithms.array;
 
-// Find the largest subarray whose sum is equal to / greater than or equal to target sum.
+// Find the largest subarray whose sum is equal to / less than or equal to target sum.
 public class LargestSubarrayBySum {
 
     public static void main(String[] args) {

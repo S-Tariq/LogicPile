@@ -1,5 +1,6 @@
 package stariq.algorithms.array;
 
+// https://leetcode.com/problems/maximum-subarray/
 public class MaxSubarray {
 
     public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class MaxSubarray {
     }
 
     public static int maxSubarray(int[] arr) {
-        int max = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
         int sum = 0;
         for(int i = 0; i < arr.length; i++) {
             if(sum < 0) {

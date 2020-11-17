@@ -2,6 +2,7 @@ package stariq.datastructures.singlylinkedlist;
 
 import stariq.datastructures.nodes.ListNode;
 
+// https://leetcode.com/problems/delete-node-in-a-linked-list/
 // Delete node at a specific position in linkedlist.
 public class DeleteNode {
 
@@ -45,9 +46,9 @@ public class DeleteNode {
         return head;
     }
 
-    public static void deleteNode(ListNode listNode) {
-        ListNode temp = listNode.next;
-        listNode.val = temp.val;
-        listNode.next = temp.next;
+    public static void deleteNode(ListNode node) {
+        ListNode temp = node.next;
+        node.val = temp.val;
+        node.next = temp.next;
     }
 }

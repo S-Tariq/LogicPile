@@ -3,7 +3,7 @@ package stariq.datastructures.singlylinkedlist;
 import stariq.datastructures.nodes.ListNode;
 
 // Find the specific node from the end of linkedlist.
-public class SpecificLastNode {
+public class FindNthNodeFromEnd {
 
     public static void main(String[] args) {
         ListNode list = new ListNode(1);
@@ -16,10 +16,10 @@ public class SpecificLastNode {
         list = list.next;
         list.next = new ListNode(9);
         ListNode.printList(head);
-        ListNode.printList(specificLastNode(head, 2));
+        ListNode.printList(nthLastNode(head, 2));
     }
 
-    public static ListNode specificLastNode(ListNode head, int lastPosition) {
+    public static ListNode nthLastNode(ListNode head, int lastPosition) {
         if(head == null) {
             return null;
         }

@@ -1,7 +1,6 @@
 package stariq.algorithms.array;
 
 // Rotation from left to right
-
 public class RotationInSortedArray {
 
     public static void main(String[] args) {
