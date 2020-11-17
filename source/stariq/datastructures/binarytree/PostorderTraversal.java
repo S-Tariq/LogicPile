@@ -7,6 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
+// https://leetcode.com/problems/binary-tree-postorder-traversal/
 // left -> right -> root
 // Postorder traversal of binary tree
 // Goes to left node, then goes to right node, then goes to root node.
@@ -54,6 +55,31 @@ public class PostorderTraversal {
             }
         }
         return list;
+    }
+
+    public static void postorderRecursive(TreeNode root) {
+        if(root == null) {
+            return;
+        }
+        postorderRecursive(root.left);
+        postorderRecursive(root.right);
+        System.out.print(root.val + " ");
+    }
+
+    // Storing result in a list using recursion.
+    public List<Integer> postorderTraversal(TreeNode root) {
+        LinkedList<Integer> list = new LinkedList<>();
+        postorder(root, list);
+        return list;
+    }
+
+    public void postorder(TreeNode root, List<Integer> list) {
+        if(root == null) {
+            return;
+        }
+        postorder(root.left, list);
+        postorder(root.right, list);
+        list.add(root.val);
     }
 
     // Works but very long
@@ -125,15 +151,4 @@ public class PostorderTraversal {
 
         return list;
     }
-
-    public static void postorderRecursive(TreeNode root) {
-        if(root == null) {
-            return;
-        }
-        postorderRecursive(root.left);
-        postorderRecursive(root.right);
-        System.out.print(root.val + " ");
-    }
-
-
 }

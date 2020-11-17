@@ -66,46 +66,6 @@ public class ZigzagLevelOrderTraversal {
         return twoDList;
     }
 
-    public static List<Integer> zigzagLevelOrderUsingDeque(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        Deque<TreeNode> currentQueue = new LinkedList<>();
-        Deque<TreeNode> nextQueue = new LinkedList<>();
-
-        if(root == null) {
-            return list;
-        }
-
-        currentQueue.add(root);
-        boolean changeDirection = false;
-
-        while(!currentQueue.isEmpty()) {
-            TreeNode current = currentQueue.poll();
-            list.add(current.val);
-            if(changeDirection) {
-                if(current.right != null) {
-                    nextQueue.addFirst(current.right);
-                }
-                if(current.left != null) {
-                    nextQueue.addFirst(current.left);
-                }
-            } else {
-                if(current.left != null) {
-                    nextQueue.addFirst(current.left);
-                }
-                if(current.right != null) {
-                    nextQueue.addFirst(current.right);
-                }
-            }
-            if(currentQueue.isEmpty()) {
-                changeDirection = !changeDirection;
-                Deque<TreeNode> temp = currentQueue;
-                currentQueue = nextQueue;
-                nextQueue = temp;
-            }
-        }
-        return list;
-    }
-
     public static List<Integer> zigzagLevelOrderUsingStack(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> currentStack = new Stack<>();
@@ -145,6 +105,46 @@ public class ZigzagLevelOrderTraversal {
                 Stack<TreeNode> temp = currentStack;
                 currentStack = nextStack;
                 nextStack = temp;
+            }
+        }
+        return list;
+    }
+
+    public static List<Integer> zigzagLevelOrderUsingDeque(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        Deque<TreeNode> currentQueue = new LinkedList<>();
+        Deque<TreeNode> nextQueue = new LinkedList<>();
+
+        if(root == null) {
+            return list;
+        }
+
+        currentQueue.add(root);
+        boolean changeDirection = false;
+
+        while(!currentQueue.isEmpty()) {
+            TreeNode current = currentQueue.poll();
+            list.add(current.val);
+            if(changeDirection) {
+                if(current.right != null) {
+                    nextQueue.addFirst(current.right);
+                }
+                if(current.left != null) {
+                    nextQueue.addFirst(current.left);
+                }
+            } else {
+                if(current.left != null) {
+                    nextQueue.addFirst(current.left);
+                }
+                if(current.right != null) {
+                    nextQueue.addFirst(current.right);
+                }
+            }
+            if(currentQueue.isEmpty()) {
+                changeDirection = !changeDirection;
+                Deque<TreeNode> temp = currentQueue;
+                currentQueue = nextQueue;
+                nextQueue = temp;
             }
         }
         return list;

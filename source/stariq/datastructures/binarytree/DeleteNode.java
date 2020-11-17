@@ -2,6 +2,8 @@ package stariq.datastructures.binarytree;
 
 import stariq.datastructures.nodes.TreeNode;
 
+// https://leetcode.com/problems/delete-node-in-a-bst/
+// If the node to be deleted has two kids: either do maximum left or minimum right.
 public class DeleteNode {
 
     public static void main(String[] args) {

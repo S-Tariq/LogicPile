@@ -2,6 +2,7 @@ package stariq.datastructures.binarytree;
 
 import stariq.datastructures.nodes.TreeNode;
 
+// https://leetcode.com/problems/insert-into-a-binary-search-tree/
 // Insert node in binary tree.
 public class InsertNode {
 
@@ -27,20 +28,23 @@ public class InsertNode {
         }
         TreeNode current = root;
         while(true) {
-            if(current.val <= val) {
+            if(current.val < val) {
                 if(current.right != null) {
                     current = current.right;
                 } else {
                     current.right = new TreeNode(val);
                     break;
                 }
-            } else {
+            } else if (current.val > val){
                 if(current.left != null) {
                     current = current.left;
                 } else {
                     current.left = new TreeNode(val);
                     break;
                 }
+            } else {
+                // No duplicates allowed.
+                break;
             }
         }
         return root;

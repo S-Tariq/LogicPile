@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+// https://leetcode.com/problems/binary-tree-inorder-traversal/
 // left -> root -> right
 // Inorder traversal of binary tree - smallest to largest value.
 // Goes to left node, then goes root node, then goes to right node.
@@ -59,5 +60,21 @@ public class InorderTraversal {
         inorderRecursive(root.left);
         System.out.print(root.val + " ");
         inorderRecursive(root.right);
+    }
+
+    // Storing result in a list using recursion.
+    public static List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        inorder(root, list);
+        return list;
+    }
+
+    public static void inorder(TreeNode root, List<Integer> list) {
+        if(root == null) {
+            return;
+        }
+        inorder(root.left, list);
+        list.add(root.val);
+        inorder(root.right, list);
     }
 }

@@ -2,7 +2,8 @@ package stariq.datastructures.binarytree;
 
 import stariq.datastructures.nodes.TreeNode;
 
-public class FindNode {
+// https://leetcode.com/problems/search-in-a-binary-search-tree/
+public class SearchNode {
 
     public static void main(String[] args) {
         TreeNode bst = new TreeNode(5);
@@ -14,12 +15,12 @@ public class FindNode {
         bst.right.left = new TreeNode(7);
         bst.right.right = new TreeNode(9);
 
-        TreeNode.print(findNodeIterative(root, 3));
+        TreeNode.print(searchNodeIterative(root, 3));
 
-        TreeNode.print(findNodeRecursive(root, 4));
+        TreeNode.print(searchNodeRecursive(root, 4));
     }
 
-    public static TreeNode findNodeIterative(TreeNode root, int val) {
+    public static TreeNode searchNodeIterative(TreeNode root, int val) {
         if(root == null) {
             return null;
         }
@@ -36,16 +37,16 @@ public class FindNode {
         return null;
     }
 
-    public static TreeNode findNodeRecursive(TreeNode root, int val) {
+    public static TreeNode searchNodeRecursive(TreeNode root, int val) {
         if(root == null) {
             return null;
         }
         if(root.val == val) {
             return root;
         } else if (root.val > val) {
-            return findNodeRecursive(root.left, val);
+            return searchNodeRecursive(root.left, val);
         } else {
-            return findNodeRecursive(root.right, val);
+            return searchNodeRecursive(root.right, val);
         }
     }
 }

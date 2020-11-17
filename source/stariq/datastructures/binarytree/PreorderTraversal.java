@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+// https://leetcode.com/problems/binary-tree-preorder-traversal/
 // root -> left -> right
 // Preorder traversal of binary tree
 // Goes to root node, then goes to left node, then goes to right node.
@@ -61,4 +62,19 @@ public class PreorderTraversal {
         preorderRecursive(root.right);
     }
 
+    // Storing result in a list using recursion.
+    public static List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        preorder(root, list);
+        return list;
+    }
+
+    public static void preorder(TreeNode root, List<Integer> list) {
+        if(root == null) {
+            return;
+        }
+        list.add(root.val);
+        preorder(root.left, list);
+        preorder(root.right, list);
+    }
 }
