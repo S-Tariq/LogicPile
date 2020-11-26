@@ -7,7 +7,7 @@ public class BinaryInsertionSort {
 
     public static void main(String[] args) {
         int[] arr = new int[] {3,7,6,1,9,7,5,4,2,1,0};
-        // sorted = {0,1,1,2,3,4,5,6,7,7,9}
+        arr = new int[] {45, 62, 55, 14, 87, 21, 78, 39};
         binarySort(arr);
         for(int i : arr) {
             System.out.print(i + " ");

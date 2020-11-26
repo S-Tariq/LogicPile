@@ -14,7 +14,7 @@ public class SizeSort {
         System.out.println();
 
         String[] arr = new String[] {"your", "fry", "hello", "yes", "to", "cry", "dry", "so"};
-        mergeSizeSort(arr, arr.length);
+        mergeSizeSort(arr);
         for(String s : arr) {
             System.out.print(s + " ");
         }
@@ -39,13 +39,13 @@ public class SizeSort {
         }
     }
 
-    public static void mergeSizeSort(String[] arr, int length) {
-        if(length < 2) {
+    public static void mergeSizeSort(String[] arr) {
+        if(arr.length < 2) {
             return;
         }
-        int mid = length/2;
+        int mid = arr.length/2;
         String[] left = new String[mid];
-        String[] right = new String[length-mid];
+        String[] right = new String[arr.length-mid];
         for(int i = 0; i < arr.length; i++) {
             if(i < mid) {
                 left[i] = arr[i];
@@ -53,16 +53,16 @@ public class SizeSort {
                 right[i - mid] = arr[i];
             }
         }
-        mergeSizeSort(left, mid);
-        mergeSizeSort(right, length - mid);
-        merge(arr, left, right, mid, length - mid);
+        mergeSizeSort(left);
+        mergeSizeSort(right);
+        merge(arr, left, right);
     }
 
-    public static void merge(String[] arr, String left[], String right[], int l, int r) {
+    public static void merge(String[] arr, String left[], String right[]) {
         int i = 0;
         int j = 0;
         int k = 0;
-        while(i < l && j < r) {
+        while(i < left.length && j < right.length) {
             if(left[i].length() < right[j].length()) {
                 arr[k++] = left[i++];
             } else if (right[j].length() < left[i].length()){
@@ -75,10 +75,10 @@ public class SizeSort {
                 }
             }
         }
-        while(i < l) {
+        while(i < left.length) {
             arr[k++] = left[i++];
         }
-        while(j < r) {
+        while(j < right.length) {
             arr[k++] = right[j++];
         }
     }
