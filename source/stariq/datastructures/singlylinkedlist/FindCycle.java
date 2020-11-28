@@ -21,7 +21,6 @@ public class FindCycle {
         list.next = head.next;
         System.out.println(foundCycle(head));
         // Do not print the list as there is a loop which runs out java memory.
-
         ListNode.printList(cycleNode(head));
     }
 

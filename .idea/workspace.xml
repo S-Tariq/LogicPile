@@ -21,17 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/NumberOfIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/others/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/others/SquareRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/BinaryInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/BinaryInsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/FrequencySortCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/FrequencySortCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/FrequencySortMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/FrequencySortMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/SizeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/SizeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/older/Rough.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/older/Rough.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/FirstRepeatedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/FirstRepeatedCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/IsomorphicStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/ReverseWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/FindCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/FindCycle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,21 +83,7 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\stariq\designs\hotelmanagement" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FrequencySortMap">
-    <configuration name="BinaryInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.sort.BinaryInsertionSort" />
-      <module name="LogicPile" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.algorithms.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReverseWords">
     <configuration name="FrequencySortMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.sort.FrequencySortMap" />
       <module name="LogicPile" />
@@ -133,6 +112,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.IsomorphicStrings" />
+      <module name="LogicPile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.sort.QuickSort" />
       <module name="LogicPile" />
@@ -147,13 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SizeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.sort.SizeSort" />
+    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.ReverseWords" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.sort.*" />
+          <option name="PATTERN" value="stariq.algorithms.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,19 +177,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryInsertionSort" />
-      <item itemvalue="Application.FrequencySortMap" />
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.SizeSort" />
+      <item itemvalue="Application.FrequencySortMap" />
+      <item itemvalue="Application.IsomorphicStrings" />
+      <item itemvalue="Application.ReverseWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseWords" />
+        <item itemvalue="Application.IsomorphicStrings" />
         <item itemvalue="Application.FrequencySortMap" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SizeSort" />
-        <item itemvalue="Application.BinaryInsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -259,50 +252,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="868" y="273" key="#xdebugger.XInspectDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603560330482" />
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1606355701670">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="206" key="GridCell.Tab.0.bottom" timestamp="1606589597815">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701670" />
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606262715726" />
-    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1606355701670">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606589597815" />
+    <state width="1877" height="206" key="GridCell.Tab.0.center" timestamp="1606589597815">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701670" />
-    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606262715726" />
-    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1606355701670">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="206" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606589597815" />
+    <state width="1877" height="206" key="GridCell.Tab.0.left" timestamp="1606589597815">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701670" />
-    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606262715726" />
-    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1606355701670">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="206" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606589597815" />
+    <state width="1877" height="206" key="GridCell.Tab.0.right" timestamp="1606589597815">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
     <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701670" />
-    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606262715726" />
-    <state width="1877" height="307" key="GridCell.Tab.1.bottom" timestamp="1606355701671">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="206" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606589597815" />
+    <state width="1877" height="307" key="GridCell.Tab.1.bottom" timestamp="1606577574518">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701671" />
-    <state width="1877" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606262715726" />
-    <state width="1877" height="307" key="GridCell.Tab.1.center" timestamp="1606355701670">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606577574518" />
+    <state width="1877" height="307" key="GridCell.Tab.1.center" timestamp="1606577574518">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="307" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701670" />
-    <state width="1877" height="307" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606262715726" />
-    <state width="1877" height="307" key="GridCell.Tab.1.left" timestamp="1606355701670">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="307" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606577574518" />
+    <state width="1877" height="307" key="GridCell.Tab.1.left" timestamp="1606577574518">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="307" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701670" />
-    <state width="1877" height="307" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606262715726" />
-    <state width="1877" height="307" key="GridCell.Tab.1.right" timestamp="1606355701671">
-      <screen x="-1920" y="-1" width="1920" height="1040" />
+    <state width="1877" height="307" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606577574518" />
+    <state width="1877" height="307" key="GridCell.Tab.1.right" timestamp="1606577574518">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="307" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701671" />
-    <state width="1877" height="307" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606262715726" />
+    <state width="1877" height="307" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606577574518" />
     <state x="-1480" y="93" key="SettingsEditor" timestamp="1606009391635">
       <screen x="-1920" y="-1" width="1920" height="1040" />
     </state>

@@ -47,9 +47,9 @@ public class FirstRepeatedCharacter {
         int[] array = new int[26];
         char c = str.charAt(0);
         for(int i = 1; i < str.length(); i++) {
-            // Can use 'a' instead of 97
-            array[c - 97] += 1;
-            if(array[c - 97] > 1) {
+            // Can use 'a' or 97
+            array[c - 'a'] += 1;
+            if(array[c - 'a'] > 1) {
                 break;
             }
             c = str.charAt(i);
