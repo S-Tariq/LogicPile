@@ -1,7 +1,7 @@
 package stariq.algorithms.string;
 
 // https://leetcode.com/problems/valid-anagram/
-// Check if two strings are an anagram (a word formed by rearranging a second word)
+// Check if two strings are an anagram (a word formed by rearranging another word)
 public class ValidAnagram {
     public static void main(String[] args) {
         System.out.println(isAnagram("rat", "car"));
@@ -36,7 +36,8 @@ public class ValidAnagram {
             tArray[t.charAt(i) - 'a']++;
         }
         for(int i = 0; i < s.length(); i++) {
-            if(sArray[s.charAt(i) - 'a'] != tArray[s.charAt(i) - 'a']) {
+            char c = s.charAt(i);
+            if(sArray[c - 'a'] != tArray[c - 'a']) {
                 return false;
             }
         }

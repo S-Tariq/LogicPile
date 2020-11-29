@@ -1,5 +1,6 @@
 package stariq.algorithms.string;
 
+// https://leetcode.com/problems/string-compression/
 // Compress to count the occurrence of each character.
 // First method compresses string. Appends string to show character with frequency.
 // aaabbbbcc -> a3b4c2
@@ -29,6 +30,20 @@ public class StringCompression {
     }
 
     public static String compressToString(String str) {
+        StringBuilder compressed = new StringBuilder();
+        int count = 0;
+        for(int i = 0; i < str.length(); i++) {
+            count++;
+            if(i + 1 == str.length() || str.charAt(i) != str.charAt(i + 1)) {
+                compressed.append(str.charAt(i));
+                compressed.append(count);
+                count = 0;
+            }
+        }
+        return compressed.toString();
+    }
+
+    public static String compressToString2(String str) {
 
         StringBuilder compressed = new StringBuilder();
         int count = 1;
