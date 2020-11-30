@@ -21,9 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2edc0241-bb66-473e-bae0-1b7179e0846e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/StringCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/ValidAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/ValidPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/BuySellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/BuySellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/ClimbingStaircase.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/ClimbingStaircase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/FindMaxInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/FindMaxInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/FindMinInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/FindMinInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/DecodeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/DecodeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/CompressString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +85,23 @@
       <recent name="D:\Media\Projects\GitHub\LogicPile\source\stariq\designs\hotelmanagement" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringCompression">
-    <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.IsomorphicStrings" />
+  <component name="RunManager" selected="Application.FindMaxInRotatedSortedArray">
+    <configuration name="CoinChangeAmount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.CoinChangeAmount" />
+      <module name="LogicPile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompressString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.CompressString" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -97,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.ReverseWords" />
+    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.DecodeString" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -111,13 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.StringCompression" />
+    <configuration name="FindMaxInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.FindMaxInRotatedSortedArray" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.string.*" />
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,27 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.UniqueSubstrings" />
+    <configuration name="FindMinInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.FindMinInRotatedSortedArray" />
       <module name="LogicPile" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.ValidAnagram" />
-      <module name="LogicPile" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.algorithms.string.*" />
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IsomorphicStrings" />
-      <item itemvalue="Application.ReverseWords" />
-      <item itemvalue="Application.ValidAnagram" />
-      <item itemvalue="Application.UniqueSubstrings" />
-      <item itemvalue="Application.StringCompression" />
+      <item itemvalue="Application.DecodeString" />
+      <item itemvalue="Application.CompressString" />
+      <item itemvalue="Application.CoinChangeAmount" />
+      <item itemvalue="Application.FindMaxInRotatedSortedArray" />
+      <item itemvalue="Application.FindMinInRotatedSortedArray" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringCompression" />
-        <item itemvalue="Application.UniqueSubstrings" />
-        <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.ReverseWords" />
-        <item itemvalue="Application.IsomorphicStrings" />
+        <item itemvalue="Application.FindMaxInRotatedSortedArray" />
+        <item itemvalue="Application.FindMinInRotatedSortedArray" />
+        <item itemvalue="Application.CoinChangeAmount" />
+        <item itemvalue="Application.CompressString" />
+        <item itemvalue="Application.DecodeString" />
       </list>
     </recent_temporary>
   </component>
@@ -251,50 +254,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="868" y="273" key="#xdebugger.XInspectDialog/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1603560330482" />
-    <state width="1877" height="167" key="GridCell.Tab.0.bottom" timestamp="1606609953440">
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1606762731688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701670" />
-    <state width="1877" height="167" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606609953440" />
-    <state width="1877" height="167" key="GridCell.Tab.0.center" timestamp="1606609953440">
+    <state width="1877" height="16" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606703459269" />
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606762731688" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1606762731688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701670" />
-    <state width="1877" height="167" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606609953440" />
-    <state width="1877" height="167" key="GridCell.Tab.0.left" timestamp="1606609953440">
+    <state width="1877" height="16" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606703459269" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606762731688" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1606762731688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701670" />
-    <state width="1877" height="167" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606609953440" />
-    <state width="1877" height="167" key="GridCell.Tab.0.right" timestamp="1606609953440">
+    <state width="1877" height="16" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606703459269" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606762731688" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1606762731688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="95" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602198995339" />
-    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701670" />
-    <state width="1877" height="167" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606609953440" />
-    <state width="1877" height="307" key="GridCell.Tab.1.bottom" timestamp="1606577574518">
+    <state width="1877" height="16" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606703459269" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606762731688" />
+    <state width="1877" height="307" key="GridCell.Tab.1.bottom" timestamp="1606760173556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701671" />
-    <state width="1877" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606577574518" />
-    <state width="1877" height="307" key="GridCell.Tab.1.center" timestamp="1606577574518">
+    <state width="1877" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606703459263" />
+    <state width="1877" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606760173556" />
+    <state width="1877" height="307" key="GridCell.Tab.1.center" timestamp="1606760173556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701670" />
-    <state width="1877" height="307" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606577574518" />
-    <state width="1877" height="307" key="GridCell.Tab.1.left" timestamp="1606577574518">
+    <state width="1877" height="307" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606703459263" />
+    <state width="1877" height="307" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606760173556" />
+    <state width="1877" height="307" key="GridCell.Tab.1.left" timestamp="1606760173556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701670" />
-    <state width="1877" height="307" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606577574518" />
-    <state width="1877" height="307" key="GridCell.Tab.1.right" timestamp="1606577574518">
+    <state width="1877" height="307" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606703459263" />
+    <state width="1877" height="307" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606760173556" />
+    <state width="1877" height="307" key="GridCell.Tab.1.right" timestamp="1606760173556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606355701671" />
-    <state width="1877" height="307" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606577574518" />
+    <state width="1877" height="307" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@-1920.-1.1920.1040" timestamp="1606703459263" />
+    <state width="1877" height="307" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-1.1920.1040@0.0.1920.1040" timestamp="1606760173556" />
     <state x="-1480" y="93" key="SettingsEditor" timestamp="1606009391635">
       <screen x="-1920" y="-1" width="1920" height="1040" />
     </state>
@@ -332,5 +335,10 @@
         <watch expression="result.get(0)" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LogicPile$DecodeString.ic" NAME="DecodeString Coverage Results" MODIFIED="1606670739337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>stariq.algorithms.string.*</FILTER>
+    </SUITE>
   </component>
 </project>

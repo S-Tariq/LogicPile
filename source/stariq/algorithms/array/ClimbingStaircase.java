@@ -29,6 +29,7 @@ public class ClimbingStaircase {
         for(int i = 1; i <= n; i++) {
             int sum = 0;
             for(int s : steps) {
+                // Condition ensures that the calculated steps are within the range.
                 if(i - s >= 0) {
                     sum += climbWays[i - s];
                 }
