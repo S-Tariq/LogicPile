@@ -35,6 +35,7 @@ public class AllPaths {
 
         while(!queue.isEmpty()) {
             GraphNode current = queue.poll();
+            // Checks for target - if it meets the target (last node), add it to result.
             if(current.val == graph.length - 1) {
                 result.add(current.path);
                 continue;

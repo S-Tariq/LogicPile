@@ -179,9 +179,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KthLargestInBST" />
-      <item itemvalue="Application.FindMinInRotatedSortedArray" />
       <item itemvalue="Application.FindMaxInRotatedSortedArray" />
+      <item itemvalue="Application.FindMinInRotatedSortedArray" />
+      <item itemvalue="Application.KthLargestInBST" />
       <item itemvalue="Application.LevelOrderTraversal2" />
       <item itemvalue="Application.SumPairs" />
     </list>

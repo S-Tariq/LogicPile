@@ -5,7 +5,6 @@ import java.util.List;
 
 
 // Find all the permutations of a given string (all unique arrangements of characters in a string).
-// Check if the second string contains permutation of the first string.
 public class AllPermutations {
 
     public static void main(String[] args) {
@@ -42,6 +41,14 @@ public class AllPermutations {
         }
     }
 
+    private static String swap(String str, int i, int j) {
+        char[] chars = str.toCharArray();
+        char c = chars[i];
+        chars[i] = chars[j];
+        chars[j] = c;
+        return String.valueOf(chars);
+    }
+
     public static List<String> permutationList(String str) {
         int start = 0;
         int end = str.length() - 1;
@@ -59,14 +66,6 @@ public class AllPermutations {
                 permutation(swapped, start + 1, end);
             }
         }
-    }
-
-    private static String swap(String str, int i, int j) {
-        char[] chars = str.toCharArray();
-        char c = chars[i];
-        chars[i] = chars[j];
-        chars[j] = c;
-        return String.valueOf(chars);
     }
 
     // Ignore everything after this point.
