@@ -3,9 +3,10 @@ package stariq.algorithms.array;
 // https://leetcode.com/problems/search-in-rotated-sorted-array/
 public class SearchInRotatedSortedArray {
     public static void main(String[] args) {
-        int[] array = new int[]{4,5,6,7,0,1,2};
-        array = new int[]{1,3};
-        System.out.println(search(array, 3));
+        int[] array = new int[]{4,5,6,7,1,2,3};
+        System.out.println(search(array, 2));
+        array = new int[]{6,7,1,2,3,4,5};
+        System.out.println(search(array, 4));
     }
 
     public static int search(int[] nums, int target) {
@@ -23,7 +24,7 @@ public class SearchInRotatedSortedArray {
                 } else {
                     low = mid + 1;
                 }
-            } else {
+            } else { // if(nums[mid] <= nums[high])
                 if(target > nums[mid] && target <= nums[high]) {
                     low = mid + 1;
                 } else {
