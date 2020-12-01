@@ -49,11 +49,9 @@ public class MergeSort {
                 arr[k++] = right[j++];
             }
         }
-
         while(i < l) {
             arr[k++] = left[i++];
         }
-
         while(j < r) {
             arr[k++] = right[j++];
         }

@@ -56,12 +56,12 @@ public class ValidPalindrome {
 
     // Better implementation above as this only works for strings which contain alphabets and no spaces.
     public static boolean isPalindromeSimple(String str) {
-        String reverse = "";
+        StringBuilder reverse = new StringBuilder();
         for(int i = str.length() - 1; i >= 0; i--) {
-            reverse += str.charAt(i);
+            reverse.append(str.charAt(i));
         }
 
-        if(str.equalsIgnoreCase(reverse)) {
+        if(str.equalsIgnoreCase(reverse.toString())) {
             return true;
         }
         return false;

@@ -1,7 +1,5 @@
 package stariq.algorithms.string;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Stack;
 
 // https://leetcode.com/problems/decode-string/
@@ -9,30 +7,33 @@ public class DecodeString {
 
     public static void main(String[] args) {
         System.out.println(decode("3[a2[c]]"));
-     //   System.out.println(decode("100[leet]"));
+        // 3[acc]
+        // accaccacc
+        System.out.println(decode("12[leet]"));
     }
 
     public static String decode(String str) {
         Stack<Integer> repeats = new Stack<>();
         Stack<StringBuilder> characters = new Stack<>();
         characters.push(new StringBuilder());
-        int repeat = 0;
+        int count = 0;
         for(int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
             if(Character.isDigit(c)) {
-                repeat = repeat * 10 + (c - '0');
+                // Takes care of count greater than 1 digit.
+                count = count * 10 + (c - '0');
             } else if (c == '[') {
-                repeats.push(repeat);
-                repeat = 0;
+                repeats.push(count);
+                count = 0;
                 characters.push(new StringBuilder());
             } else if (c == ']') {
                 String sub = characters.pop().toString();
                 int num = repeats.pop();
-                StringBuilder sb = new StringBuilder();
+                StringBuilder temp = new StringBuilder();
                 for(int j = 0; j < num; j++) {
-                    sb.append(sub);
+                    temp.append(sub);
                 }
-                characters.push(characters.pop().append(sb.toString()));
+                characters.push(characters.pop().append(temp.toString()));
             } else {
                 characters.peek().append(c);
             }

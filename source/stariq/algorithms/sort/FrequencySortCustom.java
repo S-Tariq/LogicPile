@@ -19,6 +19,88 @@ public class FrequencySortCustom {
     }
 
     public static String frequencySort(String str) {
+        class CharFreq {
+            private char character;
+            private int frequency;
+
+            CharFreq(char character, int frequency) {
+                this.character = character;
+                this.frequency = frequency;
+            }
+
+            public char getCharacter() {
+                return this.character;
+            }
+
+            public int getFrequency() {
+                return this.frequency;
+            }
+
+            public void incrementFrequency() {
+                this.frequency++;
+            }
+
+            @Override
+            public boolean equals(Object obj) {
+                if(obj == null) {
+                    return false;
+                }
+
+                if(obj == this) {
+                    return true;
+                }
+
+                if(obj instanceof CharFreq) {
+                    CharFreq cf = (CharFreq) obj;
+                    return cf.character == character;
+                } else {
+                    return false;
+                }
+            }
+        }
+
+        if(str.length() == 0) {
+            return str;
+        }
+
+        List<CharFreq> list = new ArrayList<>();
+        for(char c : str.toCharArray()) {
+            CharFreq temp = new CharFreq(c, 1);
+            boolean present = false;
+            for(CharFreq cf : list) {
+                if(cf.equals(temp)) {
+                    cf.incrementFrequency();
+                    present = true;
+                }
+            }
+            if(!present) {
+                list.add(temp);
+            }
+        }
+        Collections.sort(list, new Comparator<CharFreq>() {
+            @Override
+            public int compare(CharFreq a, CharFreq b) {
+                int freqComp = Integer.compare(a.getFrequency(), b.getFrequency());
+                int charComp = Character.compare(a.getCharacter(), b.getCharacter());
+
+                if(freqComp == 0) {
+                    return charComp;
+                } else {
+                    return freqComp;
+                }
+            }
+        });
+
+        StringBuilder sb = new StringBuilder();
+        for(CharFreq cf : list) {
+            for(int i = 0; i < cf.getFrequency(); i++) {
+                sb.append(cf.getCharacter());
+            }
+        }
+        return sb.toString();
+    }
+
+    public static String frequencySort2(String str) {
 
         class CharFrequency {
             private char character;

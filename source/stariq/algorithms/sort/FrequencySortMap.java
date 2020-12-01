@@ -21,6 +21,7 @@ public class FrequencySortMap {
         System.out.println(charSort(charList));
     }
 
+    // Asc frequency order
     public static int[] intSort(int[] arr) {
 
         List<Integer> intList = new ArrayList<>();
@@ -59,6 +60,7 @@ public class FrequencySortMap {
         return arr;
     }
 
+    // Desc frequency order
     public static String charSort(String str) {
         List<Character> charList = new ArrayList<>();
         for(char c : str.toCharArray()) {
@@ -78,7 +80,7 @@ public class FrequencySortMap {
         Comparator<Character> comp = new Comparator<Character>() {
           @Override
           public int compare(Character c1, Character c2) {
-              int freqComp = charMap.get(c1).compareTo(charMap.get(c2));
+              int freqComp = charMap.get(c2).compareTo(charMap.get(c1));
               int charComp = c1.compareTo(c2);
               //int charComp = Character.compare(c1,c2);
 
@@ -91,12 +93,12 @@ public class FrequencySortMap {
 
         Collections.sort(charList, comp);
 
-        str = "";
+        StringBuilder sb = new StringBuilder();
         for(char c : charList) {
-            str += c;
+            sb.append(c);
         }
 
-        return str;
+        return sb.toString();
     }
 
 }

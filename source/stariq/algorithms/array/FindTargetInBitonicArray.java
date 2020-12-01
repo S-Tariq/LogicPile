@@ -6,7 +6,7 @@ public class FindTargetInBitonicArray {
     public static void main(String[] args) {
         int[] array = new int[] {1,2,3,4,5,3,1,0};
         System.out.println(foundTarget(array, 5));
-        System.out.println(foundTargetBS(array, 5));
+        System.out.println(foundTargetBS(array, 0));
     }
 
     // Linear approach
@@ -40,10 +40,15 @@ public class FindTargetInBitonicArray {
         while(low <= high) {
             int mid = (low + high)/2;
             if(array[mid] > array[mid-1] && array[mid] > array[mid+1]) {
+                // Found the peak (highest) value in array.
                 return mid;
             } else if (array[mid] > array[mid-1] && array[mid] < array[mid+1]) {
+                // Checks if we are in asc part of array.
+                // Moves the mid closer to right.
                 low = mid + 1;
             } else if (array[mid] < array[mid-1] && array[mid] > array[mid+1]) {
+                // Checks if we are in desc part of array.
+                // Moves the mid closer to left.
                 high = mid - 1;
             }
         }

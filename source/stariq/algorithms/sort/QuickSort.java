@@ -8,7 +8,7 @@ package stariq.algorithms.sort;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int[] arr = new int[] {3,7,6,1,9,7,5,4,2,1,0};
+        int[] arr = new int[] {3,7,6,1,9,7,5,2,0,4};
         // sorted = {0,1,1,2,3,4,5,6,7,7,9}
         sort(arr, 0, arr.length - 1);
         for(int i : arr) {
@@ -29,6 +29,8 @@ public class QuickSort {
     // First if statement deals with the left side of the pivot.
     // Second if statement deals with the right side of the pivot.
     // The -1 & +1 is there to ignore the pivot element which already gets sorted by the partition.
+    // The if statements ensure if there is only one element present on either side,
+    // then it does not need to be sorted.
 
     private static int partition(int[] arr, int start, int end) {
         int pivot = arr[end];
@@ -49,8 +51,6 @@ public class QuickSort {
     // The loop starts swapping all the elements less than the pivot by moving it to the left side.
     // The start index gets incremented until it reaches the point where the pivot should be.
     // After loop, the pivot element is moved to its correct position.
-
-
 }
 
 

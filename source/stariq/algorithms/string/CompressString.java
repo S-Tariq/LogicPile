@@ -1,23 +1,24 @@
 package stariq.algorithms.string;
 
+// https://leetcode.com/problems/string-compression/
 // Compress to count the occurrence of each character.
 // First method compresses string. Appends string to show character with frequency.
-// aaabbbbcc -> a3b4c2
+// aaabbbbcca -> a3b4c2a1
 // Second method compresses char array. Overwrites array to show character with frequency. Does not show frequency 1.
 // a,b,b,b,b,b,b,b,b,b,b,b,b,b,b,a,a -> a,b,1,4,a,2
-public class StringCompression {
+public class CompressString {
 
     public static void main(String[] args) {
-        String output = StringCompression.compressToString("aaabbbbcc");
+        String output = CompressString.compressToString("aaabbbbcc");
         System.out.println(output);
 
-        output = StringCompression.compressToString("hellooo");
+        output = CompressString.compressToString("hellooo");
         System.out.println(output);
 
-        output = StringCompression.compressToString("hi");
+        output = CompressString.compressToString("hi");
         System.out.println(output);
 
-        output = StringCompression.compressToString("aabc");
+        output = CompressString.compressToString("aabc");
         System.out.println(output);
 
         char[] array = new char[] {'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'a', 'a'};
@@ -29,11 +30,23 @@ public class StringCompression {
     }
 
     public static String compressToString(String str) {
+        StringBuilder compressed = new StringBuilder();
+        int count = 0;
+        for(int i = 0; i < str.length(); i++) {
+            count++;
+            if(i == str.length() - 1 || str.charAt(i) != str.charAt(i + 1)) {
+                compressed.append(str.charAt(i));
+                compressed.append(count);
+                count = 0;
+            }
+        }
+        return compressed.toString();
+    }
 
+    public static String compressToString2(String str) {
         StringBuilder compressed = new StringBuilder();
         int count = 1;
         char c = str.charAt(0);
-
         for(int i = 0; i < str.length() - 1; i++) {
             //char c = str.charAt(i);
             char c2 = str.charAt(i + 1);
@@ -46,14 +59,33 @@ public class StringCompression {
                 c = c2;
             }
         }
-
         compressed.append(c);
         compressed.append(count);
-
         return compressed.toString();
     }
 
-    public static int compressToArray(char[] chars) {
+    public static int compressToArray(char[] arr) {
+        // a,b,b,b,b,b,b,b,b,b,b,b,b,b,b,a,a -> a,b,1,4,a,2
+        // a,b,1,4,a,2,b,b,b,b,b,b,b,b,b,a,a
+        int count = 0;
+        int j = 0;
+        for(int i = 0; i < arr.length; i++) {
+            count++;
+            if(i == arr.length - 1 || arr[i] != arr[i + 1]) {
+                arr[j++] = arr[i];
+                if(count > 1) {
+                    char[] countArr = String.valueOf(count).toCharArray();
+                    for(char c : countArr) {
+                        arr[j++] = c;
+                    }
+                }
+                count = 0;
+            }
+        }
+        return j;
+    }
+
+    public static int compressToArray2(char[] chars) {
         int j = 0;
         int count = 1;
         char c = chars[0];

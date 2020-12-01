@@ -16,14 +16,11 @@ public class ReverseWords {
         String[] words = str.split(" ");
         StringBuilder reversed = new StringBuilder();
         for(int i = words.length - 1; i >= 0; i--) {
-            // This condition avoids space at the end of sentence.
-            if(i == 0) {
-                reversed.append(words[i]);
-            } else {
-                reversed.append(words[i]).append(" ");
-            }
+            reversed.append(words[i]).append(" ");
+
         }
-        System.out.println(reversed.toString());
+        // trim() ensures that there is no trailing space.
+        System.out.println(reversed.toString().trim());
     }
 
     public static String reverseWordsIgnoringSpace(String str) {

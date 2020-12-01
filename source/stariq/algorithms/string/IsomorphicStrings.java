@@ -42,6 +42,8 @@ public class IsomorphicStrings {
             if(sArr[c1] != tArr[c2]) {
                 return false;
             }
+            // Default value for array is 0.
+            // i + 1 ensures that for the first loop, the value is reassigned as 1.
             sArr[c1] = i + 1;
             tArr[c2] = i + 1;
         }
