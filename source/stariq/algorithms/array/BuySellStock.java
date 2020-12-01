@@ -22,14 +22,14 @@ public class BuySellStock {
     }
 
     public static int profit2(int[] arr) {
-        int max = 0;
+        int profit = 0;
         for(int i = 0; i < arr.length; i++) {
             for(int j = i + 1; j < arr.length; j++) {
                 if(arr[i] < arr[j]) {
-                    max = Math.max(arr[j] - arr[i], max);
+                    profit = Math.max(arr[j] - arr[i], profit);
                 }
             }
         }
-        return max;
+        return profit;
     }
 }

@@ -51,9 +51,9 @@ public class ClimbingStaircase {
             return 1;
         }
         int sum = 0;
-        for(int in : steps) {
-            if(n - in >= 0) {
-                sum += climbStairsRecursion(n - in, steps);
+        for(int s : steps) {
+            if(n - s >= 0) {
+                sum += climbStairsRecursion(n - s, steps);
             }
         }
         return sum;
