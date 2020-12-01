@@ -1,7 +1,6 @@
 package stariq.algorithms.string;
 
 // https://leetcode.com/problems/permutation-in-string/
-// Check if the second string contains permutation of the first string.
 public class CheckPermutation {
 
     public static void main(String[] args) {
