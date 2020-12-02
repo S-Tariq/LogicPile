@@ -9,9 +9,49 @@ public class MergeIntervals {
     public static void main(String[] args) {
         int[][] array = new int[][] {{1,3},{2,6},{8,10},{15,18}};
 
-        for(int[] i : mergeWithStack(array)) {
+        for(int[] i : merge(array)) {
             System.out.println(i[0] + "," + i[1]);
         }
+    }
+
+    public static int[][] merge(int[][] intervals) {
+        class Interval {
+            int start;
+            int end;
+            Interval(int start, int end) {
+                this.start = start;
+                this.end = end;
+            }
+        }
+
+        if(intervals.length == 0) {
+            return new int[0][0];
+        }
+
+        Arrays.sort(intervals, new Comparator<int[]>() {
+            public int compare(int[] a, int[] b) {
+                return Integer.compare(a[0], b[0]);
+            }
+        });
+
+        Stack<Interval> stack = new Stack<>();
+        for(int i = 0; i < intervals.length; i++) {
+            Interval interval = new Interval(intervals[i][0], intervals[i][1]);
+            if(!stack.isEmpty() && stack.peek().end >= interval.start) {
+                stack.peek().end = Math.max(stack.peek().end, interval.end);
+            } else {
+                stack.push(interval);
+            }
+        }
+
+        int[][] result = new int[stack.size()][2];
+        int i = 0;
+        for(Interval interval : stack) {
+            result[i][0] = interval.start;
+            result[i][1] = interval.end;
+            i++;
+        }
+        return result;
     }
 
     static class Range {

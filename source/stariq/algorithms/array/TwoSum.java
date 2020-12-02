@@ -14,6 +14,7 @@ public class TwoSum {
     // O(n)
     public static int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
+        // Number, Index
         HashMap<Integer, Integer> map = new HashMap<>();
         for(int i = 0; i < nums.length; i++) {
             if(map.containsKey(target - nums[i])) {

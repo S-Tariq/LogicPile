@@ -27,7 +27,7 @@ public class MeetingRooms {
             }
         });
         for(int i = 0; i < intervals.length - 1; i++) {
-            if(intervals[i][1] >= intervals[i + 1][0]) {
+            if(intervals[i][1] > intervals[i + 1][0]) {
                 return false;
             }
         }
@@ -51,12 +51,9 @@ public class MeetingRooms {
                 return Integer.compare(i1.start, i2.start);
             }
         });
-        Interval first = intervals[0];
-        for(int i = 1; i < intervals.length; i++) {
-            if(first.end >= intervals[i].start) {
+        for(int i = 0; i < intervals.length - 1; i++) {
+            if(intervals[i].end > intervals[i + 1].start) {
                 return false;
-            } else {
-                first = intervals[i];
             }
         }
         return true;

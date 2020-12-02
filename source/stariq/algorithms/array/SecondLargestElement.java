@@ -8,8 +8,8 @@ public class SecondLargestElement {
     }
 
     public static int secondLargest(int[] arr) {
-        int first = 0;
-        int second = 0;
+        int first = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE;
         for(int i : arr) {
             if(i > first) {
                 second = first;

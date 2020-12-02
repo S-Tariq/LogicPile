@@ -33,11 +33,10 @@ public class TopKFrequentElements {
             }
         });
 
-        int[] result = new int[list.subList(0,k).size()];
+        int[] result = new int[k];
         for(int i = 0; i < result.length; i++) {
             result[i] = list.get(i);
         }
         return result;
-
     }
 }
