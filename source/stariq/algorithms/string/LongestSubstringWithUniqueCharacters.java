@@ -14,18 +14,18 @@ public class LongestSubstringWithUniqueCharacters {
     public static int lengthOfLongestSubstring(String str) {
         // i is the slow pointer, j is the fast pointer.
         int max = 0;
-        int i = 0;
         int j = 0;
+        int i = 0;
         Set<Character> uniqueChars = new HashSet<>();
-        while(j < str.length()) {
-            char c = str.charAt(j);
+        while(i < str.length()) {
+            char c = str.charAt(i);
             if(uniqueChars.contains(c)) {
-                uniqueChars.remove(str.charAt(i));
-                i++;
+                uniqueChars.remove(str.charAt(j));
+                j++;
             } else {
                 uniqueChars.add(c);
                 max = Math.max(uniqueChars.size(), max);
-                j++;
+                i++;
             }
         }
         return max;

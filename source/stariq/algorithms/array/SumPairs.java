@@ -42,8 +42,8 @@ public class SumPairs {
         for(int i = 0; i < arr.length; i++) {
             if(elements.contains(sum - arr[i])) {
                 List<Integer> list = new ArrayList<>();
-                list.add(arr[i]);
                 list.add(sum - arr[i]);
+                list.add(arr[i]);
                 result.add(list);
             } else {
                 elements.add(arr[i]);

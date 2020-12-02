@@ -1,6 +1,7 @@
 package stariq.algorithms.array;
 
 // Rotation from left to right
+// Number of rotation in array (by 1 element counts as 1 rotation).
 public class RotationInSortedArray {
 
     public static void main(String[] args) {

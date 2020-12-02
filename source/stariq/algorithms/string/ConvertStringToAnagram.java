@@ -6,6 +6,7 @@ public class ConvertStringToAnagram {
     public static void main(String[] args) {
         System.out.println(convertToAnagram("abaf", "baat"));
         System.out.println(convertToAnagram2("abaf", "baat"));
+        System.out.println(convertToAnagram2("wabaf", "baatr"));
     }
 
     // Changes s to become an anagram of t.

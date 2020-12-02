@@ -9,6 +9,7 @@ public class RemoveUnbalancedBrackets {
     public static void main(String[] args) {
         System.out.println(removeUnbalanced("()())"));
         System.out.println(removeInvalidParentheses("(a)())()"));
+        System.out.println(removeInvalidParentheses("le(t(c)o)d)"));
     }
 
     // All the needed methods for iteration. (BFS)

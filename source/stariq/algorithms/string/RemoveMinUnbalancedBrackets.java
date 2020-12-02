@@ -11,6 +11,7 @@ public class RemoveMinUnbalancedBrackets {
 
     public static String minRemove(String str) {
         StringBuilder sb = new StringBuilder(str);
+        // Stack contains indices of open brackets.
         Stack<Integer> stack = new Stack<>();
         for(int i = 0; i < sb.length(); i++) {
             char c = sb.charAt(i);
