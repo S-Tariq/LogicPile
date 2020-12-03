@@ -40,19 +40,17 @@ public class ZigzagLevelOrderTraversal {
             return twoDList;
         }
         queue.add(root);
-        boolean changeDirection = true;
+        boolean changeDirection = false;
         while(!queue.isEmpty()) {
             int size = queue.size();
             LinkedList<Integer> list = new LinkedList<>();
             for(int i = 0; i < size; i++) {
                 TreeNode current = queue.poll();
-
                 if(changeDirection) {
-                    list.add(current.val);
-                } else {
                     list.addFirst(current.val);
+                } else {
+                    list.add(current.val);
                 }
-
                 if(current.left != null) {
                     queue.add(current.left);
                 }
@@ -70,18 +68,14 @@ public class ZigzagLevelOrderTraversal {
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> currentStack = new Stack<>();
         Stack<TreeNode> nextStack = new Stack<>();
-
-
         if(root == null) {
             return list;
         }
         currentStack.push(root);
         boolean changeDirection = true;
-
         while (!currentStack.isEmpty()) {
             TreeNode current = currentStack.pop();
             list.add(current.val);
-
             if (changeDirection) {
                 if (current.left != null) {
                     nextStack.push(current.left);
@@ -99,7 +93,6 @@ public class ZigzagLevelOrderTraversal {
                     nextStack.push(current.left);
                 }
             }
-
             if (currentStack.isEmpty()) {
                 changeDirection = !changeDirection;
                 Stack<TreeNode> temp = currentStack;

@@ -18,11 +18,11 @@ public class FindDiameter {
         bst.right = new TreeNode(8);
         bst.right.left = new TreeNode(7);
         bst.right.right = new TreeNode(9);
-        System.out.println(diameterOfBinaryTree(root));
+        System.out.println(diameterOfBT(root));
     }
 
     // Iterative
-    public int diameterOfBT(TreeNode root) {
+    public static int diameterOfBT(TreeNode root) {
         Map<TreeNode, Integer> map = new HashMap<>();
         Stack<TreeNode> stack = new Stack<>();
         int diameter = 0;

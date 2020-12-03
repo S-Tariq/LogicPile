@@ -4,6 +4,7 @@ import stariq.datastructures.nodes.TreeNode;
 import java.util.Stack;
 
 // https://leetcode.com/problems/path-sum/
+// Root to leaf path sum.
 public class PathSum {
 
     public static void main(String[] args) {

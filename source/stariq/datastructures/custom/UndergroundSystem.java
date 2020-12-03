@@ -82,6 +82,7 @@ public class UndergroundSystem {
         Location location = idToLocation.get(id);
         idToLocation.remove(id);
 
+        // Takes in the checkin and checkout station.
         Route route = new Route(location.station, stationName);
         if(!routeToAverage.containsKey(route)) {
             routeToAverage.put(route, new Average());

@@ -27,7 +27,7 @@ public class InsertNode {
             return new TreeNode(val);
         }
         TreeNode current = root;
-        while(true) {
+        while(current != null) {
             if(current.val < val) {
                 if(current.right != null) {
                     current = current.right;

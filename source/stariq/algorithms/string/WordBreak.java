@@ -16,9 +16,11 @@ public class WordBreak {
     // DP solution with memoization.
     public static boolean wordBreak(String str, List<String> wordDict) {
         Set<String> setDict = new HashSet<>();
+        // Put all words in set because of fast look-up time.
         for(String word : wordDict) {
             setDict.add(word);
         }
+        // Map is used for memoization.
         Map<String, Boolean> memo = new HashMap<>();
         return DFS(str, setDict, memo);
     }
@@ -27,10 +29,13 @@ public class WordBreak {
         if(str.equals("")) {
             return true;
         }
+        // If the map already contains the substring, we dont need to do dfs again.
         if(memo.containsKey(str)) {
             return memo.get(str);
         }
         for(int i = 1; i <= str.length(); i++) {
+            // If dictionary contains sub-word and
+            // the rest of the substring in DFS is true: return true;
             boolean dfs = DFS(str.substring(i), dict, memo);
             if(dict.contains(str.substring(0, i)) && dfs) {
                 memo.put(str.substring(i), true);

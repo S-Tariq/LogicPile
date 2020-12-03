@@ -43,7 +43,6 @@ public class AllPaths {
                 GraphNode newNode = new GraphNode(i);
                 if(graph[current.val].length > 1) {
                     newNode.path = new LinkedList<>(current.path);
-
                 } else {
                     newNode.path = current.path;
                 }

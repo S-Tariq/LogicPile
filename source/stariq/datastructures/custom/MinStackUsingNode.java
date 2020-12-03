@@ -20,6 +20,7 @@ public class MinStackUsingNode {
 
     }
 
+    // New values are added at the head.
     public void push(int val) {
         if(head == null) {
             head = new Node(val, val);

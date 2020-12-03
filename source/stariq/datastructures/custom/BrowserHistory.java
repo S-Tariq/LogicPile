@@ -30,6 +30,7 @@ public class BrowserHistory {
     }
 
     public void visit(String url) {
+        // If the current index is not the last index.
         if(currentIndex + 1 != browserList.size()) {
             // Reassigns the browserList as a new shorter list until current index.
             //browserList = browserList.subList(0, currentIndex + 1);

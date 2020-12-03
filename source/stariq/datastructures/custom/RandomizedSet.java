@@ -25,6 +25,7 @@ public class RandomizedSet {
     }
 
     public boolean insert(int val) {
+        // Cannot have duplicates as it is a set.
         if(valToIndex.containsKey(val)) {
             return false;
         }
@@ -39,10 +40,12 @@ public class RandomizedSet {
         }
         int index = valToIndex.get(val);
         if(index < values.size() - 1) {
+            // Set the last value to be at the index that needs to be removed.
             int last = values.get(values.size() - 1);
             values.set(index, last);
             valToIndex.put(last, index);
         }
+        // Remove the last element. This allows for O(1) removal.
         values.remove(values.size() - 1);
         valToIndex.remove(val);
         return true;

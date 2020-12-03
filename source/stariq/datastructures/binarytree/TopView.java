@@ -22,23 +22,37 @@ public class TopView {
     }
 
     public static void topView(TreeNode root) {
-        TreeMap<Integer, Integer> treeMap = new TreeMap<>();
-        Queue<QueueNode> queue = new LinkedList<>();
+        class PosNode {
+            TreeNode node;
+            int position;
 
-        queue.add(new QueueNode(root, 0));
+            PosNode(TreeNode node, int position) {
+                this.node = node;
+                this.position = position;
+            }
+        }
+
+        if(root == null) {
+            return;
+        }
+
+        TreeMap<Integer, Integer> treeMap = new TreeMap<>();
+        Queue<PosNode> queue = new LinkedList<>();
+
+        queue.add(new PosNode(root, 0));
 
         while(!queue.isEmpty()) {
-            QueueNode temp = queue.poll();
-            if(!treeMap.containsKey(temp.position)) {
-                treeMap.put(temp.position, temp.node.val);
+            PosNode current = queue.poll();
+            if(!treeMap.containsKey(current.position)) {
+                treeMap.put(current.position, current.node.val);
             }
-            if(temp.node.left != null) {
-                 int pos = temp.position - 1;
-                 queue.add(new QueueNode(temp.node.left, pos));
+            if(current.node.left != null) {
+                 int pos = current.position - 1;
+                 queue.add(new PosNode(current.node.left, pos));
             }
-            if(temp.node.right != null) {
-                int pos = temp.position + 1;
-                queue.add(new QueueNode(temp.node.right, pos));
+            if(current.node.right != null) {
+                int pos = current.position + 1;
+                queue.add(new PosNode(current.node.right, pos));
             }
         }
 
@@ -47,16 +61,5 @@ public class TopView {
         }
 
     }
-
-    static class QueueNode {
-        TreeNode node;
-        int position;
-
-        QueueNode(TreeNode node, int position) {
-            this.node = node;
-            this.position = position;
-        }
-    }
-
 
 }

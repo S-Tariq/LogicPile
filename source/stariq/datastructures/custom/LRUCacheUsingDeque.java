@@ -5,7 +5,11 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 
-class LRUCache2 {
+// https://leetcode.com/problems/lru-cache/
+// LRU (Least Recently Used) Cache
+// We use a map for constant time insertion/deletion,
+// and a deque to maintain order by most recently used.
+class LRUCacheUsingDeque {
 
     class Node {
         int key;
@@ -16,7 +20,7 @@ class LRUCache2 {
     private Map<Integer, Node> nodeMap;
     private int cacheCapacity;
 
-    public LRUCache2(int capacity) {
+    public LRUCacheUsingDeque(int capacity) {
         nodeMap = new HashMap<>(capacity);
         deq = new LinkedList<>();
         cacheCapacity = capacity;
