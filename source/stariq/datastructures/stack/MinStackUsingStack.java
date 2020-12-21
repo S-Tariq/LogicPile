@@ -1,4 +1,4 @@
-package stariq.datastructures.custom;
+package stariq.datastructures.stack;
 
 import java.util.Stack;
 

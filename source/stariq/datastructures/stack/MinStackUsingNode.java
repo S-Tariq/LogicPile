@@ -1,4 +1,4 @@
-package stariq.datastructures.custom;
+package stariq.datastructures.stack;
 
 // https://leetcode.com/problems/min-stack/
 public class MinStackUsingNode {
