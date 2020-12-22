@@ -59,11 +59,11 @@ public class GenericsQueueUsingArray<E> {
     }
 
     public boolean isEmpty() {
-        return size() == 0;
+        return size == 0;
     }
 
     public boolean isFull() {
-        return size() == capacity;
+        return size == capacity;
     }
 
     public int size() {
