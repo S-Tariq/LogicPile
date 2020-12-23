@@ -1,5 +1,6 @@
 package stariq.datastructures.queue;
 
+// https://ide.geeksforgeeks.org/A6MIHq
 public class DequeUsingArray {
 
     public static void main(String[] args) {
@@ -7,8 +8,16 @@ public class DequeUsingArray {
         queue.addFirst(3);
         queue.addFirst(2);
         queue.addLast(4);
+        queue.addLast(6);
+        queue.addFirst(1);
 
-        //queue.removeFirst();
+        queue.print();
+
+        System.out.println();
+        System.out.println(queue.removeFirst());
+        System.out.println(queue.removeFirst());
+        System.out.println(queue.removeLast());
+        System.out.println(queue.removeFirst());
 
         System.out.println("Front element: " + queue.peekFirst());
         System.out.println("Back element: " + queue.peekLast());
@@ -25,7 +34,7 @@ public class DequeUsingArray {
     DequeUsingArray(int size) {
         array = new int[size];
         capacity = size;
-        front = -1;
+        front = 0;
         back = 0;
     }
 
@@ -34,14 +43,12 @@ public class DequeUsingArray {
             System.out.println("Deque has reached capacity");
             return;
         }
-        if(front == -1) {
-            front = 0;
-        } else if(front == 0) {
-            front = size - 1;
-        } else {
-            front = front - 1;
+        int temp = back - 1;
+        while(temp < 0) {
+            temp += capacity;
         }
-        array[front] = element;
+        back = temp % capacity;
+        array[back] = element;
         size++;
     }
 
@@ -50,61 +57,45 @@ public class DequeUsingArray {
             System.out.println("Deque has reached capacity");
             return;
         }
-        if(front == -1) {
-            front = 0;
-        } else if (back == size - 1) {
-            back = 0;
-        } else {
-            back = back + 1;
-        }
-        array[back] = element;
+        array[front] = element;
+        front = (front + 1) % capacity;
         size++;
     }
 
-    public void removeFirst() {
+    public int removeFirst() {
         if(isEmpty()) {
-            System.out.println("Deque is empty");
-            return;
+            throw new IndexOutOfBoundsException();
         }
-        if(front == back) {
-            front = -1;
-            back = -1;
-        } else if(front == size - 1) {
-            front = 0;
-        } else {
-            front = front + 1;
-        }
+        int temp = back;
+        back = (back + 1) % capacity;
         size--;
+        return array[temp];
     }
 
-    public void removeLast() {
+    public int removeLast() {
         if(isEmpty()) {
-            System.out.println("Deque is empty");
-            return;
+            throw new IndexOutOfBoundsException();
         }
-        if(front == back) {
-            front = -1;
-            back = -1;
-        } else if(back == 0) {
-            back = size - 1;
-        } else {
-            back = back - 1;
-        }
+        front = (front - 1) % capacity;
         size--;
+        return array[front];
     }
 
     public int peekFirst() {
         if(isEmpty()) {
             throw new IndexOutOfBoundsException();
         }
-        return array[front];
+        return array[back];
     }
 
+    // Does not work if you removeLast() and there is only one element left.
+    // Works fine if you removeFirst() and there is only one element left.
     public int peekLast() {
         if(isEmpty()) {
             throw new IndexOutOfBoundsException();
         }
-        return array[back];
+        int temp = (front - 1) % capacity;
+        return array[temp];
     }
 
     public boolean isEmpty() {
@@ -120,8 +111,8 @@ public class DequeUsingArray {
     }
 
     public void print() {
-        for(int i = front; i <= back; i++) {
-            System.out.print(array[i] + " ");
+        for(int i = back; i != front; i = (i+1) % capacity) {
+            System.out.print(array[i]+" ");
         }
     }
 }
