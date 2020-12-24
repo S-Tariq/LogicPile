@@ -1,10 +1,10 @@
 package stariq.datastructures.queue;
 
 // https://www.youtube.com/watch?v=mcMXy4EH0MQ
-public class GenericsPriorityQueueUsingArray<E> {
+public class PriorityQueueUsingGenericsArray<E> {
 
     public static void main(String[] args) {
-        GenericsPriorityQueueUsingArray<Integer> queue = new GenericsPriorityQueueUsingArray<>(10);
+        PriorityQueueUsingGenericsArray<Integer> queue = new PriorityQueueUsingGenericsArray<>(10);
         queue.offer(3);
         queue.offer(2);
         queue.offer(4);
@@ -24,7 +24,7 @@ public class GenericsPriorityQueueUsingArray<E> {
     int size;
 
     @SuppressWarnings({"unchecked"})
-    GenericsPriorityQueueUsingArray(int size) {
+    PriorityQueueUsingGenericsArray(int size) {
         array = (E[]) new Object[size];
         capacity = size;
     }

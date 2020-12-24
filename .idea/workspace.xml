@@ -20,14 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da6ee3dc-7227-488c-bba5-e5d10950881f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/stariq/datastructures/queue/DequeUsingNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/queue/GenericsQueueUsingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/queue/GenericsQueueUsingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/arraylist/GenericsArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/arraylist/GenericsArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/queue/DequeUsingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/queue/DequeUsingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/queue/QueueUsingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/queue/QueueUsingNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/older/Rough.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/older/Rough.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1m3w0YcNDGZ1Mj250yP9zMwFlzT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,9 +55,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.GenericsPriorityQueueUsingArray">
-    <configuration name="GenericsPriorityQueueUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.queue.GenericsPriorityQueueUsingArray" />
+  <component name="RunManager" selected="Application.DequeUsingArray">
+    <configuration name="DequeUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.queue.DequeUsingArray" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
@@ -52,12 +69,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueUsingNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.queue.PriorityQueueUsingNode" />
+    <configuration name="DequeUsingNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.queue.DequeUsingNode" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stariq.datastructures.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueUsingGenericsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.queue.QueueUsingGenericsArray" />
+      <module name="LogicPile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.datastructures.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueUsingTwoStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.queue.QueueUsingTwoStacks" />
+      <module name="LogicPile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.datastructures.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackUsingTwoQueues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.stack.StackUsingTwoQueues" />
+      <module name="LogicPile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.datastructures.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,8 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericsPriorityQueueUsingArray" />
-        <item itemvalue="Application.GenericsPriorityQueueUsingNode" />
+        <item itemvalue="Application.DequeUsingArray" />
+        <item itemvalue="Application.DequeUsingNode" />
+        <item itemvalue="Application.QueueUsingGenericsArray" />
+        <item itemvalue="Application.QueueUsingTwoStacks" />
+        <item itemvalue="Application.StackUsingTwoQueues" />
       </list>
     </recent_temporary>
   </component>
@@ -93,23 +152,40 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1608660786637">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1608769403911">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608660786637" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1608660786637">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608769403911" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1608769403911">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608660786637" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1608660786637">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608769403911" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1608769403911">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608660786637" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1608660786637">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608769403911" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1608769403911">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608660786637" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608769403911" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1608694057448">
+      <screen x="1920" y="5" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608694057448" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1608694057448">
+      <screen x="1920" y="5" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608694057448" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1608694057448">
+      <screen x="1920" y="5" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608694057448" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1608694057448">
+      <screen x="1920" y="5" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608694057448" />
   </component>
 </project>

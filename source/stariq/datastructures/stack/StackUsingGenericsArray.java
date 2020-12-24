@@ -1,12 +1,10 @@
 package stariq.datastructures.stack;
 
-import java.util.EmptyStackException;
-
 // https://www.techiedelight.com/stack-implementation-in-java/
-public class GenericsStackUsingArray<E> {
+public class StackUsingGenericsArray<E> {
 
     public static void main(String[] args) {
-        GenericsStackUsingArray<Integer> stack = new GenericsStackUsingArray<>(3);
+        StackUsingGenericsArray<Integer> stack = new StackUsingGenericsArray<>(3);
         stack.push(1);
         stack.push(2);
 
@@ -27,7 +25,7 @@ public class GenericsStackUsingArray<E> {
     private int capacity;
 
     @SuppressWarnings({"unchecked"})
-    public GenericsStackUsingArray(int size) {
+    public StackUsingGenericsArray(int size) {
         array = (E[]) new Object[size];
         capacity = size;
         top = -1;

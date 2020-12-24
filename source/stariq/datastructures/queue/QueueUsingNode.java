@@ -18,6 +18,10 @@ public class QueueUsingNode {
     class Node {
         int val;
         Node next;
+
+        Node(int val) {
+            this.val = val;
+        }
     }
 
     Node front;
@@ -30,14 +34,15 @@ public class QueueUsingNode {
     }
 
     public void offer(int element) {
-        Node temp = new Node();
-        temp.val = element;
+        Node node = new Node(element);
+        // First node to be added.
         if(back == null) {
-            front = temp;
+            front = node;
+            back = node;
         } else {
-            back.next = temp;
+            back.next = node;
+            back = node;
         }
-        back = temp;
         size++;
     }
 

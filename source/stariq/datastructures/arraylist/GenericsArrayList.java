@@ -1,5 +1,7 @@
 package stariq.datastructures.arraylist;
 
+import java.util.HashMap;
+
 public class GenericsArrayList<E> {
 
     private Object[] array;

@@ -1,10 +1,10 @@
 package stariq.datastructures.queue;
 
 // https://www.techiedelight.com/queue-implementation-in-java/
-public class GenericsQueueUsingArray<E> {
+public class QueueUsingGenericsArray<E> {
 
     public static void main(String[] args) {
-        GenericsQueueUsingArray<Integer> queue = new GenericsQueueUsingArray<>(3);
+        QueueUsingGenericsArray<Integer> queue = new QueueUsingGenericsArray<>(3);
         queue.offer(3);
         queue.offer(2);
         queue.offer(4);
@@ -24,7 +24,7 @@ public class GenericsQueueUsingArray<E> {
     private int size;
 
     @SuppressWarnings({"unchecked"})
-    GenericsQueueUsingArray(int size) {
+    QueueUsingGenericsArray(int size) {
         array = (E[]) new Object[size];
         capacity = size;
         front = 0;

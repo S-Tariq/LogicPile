@@ -1,6 +1,7 @@
 package stariq.datastructures.queue;
 
 // https://ide.geeksforgeeks.org/A6MIHq
+// Need to fix implementation of either removeLast or peekLast.
 public class DequeUsingArray {
 
     public static void main(String[] args) {
@@ -17,7 +18,7 @@ public class DequeUsingArray {
         System.out.println(queue.removeFirst());
         System.out.println(queue.removeFirst());
         System.out.println(queue.removeLast());
-        System.out.println(queue.removeFirst());
+        System.out.println(queue.removeLast());
 
         System.out.println("Front element: " + queue.peekFirst());
         System.out.println("Back element: " + queue.peekLast());
