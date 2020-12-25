@@ -8,10 +8,10 @@ import java.util.List;
 // https://leetcode.com/problems/palindrome-linked-list/
 public class ValidatePalindrome {
     public static void main(String[] args) {
-        ListNode node = new ListNode(1);
-        node.next = new ListNode(2);
-        node.next.next = new ListNode(2);
-        node.next.next.next = new ListNode(1);
+        ListNode listNode = new ListNode(1);
+        listNode.next = new ListNode(2);
+        listNode.next.next = new ListNode(2);
+        listNode.next.next.next = new ListNode(1);
     }
 
     // Space complexity = O(n)

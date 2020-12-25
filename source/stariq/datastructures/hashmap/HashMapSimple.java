@@ -5,11 +5,11 @@ import java.util.Arrays;
 // This hashmap has integer has key.
 // Key ranges from 0-100.
 // Value is -1 for undefined key.
-public class SimpleHashMap {
+public class HashMapSimple {
 
     int[] array;
 
-    public SimpleHashMap() {
+    public HashMapSimple() {
         array = new int[100];
         Arrays.fill(array, -1);
     }

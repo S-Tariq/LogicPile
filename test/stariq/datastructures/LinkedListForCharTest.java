@@ -2,11 +2,11 @@ package stariq.datastructures;
 
 import org.junit.Assert;
 import org.junit.Test;
-import stariq.datastructures.linkedlist.CharLinkedList;
+import stariq.datastructures.linkedlist.LinkedListForChar;
 
-public class CharLinkedListTest {
+public class LinkedListForCharTest {
 
-    CharLinkedList list = new CharLinkedList();
+    LinkedListForChar list = new LinkedListForChar();
 
     @Test
     public void addOneElement() {

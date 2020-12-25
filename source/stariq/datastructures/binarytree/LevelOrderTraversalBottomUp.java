@@ -23,11 +23,11 @@ public class LevelOrderTraversalBottomUp {
     }
 
     public static List<List<Integer>> levelOrderBottom(TreeNode root) {
-        LinkedList<List<Integer>> twoDList = new LinkedList<>();
+        LinkedList<List<Integer>> result = new LinkedList<>();
         Queue<TreeNode> queue = new LinkedList<>();
 
         if(root == null) {
-            return twoDList;
+            return result;
         }
 
         queue.add(root);
@@ -44,9 +44,9 @@ public class LevelOrderTraversalBottomUp {
                     queue.add(current.right);
                 }
             }
-            twoDList.addFirst(list);
+            result.addFirst(list);
         }
-        return twoDList;
+        return result;
 
     }
 }

@@ -1,9 +1,9 @@
 package stariq.datastructures.hashmap;
 
-public class GenericsHashMap<K,V> {
+public class HashMapUsingGenerics<K,V> {
 
     public static void main(String[] args) {
-        GenericsHashMap<String, Integer> map = new GenericsHashMap<>();
+        HashMapUsingGenerics<String, Integer> map = new HashMapUsingGenerics<>();
         map.put("Bob", 1);
         map.put("Bob", 2);
         map.put("John", 1);
@@ -40,25 +40,12 @@ public class GenericsHashMap<K,V> {
     double loadFactor = 0.75;
 
     @SuppressWarnings({"unchecked"})
-    GenericsHashMap() {
+    HashMapUsingGenerics() {
         buckets = (Node<K,V>[]) new Node[3];
     }
 
     public void put(K key, V value) {
         put(key, value, buckets);
-    }
-
-    @SuppressWarnings({"unchecked"})
-    private void resizeBucket() {
-        Node<K,V>[] biggerBucket = (Node<K,V>[]) new Node[buckets.length * 2];
-        capacity = 0;
-        for(Node<K,V> n : buckets) {
-            if(n == null) {
-                continue;
-            }
-            put(n.key, n.value, biggerBucket);
-        }
-        buckets = biggerBucket;
     }
 
     private void put(K key, V value, Node<K,V>[] buckets) {
@@ -84,6 +71,19 @@ public class GenericsHashMap<K,V> {
             }
             prev.next = new Node<>(key, value);
         }
+    }
+
+    @SuppressWarnings({"unchecked"})
+    private void resizeBucket() {
+        Node<K,V>[] biggerBucket = (Node<K,V>[]) new Node[buckets.length * 2];
+        capacity = 0;
+        for(Node<K,V> n : buckets) {
+            if(n == null) {
+                continue;
+            }
+            put(n.key, n.value, biggerBucket);
+        }
+        buckets = biggerBucket;
     }
 
     public V get(K key) {

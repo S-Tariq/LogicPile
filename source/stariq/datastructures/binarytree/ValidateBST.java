@@ -32,6 +32,7 @@ public class ValidateBST {
                 current = current.left;
             }
             current = stack.pop();
+            // BST needs to be in ascending order and also contains no duplicates.
             if(previous != null && current.val <= previous.val) {
                 return false;
             }

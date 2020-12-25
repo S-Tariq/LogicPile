@@ -20,10 +20,10 @@ public class InsertNode {
     }
 
     public static ListNode insertNode(ListNode head, int position, int value) {
-        ListNode listNode = new ListNode(value);
+        ListNode node = new ListNode(value);
         if(position == 0) {
-            listNode.next = head;
-            head = listNode;
+            node.next = head;
+            head = node;
             return head;
         }
 
@@ -32,8 +32,8 @@ public class InsertNode {
             current = current.next;
         }
 
-        listNode.next = current.next;
-        current.next = listNode;
+        node.next = current.next;
+        current.next = node;
 
         return head;
     }

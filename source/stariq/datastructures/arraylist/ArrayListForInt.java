@@ -1,11 +1,11 @@
 package stariq.datastructures.arraylist;
 
-public class IntArrayList {
+public class ArrayListForInt {
 
     private int[] array;
     private int size;
 
-    public IntArrayList() {
+    public ArrayListForInt() {
         array = new int[1];
         size = 0;
     }

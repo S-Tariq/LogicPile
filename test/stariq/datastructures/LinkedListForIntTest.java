@@ -2,11 +2,11 @@ package stariq.datastructures;
 
 import org.junit.Assert;
 import org.junit.Test;
-import stariq.datastructures.linkedlist.IntLinkedList;
+import stariq.datastructures.linkedlist.LinkedListForInt;
 
-public class IntLinkedListTest {
+public class LinkedListForIntTest {
 
-    IntLinkedList list = new IntLinkedList();
+    LinkedListForInt list = new LinkedListForInt();
 
     @Test
     public void addOneElement() {

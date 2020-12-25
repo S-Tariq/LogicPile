@@ -28,11 +28,11 @@ public class LevelOrderTraversalTopDown {
     }
 
     public static List<List<Integer>> levelOrder2d(TreeNode root) {
-        List<List<Integer>> twoDList = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
 
         if(root == null) {
-            return twoDList;
+            return result;
         }
 
         queue.add(root);
@@ -49,9 +49,9 @@ public class LevelOrderTraversalTopDown {
                     queue.add(current.right);
                 }
             }
-            twoDList.add(list);
+            result.add(list);
         }
-        return twoDList;
+        return result;
     }
 
     public static List<Integer> levelOrder(TreeNode root) {

@@ -46,9 +46,9 @@ public class DeleteNode {
         return head;
     }
 
-    public static void deleteNode(ListNode node) {
-        ListNode temp = node.next;
-        node.val = temp.val;
-        node.next = temp.next;
+    public static void deleteNode(ListNode listNode) {
+        ListNode temp = listNode.next;
+        listNode.val = temp.val;
+        listNode.next = temp.next;
     }
 }

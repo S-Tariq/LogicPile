@@ -6,11 +6,11 @@ import stariq.datastructures.nodes.ListNode;
 public class RemoveDuplicatesFromSortedList {
 
     public static void main(String[] args) {
-        ListNode node = new ListNode(1);
-        node.next = new ListNode(1);
-        node.next.next = new ListNode(1);
+        ListNode listNode = new ListNode(1);
+        listNode.next = new ListNode(1);
+        listNode.next.next = new ListNode(1);
 
-        ListNode.printList(deleteDuplicates(node));
+        ListNode.printList(deleteDuplicates(listNode));
     }
 
     public static ListNode deleteDuplicates(ListNode head) {

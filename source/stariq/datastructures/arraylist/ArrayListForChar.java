@@ -1,11 +1,11 @@
 package stariq.datastructures.arraylist;
 
-public class CharArrayList {
+public class ArrayListForChar {
 
     private char[] array;
     private int size;
 
-    public CharArrayList() {
+    public ArrayListForChar() {
         array = new char[1];
         size = 0;
     }

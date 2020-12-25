@@ -1,6 +1,6 @@
 package stariq.datastructures.linkedlist;
 
-public class CharLinkedList {
+public class LinkedListForChar {
 
     class Node {
         private char value;
@@ -32,16 +32,16 @@ public class CharLinkedList {
 
     public void add(char value) {
         size++;
-        if(root == null) {
+        if (root == null) {
             root = new Node(value);
             return;
         }
         Node current = root;
-        while(current.getNext() != null) {
+        while (current.getNext() != null) {
             current = current.getNext();
         }
         current.setNext(new Node(value));
-}
+    }
 
     public void add(char... values) {
         for(char c : values) {
