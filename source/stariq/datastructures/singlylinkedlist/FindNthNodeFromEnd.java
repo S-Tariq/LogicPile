@@ -36,7 +36,7 @@ public class FindNthNodeFromEnd {
             slow = slow.next;
         }
 
-        return new ListNode(slow.val);
+        return slow;
     }
 
 }

@@ -15,6 +15,7 @@ public class ValidatePalindrome {
     }
 
     // Space complexity = O(n)
+    // Simple
     public static boolean isPalindrome(ListNode head) {
         List<ListNode> list = new ArrayList<>();
         ListNode current = head;
@@ -54,11 +55,8 @@ public class ValidatePalindrome {
     }
 
     public static ListNode reverse(ListNode head) {
-        if(head == null) {
-            return null;
-        }
-        ListNode reverse = new ListNode(head.val);
-        ListNode current = head.next;
+        ListNode reverse = null;
+        ListNode current = head;
         while(current != null) {
             ListNode prepend = new ListNode(current.val);
             prepend.next = reverse;

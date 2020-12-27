@@ -6,10 +6,20 @@ import stariq.datastructures.nodes.ListNode;
 public class RemoveNthNodeFromEnd {
 
     public static void main(String[] args) {
-        // Test
+        ListNode list = new ListNode(1);
+        ListNode head = list;
+        list.next = new ListNode(3);
+        list = list.next;
+        list.next = new ListNode(6);
+        list = list.next;
+        list.next = new ListNode(7);
+        list = list.next;
+        list.next = new ListNode(9);
+        ListNode.printList(head);
+        ListNode.printList(removeNthFromEnd(head, 2));
     }
 
-    public ListNode removeNthFromEnd(ListNode head, int n) {
+    public static ListNode removeNthFromEnd(ListNode head, int n) {
         if(head == null) {
             return null;
         }

@@ -29,13 +29,50 @@ public class MergeSortedLists {
         second = second.next;
         second.next = new ListNode(10);
 
+//        ListNode.printList(head1);
+//        ListNode.printList(head2);
+//        ListNode.printList(mergeSorted2(head1,head2));
+
         ListNode.printList(head1);
         ListNode.printList(head2);
-        ListNode.printList(mergeSorted(head1,head2));
+        ListNode.printList(mergeList(head1,head2));
 
     }
 
-    public static ListNode mergeSorted(ListNode list1, ListNode list2) {
+    public static ListNode mergeList(ListNode list1, ListNode list2) {
+
+        if(list1 == null) {
+            return list2;
+        }
+        if(list2 == null) {
+            return list1;
+        }
+
+        ListNode merged = new ListNode(0);
+        ListNode head = merged;
+
+        while(list1 != null && list2 != null) {
+            if(list1.val < list2.val) {
+                merged.next = list1;
+                list1 = list1.next;
+            } else {
+                merged.next = list2;
+                list2 = list2.next;
+            }
+            merged = merged.next;
+        }
+
+        if(list1 != null) {
+            merged.next = list1;
+        }
+        if(list2 != null) {
+            merged.next = list2;
+        }
+
+        return head.next;
+    }
+
+    public static ListNode mergeSorted2(ListNode list1, ListNode list2) {
 
         if(list1 == null) {
             return list2;

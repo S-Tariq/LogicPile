@@ -6,6 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 // https://leetcode.com/problems/maximum-depth-of-binary-tree/
+// Depth is the longest path from the root to the farthest leaf node.
 public class FindDepth {
 
     public static void main(String[] args) {

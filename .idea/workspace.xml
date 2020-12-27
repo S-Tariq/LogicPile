@@ -20,29 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da6ee3dc-7227-488c-bba5-e5d10950881f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/LinkedListUsingGenerics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/arraylist/CharArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/arraylist/ArrayListForChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/arraylist/GenericsArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/arraylist/ArrayListUsingGenerics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/arraylist/IntArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/arraylist/ArrayListForInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/LevelOrderTraversalBottomUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/LevelOrderTraversalBottomUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/LevelOrderTraversalTopDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/LevelOrderTraversalTopDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/ValidateBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/ValidateBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/hashmap/GenericsHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/hashmap/HashMapUsingGenerics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/hashmap/SimpleHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/hashmap/HashMapSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/CharLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/LinkedListForChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/IntLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/LinkedListForInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/MyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/DeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/DeleteNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/InsertNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/InsertNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/RemoveDuplicatesFromSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/RemoveDuplicatesFromSortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/BalancedBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/ConvertSortedArrayToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/ConvertSortedArrayToBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/FindDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/FindDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/FindDiameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/FindDiameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/binarytree/PathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/FindNthNodeFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/FindNthNodeFromEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/MergeSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/MergeSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/RemoveNthNodeFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/RemoveNthNodeFromEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/ReverseList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/ValidatePalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/ValidatePalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/stariq/older/Rough.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/older/Rough.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/datastructures/CharArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/stariq/datastructures/ArrayListForCharTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/datastructures/CharLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/stariq/datastructures/LinkedListForCharTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/datastructures/GenericsArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/stariq/datastructures/ArrayListUsingGenericsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/datastructures/IntArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/stariq/datastructures/ArrayListForIntTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stariq/datastructures/IntLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/stariq/datastructures/LinkedListForIntTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +62,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
-  <component name="RunManager" selected="Application.LinkedListUsingGenerics">
-    <configuration name="DequeUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.queue.DequeUsingArray" />
+  <component name="RunManager" selected="Application.Rough">
+    <configuration name="ConvertSortedArrayToBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.binarytree.ConvertSortedArrayToBST" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.datastructures.queue.*" />
+          <option name="PATTERN" value="stariq.datastructures.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DequeUsingNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.queue.DequeUsingNode" />
+    <configuration name="RemoveElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.singlylinkedlist.RemoveElements" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.datastructures.queue.*" />
+          <option name="PATTERN" value="stariq.datastructures.singlylinkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListUsingGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.linkedlist.LinkedListUsingGenerics" />
+    <configuration name="RemoveNthNodeFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.singlylinkedlist.RemoveNthNodeFromEnd" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.datastructures.linkedlist.*" />
+          <option name="PATTERN" value="stariq.datastructures.singlylinkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueUsingGenericsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.queue.QueueUsingGenericsArray" />
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.singlylinkedlist.ReverseList" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.datastructures.queue.*" />
+          <option name="PATTERN" value="stariq.datastructures.singlylinkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueUsingTwoStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.queue.QueueUsingTwoStacks" />
+    <configuration name="Rough" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.older.Rough" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.datastructures.queue.*" />
+          <option name="PATTERN" value="stariq.older.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedListUsingGenerics" />
-        <item itemvalue="Application.DequeUsingArray" />
-        <item itemvalue="Application.DequeUsingNode" />
-        <item itemvalue="Application.QueueUsingGenericsArray" />
-        <item itemvalue="Application.QueueUsingTwoStacks" />
+        <item itemvalue="Application.Rough" />
+        <item itemvalue="Application.ConvertSortedArrayToBST" />
+        <item itemvalue="Application.ReverseList" />
+        <item itemvalue="Application.RemoveNthNodeFromEnd" />
+        <item itemvalue="Application.RemoveElements" />
       </list>
     </recent_temporary>
   </component>
@@ -173,30 +162,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2016" y="5" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608840389306">
-      <screen x="1920" y="5" width="1536" height="824" />
+    <state x="210" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609009425900">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="210" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1608828670066" />
+    <state x="210" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609009425900" />
     <state x="2016" y="5" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608840389306" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1608857586711">
-      <screen x="1920" y="5" width="1536" height="824" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1609030877684">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1608830163684" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609030877684" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608857586711" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1608857586710">
-      <screen x="1920" y="5" width="1536" height="824" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1609030877683">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1608830163684" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609030877683" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608857586710" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1608857586710">
-      <screen x="1920" y="5" width="1536" height="824" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1609030877683">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1608830163683" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609030877683" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608857586710" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1608857586710">
-      <screen x="1920" y="5" width="1536" height="824" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1609030877683">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1608830163684" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609030877683" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608857586710" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1608694057448">
       <screen x="1920" y="5" width="1536" height="824" />
@@ -218,10 +207,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1608828496772" />
-    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1608828996566">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1907" y="132" width="1350" height="638" maximized="true" key="dock-window-1" timestamp="1609000257234">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1608828996566" />
+    <state x="1907" y="132" width="1350" height="638" maximized="true" key="dock-window-1/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609000257234" />
     <state x="1931" y="171" width="1350" height="638" maximized="true" key="dock-window-2" timestamp="1608828996566">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>

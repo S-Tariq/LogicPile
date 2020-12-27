@@ -30,19 +30,19 @@ public class PathSum {
         sumStack.push(root.val);
         while(!pathStack.isEmpty()) {
             TreeNode current = pathStack.pop();
-            int count = sumStack.pop();
+            int total = sumStack.pop();
 
-            if(current.left == null && current.right == null && count == sum) {
+            if(current.left == null && current.right == null && total == sum) {
                 return true;
-            } else {
-                if(current.left != null) {
-                    pathStack.push(current.left);
-                    sumStack.push(count + current.left.val);
-                }
-                if(current.right != null) {
-                    pathStack.push(current.right);
-                    sumStack.push(count + current.right.val);
-                }
+            }
+            if(current.left != null) {
+                pathStack.push(current.left);
+                sumStack.push(total + current.left.val);
+            }
+            if(current.right != null) {
+                pathStack.push(current.right);
+                sumStack.push(total + current.right.val);
+
             }
         }
         return false;

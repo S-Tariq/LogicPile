@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.Stack;
 
 // https://leetcode.com/problems/diameter-of-binary-tree/
+// Diameter is the longest path between any two nodes.
 public class FindDiameter {
 
     public static void main(String[] args) {

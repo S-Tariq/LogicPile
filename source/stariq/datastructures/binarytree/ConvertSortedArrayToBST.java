@@ -15,34 +15,73 @@ public class ConvertSortedArrayToBST {
     }
 
     // DFS
-    public static TreeNode sortedArrayToBST(int[] nums) {
-        if(nums.length == 0) {
+    public static TreeNode sortedArrayToBST(int[] array) {
+        if(array.length == 0) {
             return null;
         }
-        return constructTreeFromArray(nums, 0, nums.length - 1);
+        return constructTreeFromArray(array, 0, array.length - 1);
     }
 
     // DFS
-    public static TreeNode constructTreeFromArray(int[] nums, int left, int right) {
-        if(left > right) {
+    public static TreeNode constructTreeFromArray(int[] array, int low, int high) {
+        if(low > high) {
             return null;
         }
-        int mid = (left + right)/2;
-        TreeNode root = new TreeNode(nums[mid]);
-        root.left = constructTreeFromArray(nums, left, mid - 1);
-        root.right = constructTreeFromArray(nums, mid + 1, right);
+        int mid = (low + high)/2;
+        TreeNode root = new TreeNode(array[mid]);
+        root.left = constructTreeFromArray(array, low, mid - 1);
+        root.right = constructTreeFromArray(array, mid + 1, high);
         return root;
     }
 
     // BFS
-    public static TreeNode constructTreeFromArray(int[] nums) {
+    public static TreeNode constructTreeFromArray(int[] array) {
         class Node {
             TreeNode node;
-            int left, right;
-            public Node(TreeNode node, int left, int right) {
+            int low;
+            int high;
+
+            Node(TreeNode node, int low, int high) {
                 this.node = node;
-                this.left = left;
-                this.right = right;
+                this.low = low;
+                this.high = high;
+            }
+        }
+
+        if(array.length == 0) {
+            return null;
+        }
+        TreeNode root = new TreeNode(0);
+        Stack<Node> stack = new Stack<>();
+        stack.push(new Node(root, 0, array.length - 1));
+        while(!stack.isEmpty()) {
+            Node current = stack.pop();
+            int mid = (current.low + current.high)/2;
+            current.node.val = array[mid];
+            if(current.low < mid) {
+                int low = (current.low + mid - 1)/2;
+                current.node.left = new TreeNode(array[low]);
+                stack.push(new Node(current.node.left, current.low, mid - 1));
+            }
+            if(current.high > mid) {
+                int high = (mid + 1 + current.high)/2;
+                current.node.right = new TreeNode(array[high]);
+                stack.push(new Node(current.node.right, mid + 1, current.high));
+            }
+        }
+        return root;
+    }
+
+    // BFS - longer version
+    public static TreeNode constructTreeFromArray2(int[] nums) {
+        class Node {
+            TreeNode node;
+            int low;
+            int high;
+            public Node(TreeNode node, int low, int high) {
+                this.node = node;
+                this.low = low;
+                this.high = high;
             }
         }
         if (nums == null || nums.length == 0) {
@@ -54,15 +93,15 @@ public class ConvertSortedArrayToBST {
         stack.push(node);
         while (!stack.isEmpty()) {
             Node current = stack.pop();
-            int mid = current.left + (current.right - current.left) / 2;
+            int mid = current.low + (current.high - current.low) / 2;
             current.node.val = nums[mid];
-            if (current.left < mid) {
-                current.node.left = new TreeNode(nums[current.left+(mid-1-current.left)/2]);
-                stack.push(new Node(current.node.left, current.left, mid - 1));
+            if (current.low < mid) {
+                current.node.left = new TreeNode(nums[current.low +(mid-1-current.low)/2]);
+                stack.push(new Node(current.node.left, current.low, mid - 1));
             }
-            if (current.right > mid) {
-                current.node.right = new TreeNode(nums[mid+1+(current.right-mid-1)/2]);
-                stack.push(new Node(current.node.right, mid + 1, current.right));
+            if (current.high > mid) {
+                current.node.right = new TreeNode(nums[mid+1+(current.high -mid-1)/2]);
+                stack.push(new Node(current.node.right, mid + 1, current.high));
             }
         }
         return root;
