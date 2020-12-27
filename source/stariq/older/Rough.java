@@ -2,8 +2,10 @@ package stariq.older;
 
 import jdk.nashorn.api.tree.Tree;
 import stariq.datastructures.nodes.TreeNode;
+import stariq.datastructures.queue.QueueUsingTwoStacks;
 
 import java.util.*;
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Rough {
@@ -17,27 +19,8 @@ public class Rough {
         }
     }
 
-    public boolean method(String s) {
-        int start = 0;
-        int end = s.length() - 1;
-        while(start <= end) {
-            if(!Character.isLetterOrDigit(s.charAt(start))) {
-                start++;
-            } else if(!Character.isLetterOrDigit(s.charAt(end))) {
-                end--;
-            } else {
-                if(s.toLowerCase().charAt(start) != s.toLowerCase().charAt(end)) {
-                    return false;
-                }
-                start++;
-                end--;
-            }
 
 
-
-        }
-        return true;
-    }
 
 
 

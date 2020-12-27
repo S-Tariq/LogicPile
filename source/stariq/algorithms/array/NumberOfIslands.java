@@ -45,12 +45,37 @@ public class NumberOfIslands {
         findAdjacentLand_DFS(grid, i-1, j);
     }
 
+    public static void findAdjacentLand_BFS(char[][] grid, int i_init, int j_init) {
+        Queue<int[]> points = new LinkedList<>();
+        points.add(new int[]{i_init,j_init});
+        while(!points.isEmpty()) {
+            int[] point = points.poll();
+            int i = point[0];
+            int j = point[1];
+            if(grid[i][j] == '1') {
+                grid[i][j] = '0';
+                add(points, grid, i - 1, j);
+                add(points, grid, i + 1, j);
+                add(points, grid, i, j - 1);
+                add(points, grid, i, j + 1);
+            }
+        }
+    }
+
+    public static void add(Queue<int[]> queue, char[][] grid, int i, int j) {
+        if(i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] == '0') {
+            return;
+        }
+        queue.add(new int[]{i,j});
+    }
+
+    // BFS with custom class
     static class Point {
         int i; int j;
         Point(int i, int j) {this.i = i; this.j = j;}
     }
 
-    public static void findAdjacentLand_BFS(char[][] grid, int init_i, int init_j) {
+    public static void findAdjacentLand_BFS2(char[][] grid, int init_i, int init_j) {
         Queue<Point> points = new LinkedList<>();
         points.add(new Point(init_i, init_j));
         while(!points.isEmpty()) {
@@ -77,7 +102,7 @@ public class NumberOfIslands {
     }
 
     // Lengthy - improved above by adding a method which takes care of repeated code.
-    public void findAdjacentLand_BFS2(char[][] grid, int init_i, int init_j) {
+    public void findAdjacentLand_BFS3(char[][] grid, int init_i, int init_j) {
         class Point {
             int i; int j;
             Point(int i, int j) {this.i = i; this.j = j;}

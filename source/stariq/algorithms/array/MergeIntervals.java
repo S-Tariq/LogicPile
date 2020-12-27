@@ -15,6 +15,33 @@ public class MergeIntervals {
     }
 
     public static int[][] merge(int[][] intervals) {
+        Arrays.sort(intervals, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] a, int[] b) {
+                return Integer.compare(a[0], b[0]);
+            }
+        });
+
+        Stack<int[]> stack = new Stack<>();
+        for(int[] i : intervals) {
+            if(!stack.isEmpty() && stack.peek()[1] >= i[0]) {
+                stack.peek()[1] = Math.max(stack.peek()[1], i[1]);
+            } else {
+                stack.push(i);
+            }
+        }
+
+        int[][] result = new int[stack.size()][2];
+        int i = 0;
+        for(int[] interval : stack) {
+            result[i][0] = interval[0];
+            result[i][1] = interval[1];
+            i++;
+        }
+        return result;
+    }
+
+    public static int[][] mergeCustom(int[][] intervals) {
         class Interval {
             int start;
             int end;

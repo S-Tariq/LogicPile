@@ -1,5 +1,6 @@
 package stariq.algorithms.array;
 
+// https://leetcode.com/problems/trapping-rain-water/
 public class TrappingRainWater {
 
     public static void main(String[] args) {
