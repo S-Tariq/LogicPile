@@ -2,7 +2,7 @@ package stariq.algorithms.string;
 
 import java.util.HashSet;
 import java.util.Set;
-
+ // Number of unique substrings present inside a string.
 public class UniqueSubstrings {
 
     public static void main(String[] args) {

@@ -1,5 +1,10 @@
 package stariq.algorithms.string;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 // https://leetcode.com/problems/valid-anagram/
 // Check if two strings are an anagram (a word formed by rearranging another word)
 public class ValidAnagram {
@@ -26,6 +31,25 @@ public class ValidAnagram {
     }
 
     public static boolean isAnagram2(String s, String t) {
+        if(s.length() != t.length()) {
+            return false;
+        }
+        List<Character> list = new ArrayList<>();
+        for(int i = 0; i < s.length(); i++) {
+            list.add(s.charAt(i));
+        }
+        for(int i = 0; i < t.length(); i++) {
+            Character c = t.charAt(i);
+            // If statement is not necessary as
+            // remove(obj) does not throw an error if the object is not found.
+            if(list.contains(c)) {
+                list.remove(c);
+            }
+        }
+        return list.isEmpty();
+    }
+
+    public static boolean isAnagram3(String s, String t) {
         if(s.length() != t.length()) {
             return false;
         }

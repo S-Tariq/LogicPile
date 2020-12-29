@@ -7,6 +7,7 @@ public class RemoveKOrMoreAdjacentDuplicates {
 
     public static void main(String[] args) {
         System.out.println(removeDuplicates("iiiixxxxxiiccccczzffffflllllllllfffffllyyyyyuuuuuz", 3));
+        System.out.println(removeDuplicatesCustom("iiiixxxxxiiccccczzffffflllllllllfffffllyyyyyuuuuuz", 3));
     }
 
     public static String removeDuplicates(String str, int k) {
@@ -31,6 +32,38 @@ public class RemoveKOrMoreAdjacentDuplicates {
             for(int i = 0; i < n; i++) {
                 sb.append(c);
             }
+        }
+        return sb.reverse().toString();
+    }
+
+    public static String removeDuplicatesCustom(String str, int k) {
+        class CharFreq {
+            char character;
+            int frequency;
+            CharFreq(char character, int frequency) {
+                this.character = character;
+                this.frequency = frequency;
+            }
+        }
+        Stack<CharFreq> stack = new Stack<>();
+        for(int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if(!stack.isEmpty() && stack.peek().frequency >= k && stack.peek().character != c) {
+                stack.pop();
+            }
+            if(stack.isEmpty() || stack.peek().character != c) {
+                stack.push(new CharFreq(c, 1));
+            } else {
+                stack.peek().frequency++;
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        while(!stack.isEmpty()) {
+            CharFreq cf = stack.pop();
+            for(int i = 0; i < cf.frequency; i++) {
+                sb.append(cf.character);
+            }
+
         }
         return sb.reverse().toString();
     }

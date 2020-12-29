@@ -3,7 +3,7 @@ package stariq.algorithms.string;
 import java.util.ArrayList;
 import java.util.List;
 
-
+// https://leetcode.com/problems/permutations/
 // Find all the permutations of a given string (all unique arrangements of characters in a string).
 // Check if the second string contains permutation of the first string.
 public class AllPermutations {
@@ -26,6 +26,14 @@ public class AllPermutations {
         System.out.println();
 
         permutationIteratively("ABC");
+
+        int[] array = new int[]{1,2,3};
+        for(List<Integer> list : permute(array)) {
+            for(int i : list) {
+                System.out.print(i + " ");
+            }
+            System.out.print("* ");
+        }
     }
 
     // Simpler method. The end parameter can be removed as it does not change.
@@ -51,10 +59,8 @@ public class AllPermutations {
     }
 
     public static List<String> permutationList(String str) {
-        int start = 0;
-        int end = str.length() - 1;
         List<String> list = new ArrayList<>();
-        permutation(str, start, end, list);
+        permutation(str, 0, str.length() - 1, list);
         return list;
     }
 
@@ -64,9 +70,42 @@ public class AllPermutations {
         } else {
             for(int i = start; i <= end; i++) {
                 String swapped = swap(str, start, i);
-                permutation(swapped, start + 1, end);
+                permutation(swapped, start + 1, end, list);
             }
         }
+    }
+
+    // Leetcode
+
+    public static List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
+        permutation(nums, 0, nums.length - 1, result);
+        return result;
+    }
+
+    public static void permutation(int[] nums, int start, int end, List<List<Integer>> result) {
+        if(start == end) {
+            List<Integer> list = new ArrayList<>();
+            for(int i : nums) {
+                list.add(i);
+            }
+            result.add(list);
+        } else {
+            for(int i = start; i <= end; i++) {
+                // Need to swap twice as it swaps the original nums array since it is passed by reference.
+                // In the string example, it is not passed by reference as a new string is created.
+                swap(nums, start, i);
+                permutation(nums, start + 1, end, result);
+                swap(nums, start, i);
+            }
+        }
+    }
+
+    public static int[] swap(int[] array, int i, int j) {
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+        return array;
     }
 
     // Ignore everything after this point.

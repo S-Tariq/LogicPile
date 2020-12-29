@@ -55,13 +55,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
-  <component name="RunManager" selected="Application.Rough">
-    <configuration name="ConvertSortedArrayToBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.binarytree.ConvertSortedArrayToBST" />
+  <component name="RunManager" selected="Application.AllPermutations">
+    <configuration name="AllPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.AllPermutations" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.datastructures.binarytree.*" />
+          <option name="PATTERN" value="stariq.algorithms.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.singlylinkedlist.RemoveElements" />
+    <configuration name="RemoveAdjacentDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.RemoveAdjacentDuplicates" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.datastructures.singlylinkedlist.*" />
+          <option name="PATTERN" value="stariq.algorithms.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,25 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNthNodeFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.singlylinkedlist.RemoveNthNodeFromEnd" />
+    <configuration name="RemoveKOrMoreAdjacentDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.RemoveKOrMoreAdjacentDuplicates" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.datastructures.singlylinkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.singlylinkedlist.ReverseList" />
-      <module name="LogicPile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.datastructures.singlylinkedlist.*" />
+          <option name="PATTERN" value="stariq.algorithms.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.SumPairs" />
+      <module name="LogicPile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllPermutations" />
+        <item itemvalue="Application.RemoveKOrMoreAdjacentDuplicates" />
+        <item itemvalue="Application.RemoveAdjacentDuplicates" />
+        <item itemvalue="Application.SumPairs" />
         <item itemvalue="Application.Rough" />
-        <item itemvalue="Application.ConvertSortedArrayToBST" />
-        <item itemvalue="Application.ReverseList" />
-        <item itemvalue="Application.RemoveNthNodeFromEnd" />
-        <item itemvalue="Application.RemoveElements" />
       </list>
     </recent_temporary>
   </component>
@@ -160,41 +160,49 @@
     </state>
     <state x="210" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609009425900" />
     <state x="2016" y="5" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608840389306" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1609033848728">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1609201905269">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609201905269" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609033848728" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608857586711" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1609033848728">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1609201905269">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609201905269" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609033848728" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608857586710" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1609033848728">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1609201905269">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609201905269" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609033848728" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608857586710" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1609033848728">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1609201905269">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609201905269" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609033848728" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608857586710" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1608694057448">
-      <screen x="1920" y="5" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1609201905270">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609201905270" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608694057448" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1608694057448">
-      <screen x="1920" y="5" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1609201905270">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1609201905270" />
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608694057448" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1608694057448">
-      <screen x="1920" y="5" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1609201905269">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1609201905269" />
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608694057448" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1608694057448">
-      <screen x="1920" y="5" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1609201905270">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1609201905270" />
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608694057448" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1608828496772">
       <screen x="0" y="0" width="1536" height="824" />

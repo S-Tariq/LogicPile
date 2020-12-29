@@ -12,6 +12,16 @@ public class BuySellStock {
     public static int profit(int[] arr) {
         int profit = 0;
         int min = Integer.MAX_VALUE;
+        for(int i : arr) {
+            min = Math.min(min, i);
+            profit = Math.max(profit, i - min);
+        }
+        return profit;
+    }
+
+    public static int profit2(int[] arr) {
+        int profit = 0;
+        int min = Integer.MAX_VALUE;
         for(int i = 0; i < arr.length - 1; i++) {
             min = Math.min(arr[i], min);
             if(min < arr[i + 1]) {
@@ -21,7 +31,7 @@ public class BuySellStock {
         return profit;
     }
 
-    public static int profit2(int[] arr) {
+    public static int profit3(int[] arr) {
         int profit = 0;
         for(int i = 0; i < arr.length; i++) {
             for(int j = i + 1; j < arr.length; j++) {

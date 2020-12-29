@@ -9,6 +9,7 @@ import java.util.Map;
 // LRU (Least Recently Used) Cache
 // We use a map for constant time insertion/deletion,
 // and a deque to maintain order by most recently used.
+// Potentially worse time complexity since remove() is O(n).
 class LRUCacheUsingDeque {
 
     class Node {

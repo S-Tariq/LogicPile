@@ -6,50 +6,28 @@ import java.util.List;
 // https://leetcode.com/problems/design-browser-history/
 public class BrowserHistory {
 
-    public static void main(String[] args) {
-        BrowserHistory bh = new BrowserHistory("jrbilt.com");
-        bh.visit("uiza.com");
-        bh.forward(3);
-        bh.forward(3);
-        bh.visit("fveyl.com");
-        bh.visit("hyhqfqf.com");
-        bh.back(3);
-        bh.visit("cccs.com");
-        bh.visit("bivz.com");
-        bh.forward(6);
-        System.out.println(bh.back(1));
-    }
-
-    List<String> browserList;
-    int currentIndex;
+    List<String> history;
+    int currentIdx;
 
     public BrowserHistory(String homepage) {
-        browserList = new ArrayList<>();
-        browserList.add(homepage);
-        currentIndex = 0;
+        history = new ArrayList<>();
+        history.add(homepage);
+        currentIdx = 0;
     }
 
     public void visit(String url) {
-        // If the current index is not the last index.
-        if(currentIndex + 1 != browserList.size()) {
-            // Reassigns the browserList as a new shorter list until current index.
-            //browserList = browserList.subList(0, currentIndex + 1);
-            // Removes the sublist after current index.
-            browserList.subList(currentIndex + 1, browserList.size()).clear();
-        }
-        browserList.add(url);
-        currentIndex++;
+        history.subList(currentIdx+1, history.size()).clear();
+        history.add(url);
+        currentIdx++;
     }
 
     public String back(int steps) {
-        int newIndex = currentIndex - steps;
-        currentIndex = (newIndex >= 0) ? newIndex : 0;
-        return browserList.get(currentIndex);
+        currentIdx = Math.max(currentIdx-steps, 0);
+        return history.get(currentIdx);
     }
 
     public String forward(int steps) {
-        int newIndex = currentIndex + steps;
-        currentIndex = (newIndex < browserList.size()) ? newIndex : browserList.size() - 1;
-        return browserList.get(currentIndex);
+        currentIdx = Math.min(currentIdx+steps, history.size()-1);
+        return history.get(currentIdx);
     }
 }
