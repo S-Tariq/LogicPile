@@ -24,41 +24,41 @@ public class StackUsingNode {
         Node next;
     }
 
-    Node top;
+    Node head;
     int size;
 
     StackUsingNode() {
-        top = null;
+        head = null;
     }
 
     // New elements are added as a head.
     public void push(int element) {
-        Node temp = new Node();
-        temp.val = element;
-        temp.next = top;
-        top = temp;
+        Node node = new Node();
+        node.val = element;
+        node.next = head;
+        head = node;
         size++;
     }
 
     public int pop() {
-        if(top == null) {
+        if(head == null) {
             throw new NullPointerException();
         }
-        int popped = top.val;
-        top = top.next;
+        int popped = head.val;
+        head = head.next;
         size--;
         return popped;
     }
 
     public int peek() {
-        if(top == null) {
+        if(head == null) {
             throw new NullPointerException();
         }
-        return top.val;
+        return head.val;
     }
 
     public boolean isEmpty() {
-        return top == null;
+        return head == null;
     }
 
     public int size() {
@@ -67,7 +67,7 @@ public class StackUsingNode {
 
     // Prints in stack order.
     public void print() {
-        Node temp = top;
+        Node temp = head;
         while(temp != null) {
             System.out.print(temp.val + " ");
             temp = temp.next;
@@ -76,7 +76,7 @@ public class StackUsingNode {
 
     // Prints in insertion order.
     public void print2() {
-        printReverse(top);
+        printReverse(head);
     }
 
     private void printReverse(Node head) {
