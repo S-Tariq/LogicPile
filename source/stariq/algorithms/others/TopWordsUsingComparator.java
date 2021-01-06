@@ -23,7 +23,8 @@ public class TopWordsUsingComparator {
         while (line != null) {
             String[] words = line.split(" ");
             for (String word : words) {
-                word = word.toLowerCase().replace(",", "").replace(".","");
+                word = word.toLowerCase().replace(",", "")
+                        .replace(".","");
                 map.put(word, map.getOrDefault(word, 0) + 1);
                 if(!list.contains(word)) {
                     list.add(word);
