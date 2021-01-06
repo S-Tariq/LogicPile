@@ -1,4 +1,4 @@
-package stariq.algorithms.others;
+package stariq.algorithms.sort;
 
 import java.io.*;
 import java.util.*;
@@ -7,7 +7,7 @@ import java.util.*;
 // Uses a map to store all the unique words as keys and their frequency as values.
 // Loops through the lines of text to find the top five keys and their corresponding values.
 
-public class TopWords {
+public class TopWordsUsingMax {
 
     public static void main(String[] args) throws IOException{
         // PC

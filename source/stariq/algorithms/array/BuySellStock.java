@@ -7,10 +7,21 @@ public class BuySellStock {
     public static void main(String[] args) {
         int[] prices = new int[]{7,1,5,3,6,4};
         System.out.println(profit(prices));
+        System.out.println(loss(prices));
+    }
+
+    public static int loss(int[] arr) {
+        int loss = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        for(int i : arr) {
+            max = Math.max(max, i);
+            loss = Math.min(loss, i - max);
+        }
+        return loss;
     }
 
     public static int profit(int[] arr) {
-        int profit = 0;
+        int profit = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
         for(int i : arr) {
             min = Math.min(min, i);

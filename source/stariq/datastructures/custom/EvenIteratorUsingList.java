@@ -13,6 +13,8 @@ public class EvenIteratorUsingList implements Iterator<Integer> {
         nums.add(1);
         nums.add(6);
         nums.add(7);
+        nums.add(5);
+        nums.add(3);
         EvenIteratorUsingList iterator = new EvenIteratorUsingList(nums);
         while(iterator.hasNext()) {
             int num = iterator.next();

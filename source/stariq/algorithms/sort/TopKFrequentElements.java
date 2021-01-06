@@ -1,4 +1,4 @@
-package stariq.algorithms.array;
+package stariq.algorithms.sort;
 
 import java.util.*;
 
