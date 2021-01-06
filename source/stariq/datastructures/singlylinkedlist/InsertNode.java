@@ -31,7 +31,6 @@ public class InsertNode {
         for(int i = 0; i < position - 1; i++) {
             current = current.next;
         }
-
         node.next = current.next;
         current.next = node;
 

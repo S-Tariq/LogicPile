@@ -15,24 +15,7 @@ public class ValidatePalindrome {
     }
 
     // Space complexity = O(n)
-    // Simple
     public static boolean isPalindrome(ListNode head) {
-        List<ListNode> list = new ArrayList<>();
-        ListNode current = head;
-        while(current != null) {
-            list.add(current);
-            current = current.next;
-        }
-        for(int i = 0; i < list.size()/2; i++) {
-            if(list.get(i).val != list.get(list.size() - 1 - i).val) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    // Space complexity = O(n)
-    public static boolean isPalindrome2(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
 
@@ -64,5 +47,22 @@ public class ValidatePalindrome {
             current = current.next;
         }
         return reverse;
+    }
+
+    // Space complexity = O(n)
+    // Simple
+    public static boolean isPalindrome2(ListNode head) {
+        List<ListNode> list = new ArrayList<>();
+        ListNode current = head;
+        while(current != null) {
+            list.add(current);
+            current = current.next;
+        }
+        for(int i = 0; i < list.size()/2; i++) {
+            if(list.get(i).val != list.get(list.size() - 1 - i).val) {
+                return false;
+            }
+        }
+        return true;
     }
 }
