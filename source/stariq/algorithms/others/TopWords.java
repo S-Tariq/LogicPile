@@ -10,12 +10,15 @@ import java.util.*;
 public class TopWords {
 
     public static void main(String[] args) throws IOException{
-        TopWords.findTopWords("D:\\Media\\Projects\\GitHub\\LogicPile\\data\\Words.txt");
+        // PC
+        //findTopWords("D:\\Media\\Projects\\GitHub\\LogicPile\\data\\Words.txt");
+        // Laptop
+        findTopWords("C:\\Users\\samee\\Documents\\GitHub\\LogicPile\\data\\Words.txt");
     }
 
     public static void findTopWords(String path) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(path));
-        HashMap<String, Integer> frequency = new HashMap<String, Integer>();
+        HashMap<String, Integer> map = new HashMap<String, Integer>();
         String line = reader.readLine();
         while (line != null) {
             if (!line.trim().equals("")) {
@@ -23,10 +26,11 @@ public class TopWords {
                 for (String word : words) {
                     String processed = word.toLowerCase();
                     processed = processed.replace(",", "");
-                    if (frequency.containsKey(processed)) {
-                        frequency.put(processed, frequency.get(processed) + 1);
+                    processed = processed.replace(".", "");
+                    if (map.containsKey(processed)) {
+                        map.put(processed, map.get(processed) + 1);
                     } else {
-                        frequency.put(processed, 1);
+                        map.put(processed, 1);
                     }
                 }
             }
@@ -38,15 +42,15 @@ public class TopWords {
         int maxNumber = 5;
         System.out.println("The most common " + maxNumber + " words are: ");
         for (int i = 0; i < maxNumber; i++) {
-            for (String word : frequency.keySet()) {
-                freqNum = frequency.get(word);
+            for (String word : map.keySet()) {
+                freqNum = map.get(word);
                 if (freqNum > maxFreqNum) {
                     topWord = word;
                     maxFreqNum = freqNum;
                 }
             }
             System.out.println("'" + topWord + "'" + " with frequency of: " + maxFreqNum);
-            frequency.remove(topWord);
+            map.remove(topWord);
             maxFreqNum = 0;
             topWord = null;
         }

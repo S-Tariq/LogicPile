@@ -93,7 +93,7 @@ public class AllPermutations {
         } else {
             for(int i = start; i <= end; i++) {
                 // Need to swap twice as it swaps the original nums array since it is passed by reference.
-                // In the string example, it is not passed by reference as a new string is created.
+                // In the string example, it is not passed by reference as a new string is created. 
                 swap(nums, start, i);
                 permutation(nums, start + 1, end, result);
                 swap(nums, start, i);

@@ -3,6 +3,7 @@ package stariq.datastructures.binarytree;
 import stariq.datastructures.nodes.TreeNode;
 
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.Queue;
 import java.util.TreeMap;
 
@@ -59,6 +60,11 @@ public class TopView {
         for(Integer i : treeMap.values()) {
             System.out.print(i + " ");
         }
+
+        // Different way
+//        for(Map.Entry<Integer, Integer> e : treeMap.entrySet()) {
+//            System.out.print(e.getValue() + " ");
+//        }
 
     }
 

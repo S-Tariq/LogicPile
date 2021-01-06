@@ -65,16 +65,17 @@ public class FrequencySortCustom {
 
         List<CharFreq> list = new ArrayList<>();
         for(char c : str.toCharArray()) {
-            CharFreq temp = new CharFreq(c, 1);
+            CharFreq newCf = new CharFreq(c, 1);
             boolean present = false;
             for(CharFreq cf : list) {
-                if(cf.equals(temp)) {
+                if(cf.equals(newCf)) {
                     cf.incrementFrequency();
                     present = true;
+                    break;
                 }
             }
             if(!present) {
-                list.add(temp);
+                list.add(newCf);
             }
         }
         Collections.sort(list, new Comparator<CharFreq>() {
