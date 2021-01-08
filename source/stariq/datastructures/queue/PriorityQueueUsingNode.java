@@ -21,24 +21,27 @@ public class PriorityQueueUsingNode {
     class Node {
         int val;
         Node next;
+
+        Node(int val) {
+            this.val = val;
+        }
     }
 
     Node front;
     int size;
 
     public void offer(int element) {
-        Node temp = new Node();
-        temp.val = element;
+        Node node = new Node(element);
         if(front == null || element < front.val) {
-            temp.next = front;
-            front = temp;
+            node.next = front;
+            front = node;
         } else {
             Node current = front;
             while(current.next != null && current.next.val <= element) {
                 current = current.next;
             }
-            temp.next = current.next;
-            current.next = temp;
+            node.next = current.next;
+            current.next = node;
         }
         size++;
     }

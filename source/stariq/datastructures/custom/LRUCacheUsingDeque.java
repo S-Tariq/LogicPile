@@ -15,15 +15,20 @@ class LRUCacheUsingDeque {
     class Node {
         int key;
         int val;
+
+        Node(int key, int val) {
+            this.key = key;
+            this.val = val;
+        }
     }
 
-    private Deque<Node> deq;
+    private Deque<Node> deque;
     private Map<Integer, Node> nodeMap;
     private int cacheCapacity;
 
     public LRUCacheUsingDeque(int capacity) {
         nodeMap = new HashMap<>(capacity);
-        deq = new LinkedList<>();
+        deque = new LinkedList<>();
         cacheCapacity = capacity;
     }
 
@@ -32,27 +37,25 @@ class LRUCacheUsingDeque {
         if(node == null) {
             return -1;
         }
-        deq.remove(node);
-        deq.addFirst(node);
+        deque.remove(node);
+        deque.addFirst(node);
         return node.val;
     }
 
     public void put(int key, int value) {
         Node node = nodeMap.get(key);
         if(node != null) {
-            deq.remove(node);
+            deque.remove(node);
             node.val = value;
-            deq.addFirst(node);
+            deque.addFirst(node);
         } else {
             if(nodeMap.size() == cacheCapacity) {
-                nodeMap.remove(deq.getLast().key);
-                deq.removeLast();
+                nodeMap.remove(deque.getLast().key);
+                deque.removeLast();
             }
-            node = new Node();
-            node.key = key;
-            node.val = value;
+            node = new Node(key,value);
             nodeMap.put(node.key, node);
-            deq.addFirst(node);
+            deque.addFirst(node);
         }
     }
 }

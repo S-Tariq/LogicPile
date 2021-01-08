@@ -14,6 +14,15 @@ class LRUCacheUsingNode {
         int val;
         Node prev;
         Node next;
+
+        Node(int key, int val) {
+            this.key = key;
+            this.val = val;
+        }
+
+        Node() {
+
+        }
     }
 
     private final Node head = new Node();
@@ -50,9 +59,7 @@ class LRUCacheUsingNode {
                 nodeMap.remove(tail.prev.key);
                 remove(tail.prev);
             }
-            node = new Node();
-            node.key = key;
-            node.val = value;
+            node = new Node(key, value);
             nodeMap.put(node.key, node);
             add(node);
         }

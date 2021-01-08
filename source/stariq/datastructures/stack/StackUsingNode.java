@@ -22,6 +22,10 @@ public class StackUsingNode {
     class Node {
         int val;
         Node next;
+
+        Node(int val) {
+            this.val = val;
+        }
     }
 
     Node head;
@@ -33,8 +37,7 @@ public class StackUsingNode {
 
     // New elements are added as a head.
     public void push(int element) {
-        Node node = new Node();
-        node.val = element;
+        Node node = new Node(element);
         node.next = head;
         head = node;
         size++;

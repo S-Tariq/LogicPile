@@ -60,7 +60,7 @@ public class HashMapUsingGenerics<K,V> {
             }
         } else {
             Node<K,V> node = buckets[index];
-            Node<K,V> prev = node;
+            Node<K,V> prev = null;
             while(node != null) {
                 if(node.key.equals(key)) {
                     node.value = value;
