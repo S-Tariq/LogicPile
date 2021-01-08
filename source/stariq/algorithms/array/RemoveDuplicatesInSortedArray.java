@@ -15,6 +15,17 @@ public class RemoveDuplicatesInSortedArray {
     }
 
     public static int removeDuplicates(int[] nums) {
+        int len = 1;
+        for(int i = 0; i < nums.length - 1; i++) {
+            if(nums[i] != nums[i + 1]) {
+                nums[len] = nums[i + 1];
+                len++;
+            }
+        }
+        return len;
+    }
+
+    public static int removeDuplicates2(int[] nums) {
         TreeMap<Integer, Integer> numCount = new TreeMap<>();
         for(int i = 0; i < nums.length; i++) {
             int num = nums[i];
@@ -27,16 +38,5 @@ public class RemoveDuplicatesInSortedArray {
         }
 
         return numCount.size();
-    }
-
-    public static int removeDuplicates2(int[] nums) {
-        int len = 1;
-        for(int i = 0; i < nums.length - 1; i++) {
-            if(nums[i] != nums[i + 1]) {
-                len++;
-                nums[len - 1] = nums[i + 1];
-            }
-        }
-        return len;
     }
 }

@@ -40,6 +40,7 @@ public class RemoveKOrMoreAdjacentDuplicates {
         class CharFreq {
             char character;
             int frequency;
+
             CharFreq(char character, int frequency) {
                 this.character = character;
                 this.frequency = frequency;

@@ -10,20 +10,6 @@ public class RemoveAdjacentDuplicates {
         System.out.println(removeDuplicatesStack("abbaca"));
     }
 
-    public static String removeDuplicates(String str) {
-        StringBuilder sb = new StringBuilder();
-        for(int i = 0; i < str.length(); i++) {
-            char strChar = str.charAt(i);
-            int sbLastI = sb.length() - 1;
-            if(sb.length() == 0 || sb.charAt(sbLastI) != strChar) {
-                sb.append(strChar);
-            } else {
-                sb.deleteCharAt(sbLastI);
-            }
-        }
-        return sb.toString();
-    }
-
     public static String removeDuplicatesStack(String str) {
         Stack<Character> stack = new Stack<>();
         for(char c : str.toCharArray()) {
@@ -36,6 +22,20 @@ public class RemoveAdjacentDuplicates {
         StringBuilder sb = new StringBuilder();
         for(char c : stack) {
             sb.append(c);
+        }
+        return sb.toString();
+    }
+
+    public static String removeDuplicates(String str) {
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < str.length(); i++) {
+            char strChar = str.charAt(i);
+            int sbLastI = sb.length() - 1;
+            if(sb.length() == 0 || sb.charAt(sbLastI) != strChar) {
+                sb.append(strChar);
+            } else {
+                sb.deleteCharAt(sbLastI);
+            }
         }
         return sb.toString();
     }

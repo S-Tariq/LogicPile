@@ -18,9 +18,9 @@ public class HighestAverage {
     public static void highestAverage(String[][] scores) {
         Map<String, List<Integer>> studentRecord = new HashMap<>();
 
-        for(int i = 0; i < scores.length; i++) {
-            String key = scores[i][0];
-            Integer value = Integer.parseInt(scores[i][1]);
+        for(String[] s : scores) {
+            String key = s[0];
+            Integer value = Integer.parseInt(s[1]);
 
             List<Integer> studentGrades = studentRecord.get(key);
             if(studentGrades == null) {
@@ -35,13 +35,13 @@ public class HighestAverage {
         int maxAverage = 0;
         String student = "";
         for(Map.Entry<String, List<Integer>> e : studentRecord.entrySet()) {
-            int sum = 0;
+            int average = 0;
             for(int i : e.getValue()) {
-                sum += i;
+                average += i;
             }
-
-            if(sum/studentRecord.get(e.getKey()).size() > maxAverage) {
-                maxAverage = sum/studentRecord.get(e.getKey()).size();
+            average = average/e.getValue().size();
+            if(average > maxAverage) {
+                maxAverage = average;
                 student = e.getKey();
             }
         }

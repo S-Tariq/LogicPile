@@ -30,6 +30,7 @@ public class ValidAnagram {
         return true;
     }
 
+    // Works for all characters - not just lower case alphabet.
     public static boolean isAnagram2(String s, String t) {
         if(s.length() != t.length()) {
             return false;

@@ -16,12 +16,14 @@ public class BinaryInsertionSort {
 
     public static void binarySort(int[] arr) {
         for(int i = 1; i < arr.length; i++) {
-            int target = arr[i];
-            int position = binarySearch(arr, 0, i - 1, arr[i]);
-            for(int j = i; j > position; j--) {
-                arr[j] = arr[j - 1];
+            int temp = arr[i];
+            int j = i - 1;
+            int position = binarySearch(arr, 0, j, arr[i]);
+            while(j >= position) {
+                arr[j + 1] = arr[j];
+                j--;
             }
-            arr[position] = target;
+            arr[position] = temp;
         }
     }
 

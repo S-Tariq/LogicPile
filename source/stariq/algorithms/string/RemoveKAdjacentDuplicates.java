@@ -3,7 +3,7 @@ package stariq.algorithms.string;
 import java.util.Stack;
 
 // https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
-public class RemoveAdjacentDuplicates2 {
+public class RemoveKAdjacentDuplicates {
 
     public static void main(String[] args) {
     //    System.out.println(removeDuplicates("deeedbbcccbdaa", 3));
@@ -38,31 +38,31 @@ public class RemoveAdjacentDuplicates2 {
 
     public static String removeDuplicatesCustom(String str, int k) {
         class CharFreq {
-            char c;
-            int n;
+            char character;
+            int frequency;
 
-            CharFreq(char c, int n) {
-                this.c = c;
-                this.n = n;
+            CharFreq(char character, int frequency) {
+                this.character = character;
+                this.frequency = frequency;
             }
         }
 
         Stack<CharFreq> stack = new Stack<>();
         for(char c : str.toCharArray()) {
-            if(stack.isEmpty() || stack.peek().c != c) {
+            if(stack.isEmpty() || stack.peek().character != c) {
                 stack.push(new CharFreq(c, 1));
             } else {
-                stack.push(new CharFreq(c, stack.pop().n + 1));
+                stack.peek().frequency++;
             }
-            if(stack.peek().n == k) {
+            if(stack.peek().frequency == k) {
                 stack.pop();
             }
         }
         StringBuilder sb = new StringBuilder();
         while(!stack.isEmpty()) {
             CharFreq cf = stack.pop();
-            for(int i = 0; i < cf.n; i++) {
-                sb.append(cf.c);
+            for(int i = 0; i < cf.frequency; i++) {
+                sb.append(cf.character);
             }
         }
         return sb.reverse().toString();

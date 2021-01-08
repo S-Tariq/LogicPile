@@ -10,7 +10,7 @@ public class HighFiveAverage {
         int[][] arr = new int[][] {{1,91}, {1,92}, {2,93}, {2,97}, {1,60}, {2,77},
                 {1,65}, {1,87}, {1,100}, {2,100}, {2,76}};
 
-        int[][] result = topFive(arr);
+        int[][] result = topFive2(arr);
         for(int i = 0; i < result.length; i++) {
             for(int j = 0; j < result[i].length; j++) {
                 System.out.print(result[i][j] + " ");
@@ -49,6 +49,37 @@ public class HighFiveAverage {
             }
             result[id - 1][0] = id;
             result[id - 1][1] = sum / 5;
+
+        }
+        return result;
+    }
+
+    public static int[][] topFive2(int[][] arr) {
+        TreeMap<Integer, PriorityQueue<Integer>> map = new TreeMap<>();
+
+        for(int[] i : arr) {
+            PriorityQueue<Integer> pq = map.get(i[0]);
+            if(pq == null) {
+                pq = new PriorityQueue<>();
+                pq.add(i[1]);
+                map.put(i[0], pq);
+            } else {
+                pq.add(i[1]);
+                if(pq.size() > 5) {
+                    pq.poll();
+                }
+            }
+        }
+
+        int[][] result = new int[map.size()][2];
+        for(Map.Entry<Integer, PriorityQueue<Integer>> e : map.entrySet()) {
+            int average = 0;
+            while(!e.getValue().isEmpty()) {
+                average += e.getValue().poll();
+            }
+            average = average/5;
+            result[e.getKey() - 1][0] = e.getKey();
+            result[e.getKey() - 1][1] = average;
 
         }
         return result;

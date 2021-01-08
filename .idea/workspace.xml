@@ -20,16 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da6ee3dc-7227-488c-bba5-e5d10950881f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/StringSetSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/CorrespondingWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/stariq/datastructures/singlylinkedlist/DeleteNLastNodes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/BuySellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/BuySellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/TopKFrequentElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/TopKFrequentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/TopKFrequentWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/others/TopWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/TopWordsUsingMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/others/TopWordsUsingComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/TopWordsUsingComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/EvenIteratorUsingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/EvenIteratorUsingList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/HighFiveAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/HighFiveAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/HighestAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/HighestAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/RemoveDuplicatesInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/RemoveDuplicatesInSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/BinaryInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/BinaryInsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/RemoveAdjacentDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/RemoveAdjacentDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/RemoveAdjacentDuplicates2.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/RemoveKAdjacentDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/RemoveKOrMoreAdjacentDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/RemoveKOrMoreAdjacentDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/ValidAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/graph/AllPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/graph/AllPaths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +60,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.StringSetSort">
-    <configuration name="BuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.BuySellStock" />
+  <component name="RunManager" selected="Application.BinaryInsertionSort">
+    <configuration name="BinaryInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.sort.BinaryInsertionSort" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +74,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CorrespondingWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.CorrespondingWord" />
+    <configuration name="PositionalElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.PositionalElements" />
+      <module name="LogicPile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveAdjacentDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.string.RemoveAdjacentDuplicates" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
@@ -87,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteNLastNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.singlylinkedlist.DeleteNLastNodes" />
+    <configuration name="RotationInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.RotationInSortedArray" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.datastructures.singlylinkedlist.*" />
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,25 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvenIteratorUsingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.custom.EvenIteratorUsingList" />
+    <configuration name="ZeroesAtEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.ZeroesAtEnd" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.datastructures.custom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringSetSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.sort.StringSetSort" />
-      <module name="LogicPile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.algorithms.sort.*" />
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringSetSort" />
-        <item itemvalue="Application.CorrespondingWord" />
-        <item itemvalue="Application.BuySellStock" />
-        <item itemvalue="Application.DeleteNLastNodes" />
-        <item itemvalue="Application.EvenIteratorUsingList" />
+        <item itemvalue="Application.BinaryInsertionSort" />
+        <item itemvalue="Application.ZeroesAtEnd" />
+        <item itemvalue="Application.PositionalElements" />
+        <item itemvalue="Application.RotationInSortedArray" />
+        <item itemvalue="Application.RemoveAdjacentDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -164,68 +164,69 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609938533330" />
-    <state x="210" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609009425900">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2016" y="5" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610045966069">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state x="210" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609009425900" />
-    <state x="2016" y="5" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608840389306" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1609942829918">
+    <state x="2016" y="5" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610045966069" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1610052319221">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609201905269" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941450636" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1609942829918" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1609942829918">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1610052319221">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609201905269" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941450636" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1609942829918" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1609942829918">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1610052319221">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609201905269" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941450636" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1609942829918" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1609942829918">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1610052319221">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609201905269" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941450636" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1609942829918" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1609941405272">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1610052319221">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609201905270" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941405272" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608694057448" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1609941405271">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1610052319221">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1609201905270" />
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941405271" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608694057448" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1609941405271">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1610052319221">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1609201905269" />
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941405271" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608694057448" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1609941405272">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1610052319221">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1609201905270" />
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941405272" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1608694057448" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
     <state x="2197" y="62" key="SettingsEditor" timestamp="1609444254526">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609253973491" />
     <state x="2197" y="62" key="SettingsEditor/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1609444254526" />
-    <state x="1907" y="132" width="1350" height="638" maximized="true" key="dock-window-1" timestamp="1609251432291">
-      <screen x="1920" y="5" width="1536" height="824" />
+    <state x="10" y="60" width="1350" height="638" maximized="true" key="dock-window-1" timestamp="1610050417394">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1907" y="132" width="1350" height="638" maximized="true" key="dock-window-1/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609251432291" />
+    <state x="10" y="60" width="1350" height="638" maximized="true" key="dock-window-1/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610050417394" />
     <state x="1931" y="171" width="1350" height="638" maximized="true" key="dock-window-2" timestamp="1608828996566">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
@@ -234,5 +235,21 @@
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state x="2218" y="261" width="1350" height="638" maximized="true" key="dock-window-3/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1608830885847" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/stariq/algorithms/string/WordBreak.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/stariq/algorithms/array/ZeroesAtEnd.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
