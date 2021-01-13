@@ -20,16 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da6ee3dc-7227-488c-bba5-e5d10950881f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/FirstUniqueNumber.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/FirstUniqueNumberLRU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/HighFiveAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/HighFiveAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/HighestAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/HighestAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/RemoveDuplicatesInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/RemoveDuplicatesInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/sort/BinaryInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/sort/BinaryInsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/RemoveAdjacentDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/RemoveAdjacentDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/RemoveAdjacentDuplicates2.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/RemoveKAdjacentDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/RemoveKOrMoreAdjacentDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/RemoveKOrMoreAdjacentDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/string/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/string/ValidAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/graph/AllPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/graph/AllPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/MeetingRooms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/MeetingRooms2.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/MeetingRooms2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/BrowserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/BrowserHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/BrowserHistoryLRU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/LFUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/LFUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/LRUCacheUsingDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/LRUCacheUsingDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/LRUCacheUsingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/LRUCacheUsingNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/MRUBrowserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/BrowserHistoryMRU.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.ReverseStack">
+  <component name="RunManager" selected="Application.FirstUniqueNumberLRU">
     <configuration name="BinaryInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.sort.BinaryInsertionSort" />
       <module name="LogicPile" />
@@ -74,12 +76,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositionalElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.PositionalElements" />
+    <configuration name="BrowserHistoryMRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.custom.BrowserHistoryMRU" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="PATTERN" value="stariq.datastructures.custom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstUniqueNumberLRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.custom.FirstUniqueNumberLRU" />
+      <module name="LogicPile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.datastructures.custom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,25 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotationInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.RotationInSortedArray" />
+    <configuration name="VerticalOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.binarytree.VerticalOrderTraversal" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZeroesAtEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.ZeroesAtEnd" />
-      <module name="LogicPile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stariq.algorithms.array.*" />
+          <option name="PATTERN" value="stariq.datastructures.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstUniqueNumberLRU" />
+        <item itemvalue="Application.VerticalOrderTraversal" />
+        <item itemvalue="Application.BrowserHistoryMRU" />
         <item itemvalue="Application.ReverseStack" />
         <item itemvalue="Application.BinaryInsertionSort" />
-        <item itemvalue="Application.ZeroesAtEnd" />
-        <item itemvalue="Application.PositionalElements" />
-        <item itemvalue="Application.RotationInSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -164,73 +166,74 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609938533330" />
-    <state x="2016" y="5" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610045966069">
+    <state x="2016" y="5" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610478037819">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state x="210" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609009425900" />
-    <state x="2016" y="5" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610045966069" />
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1610068640204">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2016" y="5" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610478037819" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1610559359040">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610068640204" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941450636" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1610068640204">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610559359040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1610559359039">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610068640204" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941450636" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1610068640204">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610559359039" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1610559359039">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610068640204" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941450636" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1610068640204">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610559359039" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1610559359039">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610068640204" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941450636" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1610068640204">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610559359039" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1610553472186">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610068640204" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941405272" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1610068640204">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610553472186" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1610553472185">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610068640204" />
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941405271" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1610068640204">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610553472185" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1610553472185">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610068640204" />
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941405271" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1610068640204">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610553472185" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1610553472186">
+      <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610068640204" />
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609941405272" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610052319221" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610553472186" />
     <state x="2197" y="62" key="SettingsEditor" timestamp="1609444254526">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609253973491" />
     <state x="2197" y="62" key="SettingsEditor/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1609444254526" />
-    <state x="10" y="60" width="1350" height="638" maximized="true" key="dock-window-1" timestamp="1610050417394">
+    <state x="10" y="60" width="1350" height="638" maximized="true" key="dock-window-1" timestamp="1610552134960">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1907" y="132" width="1350" height="638" maximized="true" key="dock-window-1/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1609251432291" />
-    <state x="10" y="60" width="1350" height="638" maximized="true" key="dock-window-1/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610050417394" />
-    <state x="1931" y="171" width="1350" height="638" maximized="true" key="dock-window-2" timestamp="1608828996566">
-      <screen x="1920" y="5" width="1536" height="824" />
+    <state x="10" y="60" width="1350" height="638" maximized="true" key="dock-window-1/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610552134960" />
+    <state x="429" y="74" width="1350" height="638" key="dock-window-2" timestamp="1610559728509">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1931" y="171" width="1350" height="638" maximized="true" key="dock-window-2/0.0.1536.824/1920.5.1536.824@0.0.1536.824" timestamp="1608828996566" />
+    <state x="429" y="74" width="1350" height="638" key="dock-window-2/0.0.1536.824/1920.5.1536.824@1920.5.1536.824" timestamp="1610559728509" />
     <state x="2218" y="261" width="1350" height="638" maximized="true" key="dock-window-3" timestamp="1608830885847">
       <screen x="1920" y="5" width="1536" height="824" />
     </state>
@@ -253,6 +256,11 @@
           <url>file://$PROJECT_DIR$/source/stariq/datastructures/stack/ReverseStack.java</url>
           <line>27</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/stariq/datastructures/binarytree/VerticalOrderTraversal.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

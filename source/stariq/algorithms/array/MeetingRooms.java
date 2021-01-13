@@ -3,6 +3,7 @@ package stariq.algorithms.array;
 import java.util.Arrays;
 import java.util.Comparator;
 
+// Question in data
 // https://leetcode.com/problems/meeting-rooms/
 public class MeetingRooms {
     public static void main(String[] args) {

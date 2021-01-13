@@ -22,12 +22,12 @@ public class BrowserHistory {
     }
 
     public String back(int steps) {
-        currentIdx = Math.max(currentIdx-steps, 0);
+        currentIdx = Math.max(currentIdx - steps, 0);
         return history.get(currentIdx);
     }
 
     public String forward(int steps) {
-        currentIdx = Math.min(currentIdx+steps, history.size()-1);
+        currentIdx = Math.min(currentIdx + steps, history.size()-1);
         return history.get(currentIdx);
     }
 }

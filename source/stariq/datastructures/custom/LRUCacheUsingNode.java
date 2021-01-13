@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // https://leetcode.com/problems/lru-cache/
-// LRU (Least Recently Used) Cache
+// LRU - Least Recently Used
 // We use a map for constant time insertion/deletion,
 // and a list to maintain order by most recently used.
 class LRUCacheUsingNode {
@@ -25,14 +25,14 @@ class LRUCacheUsingNode {
         }
     }
 
-    private final Node head = new Node();
-    private final Node tail = new Node();
-    private Map<Integer, Node> nodeMap;
-    private final int cacheCapacity;
+    final Node head = new Node();
+    final Node tail = new Node();
+    Map<Integer, Node> nodeMap;
+    final int capacity;
 
     public LRUCacheUsingNode(int capacity) {
         nodeMap = new HashMap<>(capacity);
-        cacheCapacity = capacity;
+        this.capacity = capacity;
         head.next = tail;
         tail.prev = head;
     }
@@ -55,7 +55,7 @@ class LRUCacheUsingNode {
             add(node);
         } else { // New node
             // Assume capacity is > 0
-            if(nodeMap.size() == cacheCapacity) { // Full capacity
+            if(nodeMap.size() == capacity) { // Full capacity
                 nodeMap.remove(tail.prev.key);
                 remove(tail.prev);
             }
@@ -65,6 +65,7 @@ class LRUCacheUsingNode {
         }
     }
 
+    // Adds after head node.
     private void add(Node node) {
         Node nextHead = head.next;
         head.next = node;
@@ -74,6 +75,7 @@ class LRUCacheUsingNode {
     }
 
     // Assumes that head or tail are never passed in.
+    // Removes from any position.
     private void remove(Node node) {
         Node prevNode = node.prev;
         Node nextNode = node.next;

@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Map;
 
 // https://leetcode.com/problems/lru-cache/
-// LRU (Least Recently Used) Cache
+// LRU - Least Recently Used
 // We use a map for constant time insertion/deletion,
 // and a deque to maintain order by most recently used.
 // Potentially worse time complexity since remove() is O(n).

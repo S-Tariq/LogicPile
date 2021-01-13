@@ -26,8 +26,8 @@ public class LFUCache {
     }
 
     class DoublyList {
-        Node head = new Node();
-        Node tail = new Node();
+        final Node head = new Node();
+        final Node tail = new Node();
         int size;
 
         DoublyList() {
