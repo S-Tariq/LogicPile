@@ -5,23 +5,26 @@
 * IntelliJ IDEA
 
 ## Content
-### Concepts:
-* Fundamentals
+### Algorithms:
+* Array
+* Others
+* Sort
+* String
 ### Data Structures: 
 * ArrayList
+* BinaryTree
+* Custom
+* DoublyLinkedList
+* Graph
+* HashMap
+* HashSet
+* HashTable
 * LinkedList
-### Algorithms: 
-* TopWords
-* EggDrop
-* BalancedBrackets
-* SortArray
-   * Bubble sort
-   * Insertion sort 
-   * Selection sort
-   * Quick sort
-   * Merge sort
-* FrequencySort
-   * Int frequency sort
-   * Char frequency sort
+* Nodes
+* Queue
+* SinglyLinkedList
+* Stack
+### Design: 
+* Hotel management
 
   
