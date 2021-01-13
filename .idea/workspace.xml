@@ -20,18 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da6ee3dc-7227-488c-bba5-e5d10950881f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/FirstUniqueNumber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/FirstUniqueNumberLRU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/HighFiveAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/HighFiveAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/MeetingRooms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/MeetingRooms2.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/MeetingRooms2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/BrowserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/BrowserHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/BrowserHistoryLRU.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/LFUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/LFUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/LRUCacheUsingDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/LRUCacheUsingDeque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/LRUCacheUsingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/LRUCacheUsingNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/custom/MRUBrowserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/custom/BrowserHistoryMRU.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +50,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Media\Projects\GitHub\LogicPile\data" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.FirstUniqueNumberLRU">
     <configuration name="BinaryInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
