@@ -19,7 +19,7 @@ public class FindNthNodeFromEnd {
         ListNode.printList(nthLastNode(head, 2));
     }
 
-    public static ListNode nthLastNode(ListNode head, int lastPosition) {
+    public static ListNode nthLastNode(ListNode head, int n) {
         if(head == null) {
             return null;
         }
@@ -27,7 +27,7 @@ public class FindNthNodeFromEnd {
         ListNode fast = head;
         ListNode slow = head;
 
-        for(int i = 0; i < lastPosition; i++) {
+        for(int i = 0; i < n; i++) {
             fast = fast.next;
         }
 

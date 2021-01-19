@@ -1,9 +1,11 @@
-package stariq.datastructures.custom;
+package stariq.datastructures.design;
 
 import java.util.HashMap;
 import java.util.Map;
 
 // https://leetcode.com/problems/lfu-cache/
+// Visualization:
+// https://leetcode.com/problems/lfu-cache/discuss/443113/Visualization-for-2-HashMap-and-1-DoubleLinkedList-approach-
 // LFU - Least Frequency Used
 public class LFUCache {
 

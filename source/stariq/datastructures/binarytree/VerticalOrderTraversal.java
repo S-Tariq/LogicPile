@@ -47,19 +47,18 @@ public class VerticalOrderTraversal {
 
         while(!queue.isEmpty()){
             int size = queue.size();
-            Map<Integer,List<Integer>> tempMap = new HashMap<>();
+            Map<Integer, List<Integer>> tempMap = new HashMap<>();
             for(int i = 0; i < size; i++){
                 PosNode current = queue.poll();
+
+                min = Math.min(min, current.position);
+                max = Math.max(max, current.position);
+
                 if(!tempMap.containsKey(current.position)) {
                     tempMap.put(current.position, new ArrayList<Integer>());
                 }
                 tempMap.get(current.position).add(current.node.val);
-                if(current.position < min) {
-                    min = current.position;
-                }
-                if(current.position > max) {
-                    max = current.position;
-                }
+
                 if(current.node.left != null) {
                     int pos = current.position - 1;
                     queue.add(new PosNode(current.node.left, pos));
@@ -80,8 +79,7 @@ public class VerticalOrderTraversal {
 
         }
         for (int i = min; i <= max; i++){
-            List<Integer> list = map.get(i);
-            result.add(list);
+            result.add(map.get(i));
         }
         return result;
     }

@@ -1,4 +1,4 @@
-package stariq.algorithms.others;
+package stariq.algorithms.primitive;
 
 // Find the floor the egg breaks on and the maximum number of trials required.
 public class TwoEggs100Floors {

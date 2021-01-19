@@ -1,12 +1,12 @@
-package stariq.datastructures.hashtable;
+package stariq.datastructures.hashmap;
 
 import java.util.Arrays;
 
-public class MyHashTable {
+public class HashTableRough {
 
     public static void main(String[] args) {
 
-        MyHashTable ht = new MyHashTable(30);
+        HashTableRough ht = new HashTableRough(30);
 
         String[] elements = {"1", "5", "17", "21", "26"};
 
@@ -20,7 +20,7 @@ public class MyHashTable {
     int arraySize;
     int itemsInArray;
 
-    MyHashTable(int size) {
+    HashTableRough(int size) {
         this.arraySize = size;
         theArray = new String[size];
         Arrays.fill(theArray, "-1");

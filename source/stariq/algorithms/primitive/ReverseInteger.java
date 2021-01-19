@@ -1,4 +1,4 @@
-package stariq.algorithms.others;
+package stariq.algorithms.primitive;
 
 // https://leetcode.com/problems/reverse-integer/
 public class ReverseInteger {

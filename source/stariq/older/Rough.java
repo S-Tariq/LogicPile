@@ -12,10 +12,13 @@ public class Rough {
 
     public static void main(String[] args) {
 
-        Stack<Integer> stack = new Stack<>();
-        int store = stack.pop();
-        if(stack.isEmpty() || store != 1) {
-            System.out.println("bleh");
+        SortedSet<Integer> set = new TreeSet<>();
+        set.add(4);
+        set.add(2);
+        set.add(0);
+
+        for(Integer i : set) {
+            System.out.println(i);
         }
     }
 

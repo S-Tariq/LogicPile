@@ -1,13 +1,13 @@
-package stariq.datastructures.hashset;
+package stariq.datastructures.hashmap;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SimpleHashSet {
+public class HashSetSimple {
 
     List<Integer> list;
 
-    public SimpleHashSet() {
+    public HashSetSimple() {
         list = new ArrayList<>();
     }
 

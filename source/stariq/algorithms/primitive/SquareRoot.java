@@ -1,4 +1,4 @@
-package stariq.algorithms.others;
+package stariq.algorithms.primitive;
 
 public class SquareRoot {
 
