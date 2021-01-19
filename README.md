@@ -7,24 +7,20 @@
 ## Content
 ### Algorithms:
 * Array
-* Others
+* Primitive
 * Sort
 * String
 ### Data Structures: 
 * ArrayList
 * BinaryTree
-* Custom
+* Design
 * DoublyLinkedList
 * Graph
 * HashMap
-* HashSet
-* HashTable
 * LinkedList
 * Nodes
 * Queue
 * SinglyLinkedList
 * Stack
-### Design: 
-* Hotel management
 
   
