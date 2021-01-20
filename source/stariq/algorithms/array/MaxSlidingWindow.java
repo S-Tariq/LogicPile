@@ -8,7 +8,7 @@ public class MaxSlidingWindow {
 
     public static void main(String[] args) {
         int[] nums = new int[] {1,3,-1,-3,5,3,6,7};
-        for(int i : maxSlidingWindow(nums, 3)) {
+        for(int i : maxSlidingWindow2(nums, 3)) {
             System.out.print(i + " ");
         }
     }
@@ -35,6 +35,23 @@ public class MaxSlidingWindow {
             if(i >= k - 1) {
                 result[j++] = nums[queue.peek()];
             }
+        }
+        return result;
+    }
+
+    // Works but time exceeded.
+    public static int[] maxSlidingWindow2(int[] nums, int k) {
+        if(nums == null || k <= 0) {
+            return new int[0];
+        }
+        int[] result = new int[nums.length - k + 1];
+        int l = 0;
+        for(int i = 0; i < nums.length - k  + 1; i++) {
+            int max = Integer.MIN_VALUE;
+            for(int j = i; j < i + k; j++) {
+                max = Math.max(max, nums[j]);
+            }
+            result[l++] = max;
         }
         return result;
     }
