@@ -1,0 +1,41 @@
+package stariq.algorithms.array;
+
+import java.util.Deque;
+import java.util.LinkedList;
+
+// https://leetcode.com/problems/sliding-window-maximum/
+public class MaxSlidingWindow {
+
+    public static void main(String[] args) {
+        int[] nums = new int[] {1,3,-1,-3,5,3,6,7};
+        for(int i : maxSlidingWindow(nums, 3)) {
+            System.out.print(i + " ");
+        }
+    }
+
+    public static int[] maxSlidingWindow(int[] nums, int k) {
+        if(nums == null || k <= 0) {
+            return new int[0];
+        }
+        int[] result = new int[nums.length - k + 1];
+        // Index for result
+        int j = 0;
+        // Stores indexes
+        Deque<Integer> queue = new LinkedList<>();
+        for(int i = 0; i < nums.length; i++) {
+            // Removes from head - removes number out of range k
+            if(!queue.isEmpty() && queue.peek() < i - k + 1) {
+                queue.poll();
+            }
+            // Removes from tail - removes smaller numbers in k range
+            while(!queue.isEmpty() && nums[queue.peekLast()] < nums[i]) {
+                queue.pollLast();
+            }
+            queue.offer(i);
+            if(i >= k - 1) {
+                result[j++] = nums[queue.peek()];
+            }
+        }
+        return result;
+    }
+}
