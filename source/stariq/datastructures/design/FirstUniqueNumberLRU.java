@@ -5,7 +5,6 @@ import java.util.Map;
 
 // Question in data
 // https://leetcode.com/problems/first-unique-number/
-
 public class FirstUniqueNumberLRU {
 
     public static void main(String[] args) {
