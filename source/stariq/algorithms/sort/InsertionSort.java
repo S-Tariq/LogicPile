@@ -26,6 +26,8 @@ public class InsertionSort {
             arr[j+1] = temp;
         }
     }
+    // The loop runs from temp value to the left side.
+    // It keeps changing the value to the one on the left side if its greater than temp.
     // Temp variable is used to store the original arr[i] value as the inner while loop changes it.
     // Outside the while loop, j+1 index is used to bring j = -1 back to j = 0.
 }
