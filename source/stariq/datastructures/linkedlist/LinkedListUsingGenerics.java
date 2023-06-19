@@ -1,21 +1,26 @@
 package stariq.datastructures.linkedlist;
 
-public class LinkedListUsingGenerics<E> {
+/*
+- Add:
+The add() method is O(n) worse-case as it adds a new node to the end of the list.
 
-    public static void main(String[] args) {
-        LinkedListUsingGenerics<Integer> list = new LinkedListUsingGenerics<>();
-        list.addAtHead(7);
-        list.addAtHead(2);
-        list.addAtHead(1);
-        list.addAtIndex(2,0);
-        list.removeAtIndex(1);
-        list.addAtHead(6);
-        list.addAtTail(4);
-        System.out.println(list.get(0));
-        list.addAtHead(4);
-        list.addAtIndex(5,0);
-        list.addAtHead(6);
-    }
+- Add & Remove at the head or tail:
+Adding or removing node at the head or tail is O(1) as it does not require iteration
+as long as you store head and tail reference as field.
+
+- Specific-index Add:
+Adding at a specific index is O(n) as it needs to iterate through the list to find the index to add the element.
+
+- Remove:
+The remove() method is O(n) as it needs to iterate to find the index to remove the element.
+The remove() method that takes in the reference of node to remove is O(1).
+
+- Contains & Get % Set:
+The contains() method is O(n) as it needs to iterate to find the element.
+The get() and set() methods are also O(n) as it requires iteration.
+ */
+
+public class LinkedListUsingGenerics<E> {
 
     class Node<T> {
         T val;
@@ -40,14 +45,14 @@ public class LinkedListUsingGenerics<E> {
         Node<E> node = new Node<>(val);
         if(head == null) {
             head = node;
-            return;
+        } else {
+            Node<E> current = head;
+            while(current.next != null) {
+                current = current.next;
+            }
+            current.next = node;
+            size++;
         }
-        Node<E> current = head;
-        while(current.next != null) {
-            current = current.next;
-        }
-        current.next = node;
-        size++;
     }
 
     public void addAtTail(E... values) {
@@ -112,7 +117,7 @@ public class LinkedListUsingGenerics<E> {
         Node<E> current = head;
         int index = 0;
         while(current != null) {
-            if(current.val == val) {
+            if(current.val.equals(val)) {
                 return index;
             }
             current = current.next;
@@ -124,7 +129,7 @@ public class LinkedListUsingGenerics<E> {
     public boolean contains(E val) {
         Node<E> current = head;
         while(current != null) {
-            if(current.val == val) {
+            if(current.val.equals(val)) {
                 return true;
             }
             current = current.next;
