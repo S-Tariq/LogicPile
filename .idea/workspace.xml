@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0068662-851e-4de6-9299-4f1bdc377c0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/CountingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/DiagonalDifference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/ClimbingStaircase.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/ClimbingStaircase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/LinkedListUsingGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/LinkedListUsingGenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/older/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/older/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/older/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/older/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/older/Rough.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/older/Rough.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.DiagonalDifference">
+  <component name="RunManager" selected="Application.BinaryInsertionSort">
+    <configuration name="BinaryInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.sort.BinaryInsertionSort" />
+      <module name="LogicPile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiagonalDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.DiagonalDifference" />
       <module name="LogicPile" />
@@ -85,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryInsertionSort" />
         <item itemvalue="Application.DiagonalDifference" />
         <item itemvalue="Application.InsertionSort" />
       </list>
@@ -118,38 +135,50 @@
       <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state x="2471" y="277" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687087807012" />
-    <state width="1493" height="258" key="GridCell.Tab.0.bottom" timestamp="1687022727477">
-      <screen x="-1920" y="0" width="1536" height="816" />
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1687170563876">
+      <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727477" />
-    <state width="1493" height="258" key="GridCell.Tab.0.center" timestamp="1687022727477">
-      <screen x="-1920" y="0" width="1536" height="816" />
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170563876" />
+    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1687170563876">
+      <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727477" />
-    <state width="1493" height="258" key="GridCell.Tab.0.left" timestamp="1687022727477">
-      <screen x="-1920" y="0" width="1536" height="816" />
+    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170563876" />
+    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1687170563875">
+      <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727477" />
-    <state width="1493" height="258" key="GridCell.Tab.0.right" timestamp="1687022727477">
-      <screen x="-1920" y="0" width="1536" height="816" />
+    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170563875" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1687170563876">
+      <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727477" />
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1687022727786">
-      <screen x="-1920" y="0" width="1536" height="816" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170563876" />
+    <state width="1493" height="205" key="GridCell.Tab.1.bottom" timestamp="1687170564306">
+      <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727786" />
-    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1687022727786">
-      <screen x="-1920" y="0" width="1536" height="816" />
+    <state width="1493" height="205" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170564306" />
+    <state width="1493" height="205" key="GridCell.Tab.1.center" timestamp="1687170564306">
+      <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727786" />
-    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1687022727786">
-      <screen x="-1920" y="0" width="1536" height="816" />
+    <state width="1493" height="205" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170564306" />
+    <state width="1493" height="205" key="GridCell.Tab.1.left" timestamp="1687170564305">
+      <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727786" />
-    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1687022727786">
-      <screen x="-1920" y="0" width="1536" height="816" />
+    <state width="1493" height="205" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170564305" />
+    <state width="1493" height="205" key="GridCell.Tab.1.right" timestamp="1687170564306">
+      <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727786" />
+    <state width="1493" height="205" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170564306" />
+    <state x="-19" y="248" width="2862" height="637" maximized="true" key="dock-window-1" timestamp="1687203332836">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="-19" y="248" width="2862" height="637" maximized="true" key="dock-window-1/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687203332836" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -158,6 +187,11 @@
           <url>file://$PROJECT_DIR$/source/stariq/algorithms/sort/InsertionSort.java</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/source/stariq/algorithms/sort/BinaryInsertionSort.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

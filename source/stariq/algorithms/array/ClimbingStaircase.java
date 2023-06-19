@@ -2,6 +2,7 @@ package stariq.algorithms.array;
 
 // Number of unique ways to climb stairs given the number of steps that can be taken.
 public class ClimbingStaircase {
+
     public static void main(String[] args) {
         System.out.println(climbStairs1or2Iteration(4));
         System.out.println(climbStairs1or2Iteration(2));
