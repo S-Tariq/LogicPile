@@ -1,4 +1,4 @@
-package stariq.datastructures.design;
+package stariq.datastructures.cache;
 
 import java.util.Deque;
 import java.util.HashMap;
@@ -10,6 +10,7 @@ import java.util.Map;
 // We use a map for constant time insertion/deletion,
 // and a deque to maintain order by most recently used.
 // Potentially worse time complexity since remove() is O(n).
+
 class LRUCacheUsingDeque {
 
     class Node {
@@ -35,7 +36,7 @@ class LRUCacheUsingDeque {
     public int get(int key) {
         Node node = nodeMap.get(key);
         if(node == null) {
-            return -1;
+            throw new NullPointerException();
         }
         deque.remove(node);
         deque.addFirst(node);

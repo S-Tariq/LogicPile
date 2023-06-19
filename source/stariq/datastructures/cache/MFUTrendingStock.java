@@ -1,13 +1,13 @@
-package stariq.datastructures.design;
+package stariq.datastructures.cache;
 
 import java.util.HashMap;
 import java.util.Map;
 
 // https://leetcode.com/discuss/interview-question/627139/Bloomberg-or-Onsite-or-Trending-Stock
-public class TrendingStockMFU {
+public class MFUTrendingStock {
 
     public static void main(String[] args) {
-        TrendingStockMFU ts = new TrendingStockMFU();
+        MFUTrendingStock ts = new MFUTrendingStock();
         ts.processStock("TSLA");
         ts.processStock("APPL");
         ts.processStock("TSLA");
@@ -82,7 +82,7 @@ public class TrendingStockMFU {
     Map<Integer, DoublyList> countMap;
     int mostCount;
 
-    TrendingStockMFU() {
+    MFUTrendingStock() {
         nodeMap = new HashMap<>();
         countMap = new HashMap<>();
     }

@@ -1,4 +1,4 @@
-package stariq.datastructures.design;
+package stariq.datastructures.cache;
 
 import java.util.HashMap;
 import java.util.Map;

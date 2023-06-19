@@ -1,13 +1,13 @@
-package stariq.datastructures.design;
+package stariq.datastructures.cache;
 
 import java.util.HashMap;
 import java.util.Map;
 
 // MRU - Most Recently Used
-public class BrowserHistoryMRU {
+public class MRUBrowserHistory {
 
     public static void main(String[] args) {
-        BrowserHistoryMRU browser = new BrowserHistoryMRU();
+        MRUBrowserHistory browser = new MRUBrowserHistory();
         browser.visit("bloom");
         browser.visit("bbc");
         browser.visit("cnn");
@@ -33,7 +33,7 @@ public class BrowserHistoryMRU {
     Node tail = new Node();
     Map<String, Node> map;
 
-    BrowserHistoryMRU() {
+    MRUBrowserHistory() {
         map = new HashMap<>();
         head.next = tail;
         tail.prev = head;

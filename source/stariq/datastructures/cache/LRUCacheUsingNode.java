@@ -1,4 +1,4 @@
-package stariq.datastructures.design;
+package stariq.datastructures.cache;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,6 +7,7 @@ import java.util.Map;
 // LRU - Least Recently Used
 // We use a map for constant time insertion/deletion,
 // and a list to maintain order by most recently used.
+
 class LRUCacheUsingNode {
 
     class Node {

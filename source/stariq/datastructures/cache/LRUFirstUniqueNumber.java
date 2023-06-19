@@ -1,14 +1,14 @@
-package stariq.datastructures.design;
+package stariq.datastructures.cache;
 
 import java.util.HashMap;
 import java.util.Map;
 
 // Question in data
 // https://leetcode.com/problems/first-unique-number/
-public class FirstUniqueNumberLRU {
+public class LRUFirstUniqueNumber {
 
     public static void main(String[] args) {
-        FirstUniqueNumberLRU unique = new FirstUniqueNumberLRU();
+        LRUFirstUniqueNumber unique = new LRUFirstUniqueNumber();
         unique.add(2);
         unique.getFirstUnique(); // 2
         unique.add(2);
@@ -40,7 +40,7 @@ public class FirstUniqueNumberLRU {
     final Node tail = new Node();
     Map<Integer, Node> map;
 
-    FirstUniqueNumberLRU() {
+    LRUFirstUniqueNumber() {
         map = new HashMap<>();
         head.next = tail;
         tail.prev = head;
