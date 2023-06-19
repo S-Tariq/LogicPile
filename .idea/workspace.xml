@@ -20,11 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0068662-851e-4de6-9299-4f1bdc377c0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/LRUCacheUsingGenericsNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/algorithms/array/ClimbingStaircase.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/algorithms/array/ClimbingStaircase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/LinkedListUsingGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/linkedlist/LinkedListUsingGenerics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/older/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/older/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/older/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/older/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/design/BrowserHistoryMRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/MRUBrowserHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/design/FirstUniqueNumberLRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/LRUFirstUniqueNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/design/LFUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/LFUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/design/LRUCacheUsingDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/LRUCacheUsingDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/design/LRUCacheUsingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/LRUCacheUsingNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/design/TrendingStockMFU.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/MFUTrendingStock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/stariq/older/Rough.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/older/Rough.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +61,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.BinaryInsertionSort">
     <configuration name="BinaryInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -175,10 +179,10 @@
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727786" />
     <state width="1493" height="205" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170564306" />
-    <state x="-19" y="248" width="2862" height="637" maximized="true" key="dock-window-1" timestamp="1687203332836">
+    <state x="375" y="0" width="1175" height="802" maximized="true" key="dock-window-1" timestamp="1687206028079">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="-19" y="248" width="2862" height="637" maximized="true" key="dock-window-1/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687203332836" />
+    <state x="375" y="0" width="1175" height="802" maximized="true" key="dock-window-1/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687206028079" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
