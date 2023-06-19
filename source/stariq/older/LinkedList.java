@@ -1,12 +1,12 @@
 package stariq.older;
 
-class LinkedNode {
-
-    LinkedNode next;
-    int data;
-}
-
 public class LinkedList {
+
+    class LinkedNode {
+
+        LinkedNode next;
+        int data;
+    }
 
     LinkedNode head;
 
