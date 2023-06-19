@@ -1,29 +1,33 @@
 package stariq.datastructures.hashmap;
 
+/*
+Hashmap best and average case for put, get and remove is O(1) and worst case is O(n).
+
+- Put, Get & Remove:
+The put(), get() and remove() time complexity is O(1)
+with the assumption that key-value pairs are well distributed across the buckets.
+This happens when the hashcode() implementation is good.
+If the hashcode() is poorly written where all key-value pairs end up in the same bucket,
+the put(), get() and remove() time complexity becomes O(n).
+This is because the methods need to iterate through a linked list which contains all the pairs.
+
+- Put:
+The put() method that causes a resize (rehashing) takes O(n) time.
+However, that happens on O(1/n) of all insertions, so the average time is amortized O(1).
+
+- Contains key:
+The containsKey() takes O(1) as it is just a get() method that does not return a value
+but a boolean of whether the key is present in the map.
+If we are using a bad hashcode() function, then worse case is O(n).
+
+- Contains value:
+The containsValue() takes O(n) because without the key,
+the index is unknown and it needs to iterate over all the values stored in the map.
+ */
+
 public class HashMapUsingGenerics<K,V> {
 
-    public static void main(String[] args) {
-        HashMapUsingGenerics<String, Integer> map = new HashMapUsingGenerics<>();
-        map.put("Bob", 1);
-        map.put("Bob", 2);
-        map.put("John", 1);
-        map.put("Ann", 3);
-        System.out.println(map.get("Bob"));
-        map.remove("Bob");
-  //      System.out.println(map.get("Bob"));
-        System.out.println(map.contains("John"));
-        System.out.println(map.contains("Bob"));
-
-//        MyHashMap<String, String> map2 = new MyHashMap<>();
-//        map2.put("Bob", "Go");
-//        map2.put("Bob", "Bobby");
-//        map2.put("John", "Johnny");
-//        System.out.println(map2.get("Bob"));
-//        System.out.println(map2.remove("Jo"));
-//        System.out.println(map2.contains("Bob"));
-    }
-
-    static class Node<K,V> {
+    class Node<K,V> {
         K key;
         V value;
         Node<K,V> next;
@@ -34,13 +38,12 @@ public class HashMapUsingGenerics<K,V> {
         }
     }
 
-    // Things to implement: bucket, generics, load factor, capacity, collision, traversal
     Node<K,V>[] buckets;
     int capacity;
     double loadFactor = 0.75;
 
     @SuppressWarnings({"unchecked"})
-    HashMapUsingGenerics() {
+    public HashMapUsingGenerics() {
         buckets = (Node<K,V>[]) new Node[3];
     }
 
