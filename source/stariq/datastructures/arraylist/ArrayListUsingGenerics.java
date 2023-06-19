@@ -1,6 +1,22 @@
 package stariq.datastructures.arraylist;
 
-import java.util.HashMap;
+/*
+- Add:
+The add() method on average is O(1). When the array needs to be resized, it takes O(n)
+but it does not happen often which is why it is called an amortized constant time.
+
+- Index-specific Add & Remove:
+Adding at a specific index and removing element from a specific index takes O(n).
+This is because the elements after that index need to shift to the left by 1 (when removing an element)
+or shift to the right by 1 (when adding an element) which can take O(n) time.
+
+- Contains:
+The contains() method takes O(n) as it needs to iterate to find the element.
+
+- Get & Set:
+The get() and set() methods are O(1) as it accesses the array using the index
+which allows for random access. It does not need to iterate through all the elements.
+ */
 
 public class ArrayListUsingGenerics<E> {
 
@@ -11,6 +27,7 @@ public class ArrayListUsingGenerics<E> {
         array = new Object[1];
     }
 
+    // Capacity is not the same as size since the arraylist is empty on initialization.
     public ArrayListUsingGenerics(int capacity) {
         array = new Object[capacity];
     }
