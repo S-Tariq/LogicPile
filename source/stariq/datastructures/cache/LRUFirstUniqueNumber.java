@@ -3,8 +3,10 @@ package stariq.datastructures.cache;
 import java.util.HashMap;
 import java.util.Map;
 
-// Question in data
 // https://leetcode.com/problems/first-unique-number/
+// Have a doubly linked list which keeps track of all the unique values.
+// The most recent unique element gets added to the tail and the first unique element is at the head.
+
 public class LRUFirstUniqueNumber {
 
     public static void main(String[] args) {
@@ -19,7 +21,6 @@ public class LRUFirstUniqueNumber {
         unique.getFirstUnique(); // 3
         unique.add(3);
         unique.getFirstUnique(); // 4
-
     }
 
     class Node {
@@ -38,22 +39,23 @@ public class LRUFirstUniqueNumber {
 
     final Node head = new Node();
     final Node tail = new Node();
-    Map<Integer, Node> map;
+    Map<Integer, Node> valueToNode;
 
     LRUFirstUniqueNumber() {
-        map = new HashMap<>();
         head.next = tail;
         tail.prev = head;
+        valueToNode = new HashMap<>();
     }
 
     public void add(int value) {
-        if(map.containsKey(value)) {
-            Node node = map.get(value);
+        // Check if duplicates exist
+        if(valueToNode.containsKey(value)) {
+            Node node = valueToNode.get(value);
             remove(node);
         } else {
             Node node = new Node(value);
             add(node);
-            map.put(value, node);
+            valueToNode.put(value, node);
         }
     }
 
@@ -63,7 +65,6 @@ public class LRUFirstUniqueNumber {
         if(head.next != tail) {
             return head.next.val;
         }
-        // throw new NullPointerException();
         return -1;
     }
 
