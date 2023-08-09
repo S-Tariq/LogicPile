@@ -21,16 +21,19 @@ public class LRUCacheUsingGenericsNode<K, V> {
     }
 
     // Head and tail are dummy nodes.
-    Node<K, V> head = new Node<>();
-    Node<K, V> tail = new Node<>();
+    Node<K, V> head;
+    Node<K, V> tail;
     Map<K, Node<K, V>> keyToNode;
-    final int capacity; // Caching capacity
+    // Caching capacity (Size of elements in a cache)
+    final int capacity;
 
     LRUCacheUsingGenericsNode(int capacity) {
-        this.capacity = capacity;
-        keyToNode = new HashMap<>();
+        head = new Node<>();
+        tail = new Node<>();
         head.next = tail;
         tail.prev = head;
+        this.capacity = capacity;
+        keyToNode = new HashMap<>();
     }
 
     public V get(K key) {
@@ -52,8 +55,9 @@ public class LRUCacheUsingGenericsNode<K, V> {
             add(node);
         } else { // New node
             if(keyToNode.size() == capacity) {
-                keyToNode.remove(tail.prev.key);
-                remove(tail.prev);
+                Node<K, V> lastElement = tail.prev;
+                keyToNode.remove(lastElement.key);
+                remove(lastElement);
             }
             node = new Node<>(key, value);
             keyToNode.put(key, node);
@@ -71,10 +75,10 @@ public class LRUCacheUsingGenericsNode<K, V> {
 
     // Adds after head node since it is MRU.
     public void add(Node<K, V> node) {
-        Node<K, V> oldHead = head.next;
+        Node<K, V> tempNode = head.next;
         head.next = node;
         node.prev = head;
-        node.next = oldHead;
-        oldHead.prev = node;
+        node.next = tempNode;
+        tempNode.prev = node;
     }
 }
