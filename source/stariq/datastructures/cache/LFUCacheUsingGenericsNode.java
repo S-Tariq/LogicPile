@@ -3,6 +3,14 @@ package stariq.datastructures.cache;
 import java.util.HashMap;
 import java.util.Map;
 
+// LFU - Least frequently used
+// Questions with potential solutions:
+// 1. What happens when a new item is added (with frequency 1) but the lowest frequency is greater than 1.
+// Would this mean the new item will get evicted if the capacity is reached.
+// Solution: Add new item with least frequency + 1
+// 2. What happens when there are gaps in the frequency? How is the least frequent number determined?
+// Solution: Use priority queue
+
 public class LFUCacheUsingGenericsNode<K, V> {
 
     class Node<Ke, Va> {
