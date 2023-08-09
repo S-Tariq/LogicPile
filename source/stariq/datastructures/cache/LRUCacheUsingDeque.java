@@ -55,7 +55,7 @@ class LRUCacheUsingDeque {
                 deque.removeLast();
             }
             node = new Node(key,value);
-            nodeMap.put(node.key, node);
+            nodeMap.put(key, node);
             deque.addFirst(node);
         }
     }
