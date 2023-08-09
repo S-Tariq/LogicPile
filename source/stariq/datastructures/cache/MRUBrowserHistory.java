@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 // MRU - Most Recently Used
+// Rearranges URLs based on MRU. Does not remove LRU URL.
+
 public class MRUBrowserHistory {
 
     public static void main(String[] args) {
@@ -31,22 +33,22 @@ public class MRUBrowserHistory {
 
     Node head = new Node();
     Node tail = new Node();
-    Map<String, Node> map;
+    Map<String, Node> urlToNode;
 
     MRUBrowserHistory() {
-        map = new HashMap<>();
+        urlToNode = new HashMap<>();
         head.next = tail;
         tail.prev = head;
     }
 
     public void visit(String url) {
-        Node node = map.get(url);
+        Node node = urlToNode.get(url);
         if(node != null) {
             remove(node);
             add(node);
         } else {
             node = new Node(url);
-            map.put(url, node);
+            urlToNode.put(url, node);
             add(node);
         }
     }
@@ -68,7 +70,7 @@ public class MRUBrowserHistory {
 
     public void printHistory() {
         Node current = head.next;
-        while(current.next != null) {
+        while(current != tail) {
             System.out.println(current.url);
             current = current.next;
         }
