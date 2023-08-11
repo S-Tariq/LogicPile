@@ -20,18 +20,18 @@ public class MFUTrendingStock {
         System.out.println(ts.getTrendingStock());
         System.out.println(ts.getTrendingStock());
         System.out.println(ts.getTrendingStock());
-        System.out.println(ts.getTrendingStock());
+//        System.out.println(ts.getTrendingStock()); // Throws null pointer exception since no stocks left.
     }
 
     class Node {
-        String value;
-        int count;
+        String stock;
+        int freq;
         Node prev;
         Node next;
 
         Node(String value) {
-            this.value = value;
-            count = 1;
+            this.stock = value;
+            freq = 1;
         }
 
         Node() {
@@ -40,21 +40,26 @@ public class MFUTrendingStock {
     }
 
     class DoublyList {
-        final Node head = new Node();
-        final Node tail = new Node();
+        // These nodes can be made final to stop values being added to it.
+        // Making it final means it needs to be initialised as a static field/not in a constructor.
+        Node head;
+        Node tail;
         int size;
 
         DoublyList() {
+            head = new Node();
+            tail = new Node();
             head.next = tail;
             tail.prev = head;
+            size = 0;
         }
 
         public void add(Node node) {
-            Node nextHead = head.next;
+            Node tempNode = head.next;
             head.next = node;
             node.prev = head;
-            node.next = nextHead;
-            nextHead.prev = node;
+            node.next = tempNode;
+            tempNode.prev = node;
             size++;
         }
 
@@ -77,52 +82,61 @@ public class MFUTrendingStock {
     }
 
     // Stock to Node
-    Map<String, Node> nodeMap;
+    Map<String, Node> stockToNode;
     // Frequency to Doubly list of Nodes
-    Map<Integer, DoublyList> countMap;
-    int mostCount;
+    Map<Integer, DoublyList> freqToList;
+    int mostFreq;
 
     MFUTrendingStock() {
-        nodeMap = new HashMap<>();
-        countMap = new HashMap<>();
+        stockToNode = new HashMap<>();
+        freqToList = new HashMap<>();
+        mostFreq = 0;
     }
 
+    // Adds stock to the cache
     public void processStock(String stock) {
-        Node node = nodeMap.get(stock);
+        Node node = stockToNode.get(stock);
         if(node == null) {
             node = new Node(stock);
-            nodeMap.put(stock, node);
+            stockToNode.put(stock, node);
         } else {
-            DoublyList oldList = countMap.get(node.count);
+            DoublyList oldList = freqToList.get(node.freq);
             oldList.remove(node);
             if(oldList.size == 0) {
-                countMap.remove(node.count);
+                freqToList.remove(node.freq);
             }
-            node.count++;
+            node.freq++;
         }
-        DoublyList list = countMap.get(node.count);
+        DoublyList list = freqToList.get(node.freq);
         if(list == null) {
             list = new DoublyList();
-            countMap.put(node.count, list);
         }
         list.add(node);
-        mostCount = Math.max(mostCount, node.count);
+        freqToList.put(node.freq, list);
+        // Assigns the most frequent value
+        mostFreq = Math.max(mostFreq, node.freq);
     }
 
     public String getTrendingStock() {
-        DoublyList list = countMap.get(mostCount);
+        if(mostFreq == 0) {
+            throw new NullPointerException();
+        }
+        DoublyList list = freqToList.get(mostFreq);
         Node node = list.pollFirst();
         if(list.size == 0) {
-            countMap.remove(mostCount);
+            freqToList.remove(mostFreq);
         }
-        nodeMap.remove(node.value);
-//        while(countMap.get(mostCount) == null && mostCount >= 0) {
-//            mostCount--;
+        stockToNode.remove(node.stock);
+
+        // Decides the new most count stock after removing the old most count stock.
+        while(freqToList.get(mostFreq) == null && mostFreq >= 0) {
+            mostFreq--;
+        }
+        // Another way of assigning mostFreq value:
+//        mostCount = 0;
+//        for(Integer i : countMap.keySet()) {
+//            mostCount = Math.max(mostCount, i);
 //        }
-        mostCount = 0;
-        for(Integer i : countMap.keySet()) {
-            mostCount = Math.max(mostCount, i);
-        }
-        return node.value;
+        return node.stock;
     }
 }
