@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 // https://leetcode.com/discuss/interview-question/627139/Bloomberg-or-Onsite-or-Trending-Stock
+// MFU - Most frequently used - Evicts the most frequent stock
+
 public class MFUTrendingStock {
 
     public static void main(String[] args) {
@@ -117,6 +119,7 @@ public class MFUTrendingStock {
         mostFreq = Math.max(mostFreq, node.freq);
     }
 
+    // Returns the most frequent stock and removes it.
     public String getTrendingStock() {
         if(mostFreq == 0) {
             throw new NullPointerException();
