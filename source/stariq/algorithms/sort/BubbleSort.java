@@ -15,6 +15,8 @@ public class BubbleSort {
         }
     }
 
+    // In the nested for loop, - i is used as each loop pushes the largest value to be last element.
+    // This means that the nested loop does not need to run more than necessary for the last set of elements.
     public static void sort(int[] arr) {
         for(int i = 0; i < arr.length - 1; i++) {
             for(int j = 0; j < arr.length - i - 1; j++) {
@@ -26,6 +28,4 @@ public class BubbleSort {
             }
         }
     }
-    // In the nested for loop, - i is used as each loop pushes the largest value to be last element.
-    // This means that the nested loop does not need to run more than necessary for the last set of elements.
 }
