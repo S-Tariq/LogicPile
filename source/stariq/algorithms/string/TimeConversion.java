@@ -14,20 +14,20 @@ public class TimeConversion {
     public static String timeConversion(String s) {
         String converted = "";
         char amOrPm = s.charAt(s.length() - 2);
+        String substring = s.substring(0, s.length() - 2);
+        String num = s.substring(0, 2);
         if(amOrPm == 'P') {
-            String num = s.substring(0, 2);
             if(num.equals("12")) {
-                converted = s.substring(0,s.length() - 2);
+                converted = substring;
             } else {
                 String number = String.valueOf(Integer.parseInt(num) + 12);
                 converted = s.replaceFirst(num, number).substring(0, s.length() - 2);
             }
         } else {
-            String num = s.substring(0, 2);
             if(num.equals("12")) {
                 converted = s.replaceFirst("12", "00").substring(0,s.length() - 2);
             } else {
-                converted = s.substring(0, s.length() - 2);
+                converted = substring;
             }
         }
         return converted;
