@@ -1,6 +1,6 @@
-package stariq.datastructures;
+package stariq.rough;
 
-import stariq.older.ArrayList;
+import stariq.rough.ArrayList;
 
 import java.util.Arrays;
 

@@ -1,6 +1,6 @@
-package stariq.datastructures;
+package stariq.rough;
 
-import stariq.older.LinkedList;
+import stariq.rough.LinkedList;
 
 public class OldLinkedListTest {
 

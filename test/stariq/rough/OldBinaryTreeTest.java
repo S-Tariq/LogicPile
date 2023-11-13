@@ -1,10 +1,10 @@
-package stariq.datastructures;
+package stariq.rough;
 
 // Creates binary tree.
 // Adds element(s) to the binary tree.
 // Searches for element(s) in the binary tree.
 
-import stariq.older.BinaryTree;
+import stariq.rough.BinaryTree;
 
 public class OldBinaryTreeTest {
 

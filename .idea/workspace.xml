@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0068662-851e-4de6-9299-4f1bdc377c0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/LRUCacheUsingGenericsNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/stariq/older/Random3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/design/BrowserHistoryMRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/MRUBrowserHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/design/FirstUniqueNumberLRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/LRUFirstUniqueNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/design/LFUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/LFUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/design/LRUCacheUsingDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/LRUCacheUsingDeque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/design/LRUCacheUsingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/LRUCacheUsingNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stariq/datastructures/design/TrendingStockMFU.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/datastructures/cache/MFUTrendingStock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/stariq/older/Rough.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/stariq/older/Rough.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.BinaryInsertionSort">
+  <component name="RunManager" selected="Application.MFUTrendingStock">
     <configuration name="BinaryInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.sort.BinaryInsertionSort" />
       <module name="LogicPile" />
@@ -90,12 +84,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.sort.InsertionSort" />
+    <configuration name="MFUTrendingStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.cache.MFUTrendingStock" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stariq.algorithms.sort.*" />
+          <option name="PATTERN" value="stariq.datastructures.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MRUBrowserHistory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.datastructures.cache.MRUBrowserHistory" />
+      <module name="LogicPile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.datastructures.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.rough.Random" />
+      <module name="LogicPile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.rough.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,9 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MFUTrendingStock" />
+        <item itemvalue="Application.MRUBrowserHistory" />
+        <item itemvalue="Application.Random" />
         <item itemvalue="Application.BinaryInsertionSort" />
         <item itemvalue="Application.DiagonalDifference" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -139,26 +161,38 @@
       <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state x="2471" y="277" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687087807012" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1687170563876">
+    <state x="258" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1691773969146">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="258" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1691773969146" />
+    <state x="2469" y="163" key="FileChooserDialogImpl" timestamp="1695483339562">
       <screen x="1920" y="0" width="1536" height="816" />
+    </state>
+    <state x="2469" y="163" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1695483339562" />
+    <state width="1493" height="297" key="GridCell.Tab.0.bottom" timestamp="1691771426395">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727477" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170563876" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1687170563876">
-      <screen x="1920" y="0" width="1536" height="816" />
+    <state width="1493" height="297" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@0.0.1536.816" timestamp="1691771426395" />
+    <state width="1493" height="231" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1691767003686" />
+    <state width="1493" height="297" key="GridCell.Tab.0.center" timestamp="1691771426395">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727477" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170563876" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1687170563875">
-      <screen x="1920" y="0" width="1536" height="816" />
+    <state width="1493" height="297" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@0.0.1536.816" timestamp="1691771426395" />
+    <state width="1493" height="231" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1691767003685" />
+    <state width="1493" height="297" key="GridCell.Tab.0.left" timestamp="1691771426395">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727477" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170563875" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1687170563876">
-      <screen x="1920" y="0" width="1536" height="816" />
+    <state width="1493" height="297" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@0.0.1536.816" timestamp="1691771426395" />
+    <state width="1493" height="231" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1691767003685" />
+    <state width="1493" height="297" key="GridCell.Tab.0.right" timestamp="1691771426395">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1493" height="258" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727477" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170563876" />
+    <state width="1493" height="297" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@0.0.1536.816" timestamp="1691771426395" />
+    <state width="1493" height="231" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1691767003685" />
     <state width="1493" height="205" key="GridCell.Tab.1.bottom" timestamp="1687170564306">
       <screen x="1920" y="0" width="1536" height="816" />
     </state>
@@ -179,10 +213,14 @@
     </state>
     <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@-1920.0.1536.816" timestamp="1687022727786" />
     <state width="1493" height="205" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687170564306" />
-    <state x="375" y="0" width="1175" height="802" maximized="true" key="dock-window-1" timestamp="1687206028079">
+    <state x="393" y="0" width="1146" height="802" maximized="true" key="dock-window-1" timestamp="1695483347726">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="375" y="0" width="1175" height="802" maximized="true" key="dock-window-1/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687206028079" />
+    <state x="393" y="0" width="1146" height="802" maximized="true" key="dock-window-1/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1695483347726" />
+    <state x="2129" y="92" key="new project wizard" timestamp="1695483344837">
+      <screen x="1920" y="0" width="1536" height="816" />
+    </state>
+    <state x="2129" y="92" key="new project wizard/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1695483344837" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
