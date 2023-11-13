@@ -35,9 +35,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< Updated upstream
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -48,6 +51,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -79,6 +83,14 @@
     </configuration>
     <configuration name="DiagonalDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.DiagonalDifference" />
+=======
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="RunManager" selected="Application.ClimbingStaircase">
+    <configuration name="ClimbingStaircase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.ClimbingStaircase" />
+>>>>>>> Stashed changes
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
@@ -90,12 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stariq.algorithms.sort.InsertionSort" />
       <module name="LogicPile" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stariq.algorithms.sort.*" />
+=======
+    <configuration name="FindTheMedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stariq.algorithms.array.FindTheMedian" />
+      <module name="LogicPile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stariq.algorithms.array.*" />
+>>>>>>> Stashed changes
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="Application.BinaryInsertionSort" />
         <item itemvalue="Application.DiagonalDifference" />
         <item itemvalue="Application.InsertionSort" />
@@ -112,6 +134,13 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+=======
+        <item itemvalue="Application.ClimbingStaircase" />
+        <item itemvalue="Application.FindTheMedian" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> Stashed changes
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f0068662-851e-4de6-9299-4f1bdc377c0b" name="Default Changelist" comment="" />
@@ -135,6 +164,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< Updated upstream
     <state x="2471" y="277" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1687087807012">
       <screen x="1920" y="0" width="1536" height="816" />
     </state>
@@ -183,10 +213,37 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="375" y="0" width="1175" height="802" maximized="true" key="dock-window-1/0.0.1536.816/-1920.0.1536.816/1920.0.1536.816@1920.0.1536.816" timestamp="1687206028079" />
+=======
+    <state x="93" y="93" width="1095" height="487" key="DiffContextDialog" timestamp="1686946563134">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="93" y="93" width="1095" height="487" key="DiffContextDialog/0.0.1280.672@0.0.1280.672" timestamp="1686946563134" />
+    <state width="1237" height="160" key="GridCell.Tab.0.bottom" timestamp="1686949542688">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="160" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1686949542688" />
+    <state width="1237" height="160" key="GridCell.Tab.0.center" timestamp="1686949542688">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="160" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1686949542688" />
+    <state width="1237" height="160" key="GridCell.Tab.0.left" timestamp="1686949542688">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="160" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1686949542688" />
+    <state width="1237" height="160" key="GridCell.Tab.0.right" timestamp="1686949542688">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="160" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1686949542688" />
+    <state x="157" y="44" width="967" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1686949393138">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="157" y="44" width="967" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.672@0.0.1280.672" timestamp="1686949393138" />
+>>>>>>> Stashed changes
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+<<<<<<< Updated upstream
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/source/stariq/algorithms/sort/InsertionSort.java</url>
           <line>18</line>
@@ -197,6 +254,12 @@
           <line>25</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+=======
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
+>>>>>>> Stashed changes
       </breakpoints>
     </breakpoint-manager>
   </component>
